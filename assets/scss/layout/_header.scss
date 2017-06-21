@@ -1,0 +1,569 @@
+/*=================================
+=            Top Block            =
+=================================*/
+
+#top-block {
+	background:palette(blue);
+	height:67px;
+	@include breakpoint(desktop) {
+		height: 47px;
+	}
+	/* social box */
+	.container {
+		height: 100%;
+		.row {
+			height: 100%;
+			[class*=col] {
+				height: 100%;
+			}
+		}
+	}
+	#social-box {
+		padding-top: 13px;
+		@include breakpoint(desktop) {
+			padding-top: 3px;
+		}
+		ul {
+			display: inline-block;
+			height: 44px;
+			line-height: 44px;
+			li {
+				display: inline-block;
+				a {
+					display: inline-block;
+					margin-left: 3px;
+					margin-right: 3px;
+					width: 30px;
+					height: 30px;
+					background:palette(blue,light);
+					color:palette(blue);
+					text-align: center;
+					line-height: 30px;
+					border-radius:100%;
+					font-size: 18px;
+					&:hover {
+						background:$color-white;
+						color:palette(yellow);
+					}
+					@include breakpoint(desktop) {
+						width: 25px;
+						height: 25px;
+						line-height: 25px;
+						font-size: 16px;
+					}
+					@include breakpoint(laptop) {
+						margin-left: 2px;
+						margin-right: 2px;
+					}
+					@include breakpoint(tablet) {
+						margin-left: 1px;
+						margin-right: 1px;
+					}
+				}
+			}
+		}
+		p {
+			display: inline-block;
+			margin-left: 20px;
+			@include breakpoint(laptop) {
+				margin-left: 10px;
+			}
+			@include breakpoint(tablet) {
+				margin-left: 10px;
+			}
+			a {
+				font-size: 18px;
+				height: 30px;
+				line-height: 30px;				
+				text-transform: uppercase;
+				color:palette(blue, light);
+				@include breakpoint(desktop) {
+					height: 25px;
+					line-height: 25px;
+					font-size: 16px;
+				}
+				&:hover {
+					color:$color-white;
+				}				
+			}
+		}
+	}
+	/* user box */
+	#user-box {
+		text-align: right;
+		padding-right: 30px;
+		padding-top: 20px;
+		@include breakpoint(desktop) {
+			padding-top: 15px;
+		}
+		/* bag area */
+		.bag-btn {
+			display: inline-block;
+			margin-left: 20px;
+			position: relative;
+			top:-2px;
+			@include breakpoint(desktop) {
+				margin-left: 10px;
+			}
+			a {
+				padding-left: 5px;
+				padding-right: 5px;
+				color:palette(blue,light);
+				position: relative;
+				font-size: 24px;
+				@include breakpoint(desktop) {
+					font-size: 20px;
+				}
+				small {
+					text-transform: uppercase;
+					display: inline-block;
+					margin-right: 10px;
+					font-size: 18px;
+					font-family: $font-heading;
+					@include breakpoint(desktop) {
+						font-size: 16px;
+					}
+				}
+				&:hover {
+					color:$color-white;
+				}
+				.badge {
+					background:palette(yellow);
+					color:palette(blue);
+					display: inline-block;
+					width: 24px;
+					height: 24px;
+					line-height: 24px;
+					text-align: center;
+					border-radius:100%;
+					position: absolute;
+					bottom:-4px;
+					right: -10px;
+					font-size: 14px;
+					font-family: $font-heading;
+					@include breakpoint(desktop) {
+						width: 18px;
+						height: 18px;
+						line-height: 18px;
+						font-size: 12px;
+					}
+				}
+			}
+		}
+	}
+	/* search box */
+	#search-box {
+		text-align: right;
+		width: 100%;
+		padding-top: 13px;
+		position: relative;
+		@include breakpoint(desktop) {
+			padding-top: 6px;
+		}
+		input[type="text"] {
+			width: 100%;
+			height: 40px;
+			line-height: 40px;
+			padding-left: 20px;
+			border:2px solid palette(blue,light);
+			background:none;
+			font-size: 14px;
+			font-family: $font-main;
+			color:    palette(blue,light);
+			max-width: 300px;
+			@include breakpoint(desktop) {
+				max-width: 280px;
+				height: 35px;
+				line-height: 35px;
+			}
+			@include breakpoint(tablet) {
+				max-width: 170px;
+			}
+			&:focus {
+				outline: 0;
+			}
+		}
+		input[type="submit"] {
+			position: absolute;
+			right:0px;
+			height: 40px;
+			width: 40px;
+			border:none;
+			background:url(../img/ico/search.svg);
+			background-repeat:no-repeat;
+			background-position: center center;
+			background-size:20px 20px;
+			@include animate-fade;
+			@include breakpoint(desktop) {
+				height: 35px;
+				width: 35px;
+			}
+			&:hover {
+				cursor: pointer;
+				opacity: 0.7;
+			}
+			&:focus {
+				outline: 0;
+			}
+		}
+
+		::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+		    color:    palette(blue,light);
+		}
+		:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+		   color:    palette(blue,light);
+		   opacity:  1;
+		}
+		::-moz-placeholder { /* Mozilla Firefox 19+ */
+		   color:    palette(blue,light);
+		   opacity:  1;
+		}
+		:-ms-input-placeholder { /* Internet Explorer 10-11 */
+		   color:    palette(blue,light);
+		}
+
+		ul {
+			display: inline-block;
+			position: relative;
+			float: left;
+			padding-top: 9px;
+			top:2px;
+			li {
+				display: inline-block;
+				a {
+					display: inline-block;
+					text-transform: uppercase;
+					font-size: 18px;
+					color:palette(blue,light);
+					font-family: $font-heading;
+					&:hover {
+						color:$color-white;
+					}
+					@include breakpoint(desktop) {
+						font-size: 16px;
+					}
+				}
+			}
+		}
+
+	}
+}
+
+/*=====  End of Top Block  ======*/
+
+/*======================================
+=            Branding block            =
+======================================*/
+
+#branding-block {
+	padding-top: 35px;
+	padding-bottom: 35px;
+	@include breakpoint(phone) {
+		padding: 20px;
+		padding-top: 19px;
+	}
+	@include breakpoint(tablet) {
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	@include breakpoint(desktop) {
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+	@media screen and (min-width:1601px) and (max-width:1921px) {
+		padding-top: 25px;
+		padding-bottom: 25px;
+	}
+	h6 {
+		margin:0px auto;
+		width: 353px;
+		height: 60px;
+		text-indent: -9999px;
+		background:url(../img/logos/site-logo.png) no-repeat;
+		@include animate-fade;
+		@include breakpoint(desktop) {
+			width: 270px;
+			background-size:100%;
+			height: 45px;
+		}
+		@include breakpoint(phone) {
+			width: 220px;
+			background-size:100%;
+			height: 37px;
+		}
+		@include breakpoint(tablet) {
+			width: 220px;
+			background-size:100%;
+			height: 37px;
+		}
+		@include breakpoint(laptop) {
+			width: 270px;
+			background-size:100%;
+			height: 45px;
+		}
+		@media screen and (min-width:1601px) and (max-width:1921px) {
+			width: 270px;
+			background-size:100%;
+			height: 45px;
+		}
+	}
+	a {
+		&:hover {
+			h6 {
+				opacity: 0.7;
+			}
+		}
+	}
+}
+
+/*=====  End of Branding block  ======*/
+
+/*==================================
+=            Breadcrumb            =
+==================================*/
+
+#breadcrumb-wrapper {
+	@include breakpoint(phone) {
+		padding-top: 20px;
+	}
+	ul {
+		li {
+			display: inline-block;
+			a {
+				font-size: 21px;
+				color:palette(blue);
+				padding-left: 10px;
+				padding-right: 20px;
+				position: relative;
+				&:after {
+					content:'/';
+					display: block;
+					@include centre(y);
+					right: -3px;
+				}
+				&:hover {
+					color:palette(blue,light);
+				}
+			}
+			&:first-child {
+				a {
+					padding-left: 0px;
+				}
+			}
+			&:last-child {
+				a {
+					&:after {
+						display: none;
+					}
+				}
+			}
+		}
+	}
+}
+
+/*=====  End of Breadcrumb  ======*/
+
+/*============================================
+=            Mobile Block Top Bar            =
+============================================*/
+
+#mobile-top-block {
+	background:palette(blue);
+	padding-top: 13px;
+	padding-bottom: 13px;
+	position: relative;
+	z-index:9999;
+	border-bottom:1px solid $color-white;
+	/* mobile menu */
+	.menu-btn {
+		display: block;
+		height: 19px;
+		margin-left: 5px;
+		span {
+			width: 30px;
+		    height: 4px;
+		    background: #fff;
+		    display: block;
+		    margin-bottom: 7px;
+		    @include animate-fade;
+		    &:last-child {
+		    	margin-bottom: 0px;
+		    }
+		}
+		&.open {
+			span:nth-child(2) {
+				display: none!important;
+			}
+			span:first-child {
+				transform: rotate(45deg);
+				position: relative;
+				top:11px;
+				left:0px;
+			}
+			span.last-span {
+				transform: rotate(-45deg);
+				position: relative;
+				top:0px;
+			}
+		}
+	}
+	/* phone box */
+	.phone-box {
+		text-align: right;
+		a {
+			display: inline-block;
+			width: 26px;
+			height: 26px;
+			background:#fff;
+			text-indent: -9999px;
+			background:url(../img/ico/call_now.svg) no-repeat center center;
+			background-size:100%;
+			position: relative;
+			left:15px;
+		}
+	}
+	/* user box */
+	.user-box {
+		text-align: right;
+		padding-right: 15px;
+		.phone-ico {
+			display: inline-block;
+			width: 26px;
+			height: 26px;
+			background:#fff;
+			text-indent: -9999px;
+			background:url(../img/ico/call_now.svg) no-repeat center center;
+			background-size:100%;
+			position: relative;
+			margin-right: 15px;			
+		}
+		.bag-btn {
+			display: inline-block;
+			position: relative;
+			top:-4px;
+			a {
+				padding-left: 5px;
+				padding-right: 5px;
+				color:$color-white;
+				position: relative;
+				font-size: 26px;
+				&:hover {
+					color:$color-white;
+				}
+				.badge {
+					background:palette(yellow);
+					color:$color-white;
+					display: inline-block;
+					width: 18px;
+					height: 18px;
+					line-height: 18px;
+					text-align: center;
+					border-radius:100%;
+					position: absolute;
+					bottom:-4px;
+					right: -10px;
+					font-size: 11px;
+					font-family: $font-heading;
+				}
+			}
+		}		
+	}
+}
+
+#mobile-menu {
+    background:palette(blue);
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    overflow: hidden;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    transition: all 0.7s ease-in-out;
+    visibility: hidden;
+    width: 100%;
+    z-index: 1100;	
+    padding-top: 90px;
+    ul {
+    	li {
+    		a {
+    			text-transform: uppercase;
+    			color:palette(blue,light);
+    			font-size: 20px;
+    			font-family: $font-heading;
+    			padding-top: 15px;
+    			padding-bottom: 15px;
+    			display: block;
+    			&.search-ico {
+					background: url(../img/ico/search.svg);
+				    background-repeat: no-repeat;
+				    background-position: center center;
+				    background-size: 36px 36px;
+				    text-indent: -9999px;    				
+    			}
+    		}
+    	}
+    }
+    &.open-menu {
+    	opacity: 1;
+    	visibility: visible;
+    }
+}
+
+.body-scroll {
+	overflow-y:hidden!important;
+}
+
+/*=====  End of Mobile Block Top Bar  ======*/
+
+/*==================================
+=            Search Bar            =
+==================================*/
+
+#search-bar {
+	background:palette(blue, light);
+	padding:15px;
+	position: fixed;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	display:none;
+	z-index:99999;
+	padding-top: 100px;
+	input[type="text"] {
+		width: 100%;
+		padding:10px;
+		font-size: 18px;
+		background:none;
+		border:2px solid palette(blue);
+		&:focus {
+			outline: 0;
+		}
+	}
+	input[type="submit"] {
+		width: 100%;
+		line-height: 50px;
+		height: 50px;
+		background:palette(yellow);
+		text-align: center;
+		display: block;
+		border:none;
+		margin-top: 5px;
+		color:$color-white;
+		font-size: 18px;
+		text-transform: uppercase;
+		font-family: $font-heading;
+	}
+	.close-search {
+		position: absolute;
+		top:20px;
+		right: 20px;
+		width: 32px;
+		height: 32px;
+		display: block;
+		background:url(../img/ico/close-search.png);
+	}
+}
+
+/*=====  End of Search Bar  ======*/

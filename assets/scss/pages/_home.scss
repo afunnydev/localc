@@ -1,0 +1,420 @@
+/*==================================
+=            Mas Header            =
+==================================*/
+
+#mas-header {
+	/* slider */
+	#top-slider {
+		.item {
+			position: relative;
+			&:after {
+				content: '';
+				background-color: rgba(0,0,0,0.2);
+				width: 100%;
+				height: 100%;
+				position: absolute;
+				top: 0;
+				left: 0;
+			}
+			img {
+				width: 100%;
+				height: auto;
+				@include breakpoint(phone) {
+					height: 260px;
+					object-fit: cover;
+				}
+				@include breakpoint(tablet) {
+					height: 500px;
+					object-fit: cover;
+				}
+				@include breakpoint(desktop) {
+					height: 560px;
+					object-fit: cover;
+				}
+				@media screen and (min-width:1601px) and (max-width:1921px) {
+					height: 700px;
+					object-fit: cover;
+				}
+			}
+			.slider-caption {
+				position: absolute;
+				bottom:90px;
+				width: 100%;
+				padding-left: 130px;
+				z-index: 2;
+				@include breakpoint(desktop) {
+					bottom:60px;
+				}
+				@include breakpoint(laptop) {
+					bottom:30px;
+					padding-left: 100px;
+				}
+				@include breakpoint(tablet) {
+					bottom:30px;
+					padding-left: 80px;
+				}
+				@include breakpoint(phone) {
+					padding-left: 0px;
+					text-align: center;
+				}
+				h1 {
+					color:$color-white;
+					font-size: 83px;
+					font-family: $font-heading;
+					max-width: 50%;
+					line-height: 110%;
+					@include breakpoint(desktop) {
+						font-size: 63px;
+					}
+					@include breakpoint(laptop) {
+						font-size: 52px;
+					}
+					@include breakpoint(tablet) {
+						font-size: 44px;
+					}
+					@include breakpoint(phone) {
+						font-size: 20px;
+						line-height: 24px;
+						max-width: 80%;
+						margin:0px auto;
+					}
+					@include breakpoint(phone-lg) {
+						font-size: 24px;
+						line-height: 28px;
+						max-width: 70%;
+						margin:0px auto;
+					}
+				}
+			}
+		}
+	}
+}
+
+/*=====  End of Mas Header  ======*/
+
+/*===================================
+=            About Block            =
+===================================*/
+
+#about-block {
+	margin-top: 110px;
+	margin-bottom: 110px;
+	@include breakpoint(phone) {
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+	@include breakpoint(tablet) {
+		margin-top: 55px;
+		margin-bottom: 55px;
+	}
+	@include breakpoint(desktop) {
+		margin-top: 70px;
+		margin-bottom: 70px;
+	}
+	@include breakpoint(laptop) {
+		margin-top: 55px;
+		margin-bottom: 55px;
+	}
+	/* about content */
+	#about-content {
+		background: palette(yellow);
+		text-align: center;
+		padding-top: 100px;
+		padding-bottom: 100px;
+		padding-left: 240px;
+		padding-right: 240px;
+		@include breakpoint(desktop) {
+			padding-top: 80px;
+			padding-bottom: 80px;
+			padding-left: 100px;
+			padding-right: 100px;
+		}
+		@include breakpoint(laptop) {
+			padding-top: 60px;
+			padding-bottom: 60px;
+			padding-left: 80px;
+			padding-right: 80px;
+		}
+		@include breakpoint(tablet) {
+			padding-top: 50px;
+			padding-bottom: 50px;
+			padding-left: 70px;
+			padding-right: 70px;
+		}
+		@include breakpoint(phone) {
+			padding-top: 20px;
+			padding-bottom: 20px;
+			padding-right: 20px;
+			padding-left: 20px;
+		}
+		@include breakpoint(phone-lg) {
+			padding:25px;
+		}
+		p {
+			font-size: 51px;
+			color:$color-white;
+			font-family: $font-heading;
+			line-height: 140%;
+			line-height: 62px;
+			@include breakpoint(desktop) {
+				font-size: 40px;
+				line-height: 50px;
+			}
+			@include breakpoint(laptop) {
+				font-size: 40px;
+				line-height: 50px;
+			}
+			@include breakpoint(tablet) {
+				font-size: 34px;
+				line-height: 44px;
+			}
+			@include breakpoint(phone) {
+				font-size: 14px;
+				line-height: 18px;
+			}
+			@include breakpoint(phone-lg) {
+				font-size: 18px;
+				line-height: 24px;
+			}
+		}
+	}
+}
+
+/*=====  End of About Block  ======*/
+
+/*==================================
+=            Categoryes            =
+==================================*/
+
+#categories-block {
+	padding-bottom: 60px;
+	@include breakpoint(phone) {
+		padding-bottom: 20px;
+	}
+	.col-md-4 {
+		@include breakpoint(phone-lg) {
+			float: left;
+			width: 50%;
+		}
+		@media screen and (min-width:370px) and (max-width:767px) {
+			float: left;
+			width: 50%;
+		}
+	}
+	.category-box {
+		position: relative;
+		overflow: hidden;
+		margin-bottom: 30px;
+		img {
+			width: 100%;
+			@include animate-fade;
+		}
+		a {
+			&:hover {
+				.category-caption {
+					background:rgba(55,68,79,0.8);
+				}
+				img {
+					transform: scale(1.2);
+				}
+			}
+		}
+		/* caption */
+		.category-caption {
+			position: absolute;
+			top:0px;
+			left:0px;
+			width: 100%;
+			height: 100%;
+			background: rgba(55, 68, 79, 0.2);
+			@include animate-fade;
+			h3 {
+				@include centre(both);
+				color:$color-white;
+				font-family: $font-heading;
+				font-size: 40px;
+				line-height: 48px;
+				@include breakpoint(desktop) {
+					font-size: 36px;
+					line-height: 44px;
+				}
+				@include breakpoint(laptop) {
+					font-size: 30px;
+					line-height: 40px;
+				}
+				@include breakpoint(tablet) {
+					font-size: 26px;
+					line-height: 32px;
+				}
+				@include breakpoint(phone) {
+					font-size: 24px;
+					line-height: 30px;
+				}
+				@include breakpoint(phone-lg) {
+					font-size: 20px;
+					line-height: 26px;
+				}
+				@media screen and (min-width:370px) and (max-width:767px) {
+					font-size: 20px;
+					line-height: 26px;
+				}
+			}
+		}
+	}
+}
+
+/*=====  End of Categoryes  ======*/
+
+/*=============================
+=            Steps            =
+=============================*/
+
+#steps-block {
+	/* steps content */
+	#steps-content {
+		padding-top: 80px;
+		padding-bottom: 80px;
+		padding-left: 70px;
+		padding-right: 70px;
+		background:palette(gray);
+		@include breakpoint(phone) {
+			padding-top: 40px;
+			padding-bottom: 40px;
+			padding-left: 35px;
+			padding-right: 35px;
+		}
+		header {
+			text-align: center;
+			padding-bottom: 30px;
+			h4 {
+				font-size: 52px;
+				line-height: 63px;
+				color:palette(blue);
+				font-family: $font-heading;
+				@include breakpoint(tablet) {
+					font-size: 44px;
+					line-height: 53px;
+				}
+				@include breakpoint(laptop) {
+					font-size: 48px;
+					line-height: 59px;
+				}
+				@include breakpoint(desktop) {
+					font-size: 46px;
+					line-height: 56px;
+				}
+				@include breakpoint(phone) {
+					font-size: 16px;
+					line-height: 20px;
+				}
+				@include breakpoint(phone-lg) {
+					font-size: 20px;
+					line-height: 26px;
+				}
+			}
+		}
+		/* step box */
+		.step-box {
+			padding-top: 30px;
+			padding-bottom: 30px;
+			position: relative;
+			@include breakpoint(phone-xs) {
+				text-align: center;
+				padding-top: 15px;
+				padding-bottom: 15px;
+			}
+			@include breakpoint(laptop) {
+				padding-top: 25px;
+				padding-bottom: 25px;
+			}
+			@include breakpoint(tablet) {
+				padding-top: 25px;
+				padding-bottom: 25px;
+			}
+			img {
+				max-width: 135px;
+				max-height: 135px;
+				@include breakpoint(phone-xs) {
+					width: 70px;
+				}
+				@include breakpoint(phone-lg) {
+					width: 80px;
+				}
+				@include breakpoint(laptop) {
+					width: 100px;
+				}
+				@include breakpoint(tablet) {
+					width: 100px;
+				}
+			}
+			p {
+				font-size: 42px;
+				line-height: 51px;
+				color:palette(blue);
+				@include centre(y);
+				padding-left: 190px;
+				@include breakpoint(desktop) {
+					font-size: 38px;
+					line-height: 47px;
+				}
+				@include breakpoint(laptop) {
+					font-size: 30px;
+					line-height: 40px;
+				}
+				@include breakpoint(tablet) {
+					font-size: 26px;
+					line-height: 36px;
+					padding-left: 160px;
+				}
+				@include breakpoint(phone-xs) {
+					position: relative;
+					top:auto;
+					transform: none;
+					left:auto;
+					padding-left: 0px;
+					font-size: 14px;
+					line-height: 18px;
+					margin-top: 15px;
+				}
+				@include breakpoint(phone-lg) {
+					font-size: 18px;
+					line-height: 26px;
+					padding-left: 120px;
+				}
+			}
+		}
+	}
+}
+
+/*=====  End of Steps  ======*/
+
+/*==============================
+=            Scroll            =
+==============================*/
+
+.scroll-to-top {
+	display:block;
+	width:56px;
+	height:56px;
+	margin:0px auto;
+	background:url(../img/ico/fleche_haut.svg) no-repeat center center;
+	margin-top: 80px;
+	margin-bottom: 80px;
+	@include breakpoint(phone) {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	@include breakpoint(tablet) {
+		margin-top: 75px;
+		margin-bottom: 50px;
+	}
+	@include breakpoint(laptop) {
+		margin-top: 75px;
+		margin-bottom: 50px;
+	}
+	&:hover {
+		opacity: 0.5;
+	}
+}
+
+/*=====  End of Scroll  ======*/

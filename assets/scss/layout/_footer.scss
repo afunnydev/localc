@@ -1,0 +1,326 @@
+/*==============================
+=            Footer            =
+==============================*/
+
+#page-footer {
+	background:url(../img/bg/footer-bg.png) no-repeat bottom left;
+	background-color:palette(blue);
+	padding-top: 50px;
+	padding-bottom: 30px;
+	@include breakpoint(laptop) {
+		padding-top: 60px;
+	}
+	@include breakpoint(tablet) {
+		padding-top: 60px;
+	}
+	@include breakpoint(phone) {
+		padding-top: 30px;
+		background:url(../img/bg/footer-mobile.png) no-repeat top right;
+		background-color:palette(blue);
+	}
+	/* brand box */
+	.brand-box {
+		a {
+			display: block;
+			width: 309px;
+			height: 61px;
+			background:url(../img/logos/logo_footer.svg) no-repeat center center;
+			@include breakpoint(desktop) {
+				width: 230px;
+				height: 45px;
+			}
+			@include breakpoint(laptop) {
+				margin:0px auto;
+				margin-bottom: 50px;
+			}
+			@include breakpoint(tablet) {
+				margin:0px auto;
+				margin-bottom: 50px;
+			}
+			@include breakpoint(phone) {
+				width: 100px;
+			}
+		}
+	}
+	/* nav box */
+	.nav-box {
+		ul {
+			li {
+				display: block;
+				padding-top: 15px;
+				padding-bottom: 15px;
+				@include breakpoint(phone) {
+					padding-top: 10px;
+					padding-bottom: 10px;
+				}
+				a {
+					font-size: 23px;
+					color:palette(blue,light);
+					text-transform: uppercase;
+					font-family: $font-heading;
+					border-bottom:6px solid transparent;
+					cursor: pointer;
+					@include breakpoint(desktop) {
+						font-size: 18px;
+					}
+					@include breakpoint(laptop) {
+						font-size: 18px;
+					}
+					@include breakpoint(tablet) {
+						font-size: 18px;
+					}
+					@include breakpoint(phone) {
+						font-size: 14px;
+						border-bottom:3px solid transparent;
+					}
+					&:hover {
+						border-bottom: 6px solid palette(blue,light);
+						@include breakpoint(phone) {
+							border-bottom: 3px solid palette(blue,light);	
+						}
+					}
+				}
+			}
+		}
+	}
+	/* footer info */
+	.footer-info {
+		p {
+			padding-bottom: 15px;
+			padding-top: 15px;
+			@include breakpoint(phone) {
+				padding-top: 10px;
+				padding-bottom: 10px;
+			}
+			a {
+				font-size: 23px;
+				color:palette(blue,light);
+				text-transform: uppercase;
+				font-family: $font-heading;
+				border-bottom:6px solid transparent;
+				@include breakpoint(desktop) {
+					font-size: 18px;
+				}
+				@include breakpoint(laptop) {
+					font-size: 18px;
+				}
+				@include breakpoint(tablet) {
+					font-size: 18px;
+				}
+				@include breakpoint(phone) {
+					font-size: 14px;
+					border-bottom:3px solid transparent;
+				}
+					&:hover {
+						border-bottom: 6px solid palette(blue,light);
+						@include breakpoint(phone) {
+							border-bottom: 3px solid palette(blue,light);
+						}
+					}				
+			}
+		}
+		ul {
+			li {
+				display: block;
+				padding-top: 15px;
+				padding-bottom: 15px;	
+				@include breakpoint(phone) {
+					padding-top: 10px;
+					padding-bottom: 10px;
+				}			
+				a {
+					font-size: 23px;
+					color:palette(blue,light);
+					text-transform: uppercase;
+					font-family: $font-heading;
+					border-bottom:6px solid transparent;
+					@include breakpoint(desktop) {
+						font-size: 18px;
+					}
+					@include breakpoint(laptop) {
+						font-size: 18px;
+					}
+					@include breakpoint(tablet) {
+						font-size: 20px;
+					}
+					@include breakpoint(phone) {
+						font-size: 14px;
+						border-bottom:3px solid transparent;
+					}
+					&:hover {
+						border-bottom: 6px solid palette(blue,light);
+						@include breakpoint(phone) {
+							border-bottom: 3px solid palette(blue,light);
+						}
+					}					
+				}
+			}
+		}
+	}
+	/* newsletter box */
+	#newsletter-box {
+		margin-top: 50px;
+		@include breakpoint(phone) {
+			margin-top: 40px;
+		}
+		@include breakpoint(laptop) {
+			margin-top: 50px;
+		}
+		@include breakpoint(tablet) {
+			margin-top: 50px;
+		}
+		small {
+			display: block;
+			font-size: 23px;
+			text-transform: uppercase;
+			font-family: $font-heading;
+			color:palette(blue,light);
+			margin-bottom: 15px;
+			@include breakpoint(desktop) {
+				font-size: 16px;
+			}
+			@include breakpoint(laptop) {
+				font-size: 18px;
+			}
+			@include breakpoint(tablet) {
+				font-size: 18px;
+			}
+			@include breakpoint(phone) {
+				font-size: 14px;
+			}
+		}
+		a.newsletter-btn {
+			display: block;
+			width: 100%;
+			height: 60px;
+			line-height: 53px;
+			padding-left: 30px;
+			font-size: 21px;
+			color:palette(blue,light);
+			border:4px solid palette(blue,light);
+			position: relative;
+			@include breakpoint(tablet) {
+				font-size: 18px;
+			}
+			@include breakpoint(phone) {
+				width: 100%;
+				height: 50px;
+				line-height: 45px;
+				font-size: 18px;
+				border:2px solid palette(blue,light);
+			}
+			&:hover {
+				background:palette(yellow);
+				color:$color-white;
+				border:4px solid palette(yellow);
+			}
+			&:after {
+				content:'\f105';
+				right: 50px;
+				@include font-ico;
+				font-size: 24px;
+				@include centre(y);
+				@include breakpoint(tablet) {
+					right:25px;
+				}
+				@include breakpoint(phone) {
+					right:20px;
+				}
+			}
+		}
+	}
+}
+
+/*=====  End of Footer  ======*/
+
+/*================================
+=            Copy Bar            =
+================================*/
+
+#copy-bar {
+	text-align: center;
+	padding-top: 60px;
+	@include breakpoint(phone) {
+		padding-top: 40px;
+	}
+	@include breakpoint(tablet) {
+		padding-top: 70px;
+	}
+	@include breakpoint(laptop) {
+		padding-top: 70px;
+	}
+	small {
+		font-size: 21px;
+		font-family: $font-heading;
+		color:palette(blue,light);
+		strong {
+			position: relative;
+			padding-left: 10px;
+			margin-left: 10px;
+			margin-right: 10px;
+			padding-right: 10px;
+			display: inline-block;
+			@include breakpoint(phone) {
+				padding:0px;
+				margin:0px;
+			}
+			&:before {
+				content:'';
+				display: inline-block;
+				width: 1px;
+				height: 20px;
+				background:palette(blue,light);
+				position: absolute;
+				left:0px;
+				top:0px;
+				@include breakpoint(phone) {
+					display: none;
+				}
+				@include breakpoint(tablet) {
+					top:-2px;
+				}
+			}
+			&:after {
+				content:'';
+				display: inline-block;
+				width: 1px;
+				height: 20px;
+				background:palette(blue,light);
+				position: absolute;
+				right:0px;
+				top:0px;
+				@include breakpoint(phone) {
+					display: none;
+				}
+				@include breakpoint(tablet) {
+					top:-2px;
+				}
+			}
+			@include breakpoint(phone) {
+				display: block;
+				text-align: center;
+				border:none;
+				padding:0px;
+			}
+		}
+		@include breakpoint(desktop) {
+			font-size: 18px;
+		}
+		@include breakpoint(laptop) {
+			font-size: 18px;
+		}
+		@include breakpoint(tablet) {
+			font-size: 16px;
+		}
+		@include breakpoint(phone) {
+			font-size: 14px;
+			line-height: 130%;
+		}
+		@include breakpoint(phone-xs) {
+			font-size: 12px;
+			line-height: 130%;
+		}
+	}
+}
+
+/*=====  End of Copy Bar  ======*/

@@ -1,0 +1,17 @@
+baseURL = "http://www.localc.ca/"
+DefaultContentLanguage = "fr"
+languageCode = "en-us"
+title = "Local C - Articles promotionnels avec de la valeur"
+metaDataFormat = "yaml"
+preserveTaxonomyNames = true
+RemovePathAccents = true
+
+[taxonomies]
+	category = "categories"
+  	tag = "tags"
+    author = "authors"
+
+[Languages]
+[Languages.en]
+
+[Languages.fr]

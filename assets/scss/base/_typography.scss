@@ -1,0 +1,63 @@
+/*=============================
+=            Fonts            =
+=============================*/
+
+@font-face {
+    font-family: 'heebobold';
+    src: url('../fonts/heebo-bold-webfont.woff2') format('woff2'),
+         url('../fonts/heebo-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'heeboregular';
+    src: url('../fonts/heebo-regular-webfont.woff2') format('woff2'),
+         url('../fonts/heebo-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*=====  End of Fonts  ======*/
+
+/*============================================
+=            Define Var for Fonts            =
+============================================*/
+
+$font-main: 'heeboregular';
+$font-heading: 'heebobold';
+
+/*=====  End of Define Var for Fonts  ======*/
+
+/*===================================
+=            Body Styles            =
+===================================*/
+
+body {
+	font: {
+		size:$base-size;
+		weight: $regular;
+		family: $font-main;
+	}
+	-webkit-text-size-adjust: 100%;  //fix for iOS
+	color:$color-black;
+	overflow-x:hidden;
+}
+
+a {
+	@include animate-fade;
+	&:hover {
+		text-decoration: none;
+	}
+	&:focus {
+		outline: 0;
+		text-decoration: none;
+	}
+}
+
+/*=====  End of Body Styles  ======*/

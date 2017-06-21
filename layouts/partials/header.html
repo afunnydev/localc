@@ -1,0 +1,129 @@
+  <a name="start"></a>
+
+    <div id="search-bar">
+      <div class="close-search"></div>
+      <input type="text" placeholder="Search here ...">
+      <input type="submit" placeholder="Search Now">
+    </div>
+    <!-- // search bar  -->
+
+    <div id="mobile-menu">
+        <ul>
+          <li><a href="#" class="search-ico">sve</a></li>
+          <li><a href="#">CATALOGUE</a></li>
+          <li><a href="#">NOS CRÉATEURS</a></li>
+          <li><a href="#">À PROPOS</a></li>
+          <li><a href="#">NOUS CONTACTER</a></li>
+          <li><a href="#">BLOG</a></li>
+          <li><a href="#">EN</a></li>
+        </ul>      
+    </div>
+    <!-- // mobile menu  -->
+
+    <div id="mobile-top-block" class="visible-xs">
+      <div class="container">
+        <div class="row">
+          
+          <div class="col-xs-3">
+            <a href="#" class="menu-btn">
+              <span></span>
+              <span></span>
+              <span class="last-span"></span>
+            </a>            
+          </div>
+          <!-- // mobile  -->
+
+          <div class="col-xs-9">
+            <div class="user-box">
+            <a href="tel:T. 514.433.4319" class="phone-ico"></a>
+              <span class="bag-btn">
+                <a href="#"><i class="fa fa-shopping-bag" aria-hidden="true"></i> <span class="badge">14</span></a>
+              </span>              
+            </div>
+          </div>
+          <!-- // user box  -->
+
+        </div>
+        <!-- // row  -->
+      </div>
+      <!-- // container  -->
+    </div>
+    <!-- // mobile top bar  -->
+
+    <div id="top-block" class="hidden-xs">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-xl-6 col-lg-4 col-md-4 col-sm-5">
+            <div id="social-box">
+              <ul>
+                <li><a href="#" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a href="#" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                <li><a href="#" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Pinterest"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+                <li><a href="#" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+              </ul>
+              <p><a href="tel:514.433.4319">T. 514.433.4319</a></p>
+            </div>
+          </div>
+          <!-- // social and phone box  -->  
+
+          <div class="col-xl-2 col-lg-3 col-lg-offset-1 col-xl-offset-0 col-md-3 col-sm-3">
+            <div id="user-box">
+              <span class="bag-btn">
+                <a href="#">
+                  <small>Devis</small>                
+                  <i class="fa fa-shopping-bag" aria-hidden="true"></i> <span class="badge">14</span>
+                </a>
+              </span>
+            </div>
+          </div>
+          <!-- // user  -->
+
+          <div class="col-xl-3 col-lg-4 col-md-5 col-sm-4">
+            <div id="search-box">
+              <ul>
+                {{ if .Params.translatedslug }}
+                  {{ if eq .Lang "fr" }}
+                    <li><a href="{{ .Site.BaseURL }}{{ .Params.translatedslug }}">EN</a></li>
+                  {{ else if eq .Lang "en" }}
+                    <li><a href="{{ .Site.BaseURL }}{{ .Params.translatedslug }}">FR</a></li>
+                  {{ end }}
+                {{ else }}
+                  {{ range .Translations }}
+                   <li><a href="{{ .Permalink }}">{{.Lang}}</a></li>
+                  {{ end }}
+                {{ end }}
+              </ul>
+              <input type="text" placeholder="Recherche">
+              <input type="submit" value="">
+            </div>
+          </div>
+          <!-- // search box  -->
+
+        </div>
+      </div>
+    </div>
+    <!-- // top block  -->
+
+    <div id="branding-block">
+      <div class="container">
+        <a href='{{ if eq .Lang "fr" }}{{.Site.BaseURL}}{{ else if eq .Lang "en" }}{{.Site.BaseURL}}en{{ end }}' title="Home"><h6>Local C</h6></a>
+      </div>
+      <!-- // container  -->
+    </div>
+    <!-- // branding  -->
+
+    <nav id="menu-block" class="hidden-xs">
+      <div class="container">
+        <ul>
+          <li class='{{ if eq .Params.menu "catalogue"}}current_page_item{{end}}'><a href="/catalogue/">CATALOGUE</a></li>
+          <li class='{{ if eq .Params.menu "createurs"}}current_page_item{{end}}'><a href="/createurs/">NOS CRÉATEURS</a></li>
+          <li class='{{ if eq .Params.menu "apropos"}}current_page_item{{end}}'><a href="/a-propos/">À PROPOS</a></li>
+          <li class='{{ if eq .Params.menu "contact"}}current_page_item{{end}}'><a href="/contact/">NOUS CONTACTER</a></li>
+          <li class='{{ if eq .Params.menu "blog"}}current_page_item{{end}}'><a href="/blogue/">BLOGUE</a></li>
+          <!-- <li class="current_page_item"> -->
+        </ul>
+      </div>
+      <!-- // container  -->
+    </nav>
+    <!-- // menu block  -->    

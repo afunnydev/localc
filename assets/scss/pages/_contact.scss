@@ -1,0 +1,219 @@
+/*=====================================
+=            Contact Block            =
+=====================================*/
+
+#contact-page-block {
+	padding-top: 60px;
+	@include breakpoint(phone) {
+		padding-top: 30px;
+	}
+	/* contact contnet */
+	#contact-left {
+		h1 {
+			font-size: 48px;
+			line-height: 57px;
+			color:palette(blue);
+			font-family: $font-heading;
+			margin-bottom: 70px;
+			@include breakpoint(desktop) {
+				font-size: 36px;
+				line-height: 46px;
+				margin-bottom: 50px;
+			}
+			@include breakpoint(laptop) {
+				font-size: 42px;
+				line-height: 52px;
+				margin-bottom: 50px;
+			}
+			@include breakpoint(tablet) {
+				font-size: 28px;
+				line-height: 130%;
+				margin-bottom: 50px;
+			}
+			@include breakpoint(phone) {
+				font-size: 24px;
+				line-height: 130%;
+				margin-bottom: 30px;
+			}
+		}
+		h2 {
+			font-size: 48px;
+			line-height: 57px;
+			color:palette(blue);
+			font-family: $font-heading;
+			margin-bottom: 70px;
+			@include breakpoint(desktop) {
+				font-size: 36px;
+				line-height: 46px;	
+				margin-bottom: 50px;			
+			}
+			@include breakpoint(laptop) {
+				font-size: 36px;
+				line-height: 130%;
+				margin-bottom: 50px;
+			}			
+			@include breakpoint(phone) {
+				font-size: 24px;
+				line-height: 130%;
+				margin-bottom: 30px;
+			}
+			@include breakpoint(tablet) {
+				font-size: 26px;
+				line-height: 130%;
+				margin-bottom: 50px;
+			}			
+		}		
+		p {
+			font-size: 21px;
+			color:palette(blue);
+			margin-bottom: 20px;
+			@include breakpoint(desktop) {
+				font-size: 18px;
+				margin-bottom: 10px;
+			}
+			@include breakpoint(phone) {
+				font-size: 16px;
+			}
+			strong {
+				font-family: $font-heading;
+			}
+			a {
+				color:palette(blue);
+			}
+		}
+		h6 {
+			margin-top: 30px;
+			font-size: 22px;
+			font-family: $font-heading;
+			color:palette(blue);
+			@include breakpoint(phone) {
+				font-size: 16px;
+			}
+			@include breakpoint(desktop) {
+				font-size: 18px;
+				margin-bottom: 0px;
+			}
+		}
+		.job-title {
+			display: block;
+			padding-top: 5px;
+			font-size: 20px;
+			font-family: $font-main;
+			@include breakpoint(phone) {
+				font-size: 16px;
+			}
+			@include breakpoint(desktop) {
+				font-size: 18px;
+			}
+		}
+		/* socials */
+		#socials {
+			margin-top: 65px;
+			@include breakpoint(phone) {
+				margin-top: 40px;
+				margin-bottom: 40px;
+			}
+			ul {
+				display: inline-block;
+				li {
+					display: inline-block;
+					a {
+						display: inline-block;
+						margin-left: 3px;
+						margin-right: 3px;
+						width: 50px;
+						height: 50px;
+						background:palette(yellow);
+						color:$color-white;
+						text-align: center;
+						line-height: 50px;
+						border-radius:100%;
+						font-size: 24px;
+						&:hover {
+							background:palette(blue);
+							color:$color-white;
+						}
+						@include breakpoint(desktop) {
+							height: 40px;
+							width: 40px;
+							line-height: 40px;
+							font-size: 22px;
+						}
+						@include breakpoint(laptop) {
+							margin-left: 2px;
+							margin-right: 2px;
+						}
+						@include breakpoint(tablet) {
+							margin-left: 1px;
+							margin-right: 1px;
+						}
+						@include breakpoint(phone-xs) {
+							margin-left: 7px;
+							margin-right: 7px;
+						}
+						@include breakpoint(phone-lg) {
+							margin-left: 10px;
+							margin-right: 10px;
+						}
+					}
+				}
+			}			
+		}
+	}
+	/* contact righ */
+	#contact-right {
+		input[type="text"],input[type="tel"],input[type="email"] {
+			height: 60px;
+			line-height: 60px;
+			padding-left: 25px;
+			display: block;
+			width: 100%;
+			border:3px solid palette(yellow);
+			margin-bottom: 45px;
+			font-size: 21px;
+			font-family: $font-heading;
+			color:palette(blue);
+			&:focus {
+				outline: 0;
+			}
+		}
+		textarea {
+			padding-left: 25px;
+			display: block;
+			width: 100%;
+			height: 300px;
+			border:3px solid palette(yellow);
+			margin-bottom: 45px;
+			font-size: 21px;
+			font-family: $font-heading;
+			color:palette(blue);
+			padding-top: 25px;
+			&:focus {
+				outline: 0;
+			}			
+		}
+		input[type="submit"] {
+			display: block;
+			width: 290px;
+			height: 64px;
+			line-height: 64px;
+			background:url(../img/btn/submit-next.png) no-repeat 85% center;
+			background-color:palette(blue);
+			text-align: center;
+			color:$color-white;
+			font-size: 21px;
+			font-family: $font-heading;
+			@include animate-fade;
+			border:none;
+			@include breakpoint(phone) {
+				width: 100%;
+			}
+			&:hover {
+				background-color:palette(yellow);
+				cursor: pointer;
+			}
+		}
+	}
+}
+
+/*=====  End of Contact Block  ======*/

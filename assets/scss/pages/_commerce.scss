@@ -1,0 +1,975 @@
+/*=====================================
+=            Product Block            =
+=====================================*/
+
+#product-page-block {
+	/* title for mob */
+	.mobile-header-products {
+		header {
+			padding-top: 20px;
+			padding-bottom: 20px;
+			h1 {
+				color:palette(blue);
+				font-size: 24px;
+				font-family: $font-heading;
+				max-width: 70%;
+				line-height: 130%;
+			}
+			a {
+				display: block;
+				margin-bottom: 20px;
+				color:palette(blue);
+				font-size: 14px;
+				i {
+					margin-right: 5px;
+				}
+			}
+		}
+	}
+	/* product images */
+	#product-images {
+		padding-bottom: 50px;
+		.slider-for {
+			img {
+				max-width: 100%;
+			}
+		}
+		.thumb-box {
+			padding:5px;
+			@include animate-fade;
+			&:focus {
+				outline: 0;
+				opacity: 0.5;
+			}
+			img {
+				&:focus {
+					outline: 0;
+				}
+			}
+		}
+
+		.slick-prev {
+		    left: 30px;
+		    background:url(../img/btn/slider-prev-gray.png) no-repeat;
+		    @include breakpoint(laptop) {
+		        left:25px;
+		    }
+		    @include breakpoint(tablet) {
+		        left:15px;
+		    }
+		    @include breakpoint(phone) {
+		    	background-size:100%;
+		    }
+		}
+
+		.slick-next {
+		    right: 30px;
+		    background:url(../img/btn/slider-next-gray.png) no-repeat;
+		    @include breakpoint(laptop) {
+		        right: 25px;
+		    }
+		    @include breakpoint(tablet) {
+		        right: 15px;
+		    }
+		    @include breakpoint(phone) {
+		    	background-size:100%;
+		    }
+		}
+
+		/* social */
+		#social-share {
+			padding-top: 100px;
+			text-align: center;
+			ul {
+				display: inline-block;
+				height: 44px;
+				line-height: 44px;
+				li {
+					display: inline-block;
+					a {
+						display: inline-block;
+						margin-left: 3px;
+						margin-right: 3px;
+						width: 48px;
+						height: 48px;
+						background:#D8D9DA;
+						color:$color-white;
+						text-align: center;
+						line-height: 48px;
+						border-radius:100%;
+						font-size: 22px;
+						&:hover {
+							background:palette(blue);
+							color:palette(yellow);
+						}
+						@include breakpoint(laptop) {
+							margin-left: 2px;
+							margin-right: 2px;
+						}
+						@include breakpoint(tablet) {
+							margin-left: 1px;
+							margin-right: 1px;
+						}
+					}
+				}
+			}		
+		}		
+
+	}
+	/* product content */
+	#product-content {
+		header {
+			padding-bottom: 70px;
+			@include breakpoint(desktop) {
+				padding-bottom: 30px;
+			}
+			@include breakpoint(laptop) {
+				padding-bottom: 25px;
+			}
+			h1 {
+				font-size: 60px;
+				line-height: 72px;
+				color:palette(blue);
+				font-family: $font-heading;
+				max-width: 70%;
+				@include breakpoint(desktop) {
+					font-size: 50px;
+					line-height: 62px;
+				}
+				@include breakpoint(laptop) {
+					font-size: 40px;
+					line-height: 52px;
+				}
+			}
+		}
+		.product-description {
+			p {
+				font-size: 24px;
+				line-height: 28px;
+				color:palette(blue);
+				margin-bottom: 30px;
+				@include breakpoint(desktop) {
+					font-size: 20px;
+					line-height: 25px;
+				}
+				@include breakpoint(laptop) {
+					font-size: 18px;
+					line-height: 23px;
+				}
+				@include breakpoint(phone) {
+					font-size: 18px;
+					line-height: 23px;
+				}
+				strong {
+					font-family: $font-heading;
+				}
+			}
+			ul {
+				margin-bottom: 50px;
+				@include breakpoint(desktop) {
+					margin-bottom: 25px;
+				}
+				@include breakpoint(laptop) {
+					margin-bottom: 25px;
+				}
+				@include breakpoint(phone) {
+					margin-bottom: 25px;
+				}
+				li {
+					display: block;
+					font-size: 24px;
+					color:palette(blue);
+					padding-top: 5px;
+					padding-bottom: 5px;
+					position: relative;
+					padding-left: 20px;
+					@include breakpoint(desktop) {
+						font-size: 20px;
+					}
+					@include breakpoint(laptop) {
+						font-size: 18px;
+					}
+					@include breakpoint(phone) {
+						font-size: 18px;
+					}
+					&:before {
+						content:'';
+						display: block;
+						@include centre(y);
+						background:palette(blue);
+						width: 7px;
+						height: 2px;
+						left:0px;
+					}
+				}
+			}
+			h6 {
+				font-size: 24px;
+				color:palette(blue);
+				margin-bottom: 30px;
+				text-transform: uppercase;
+				font-family: $font-heading;
+				@include breakpoint(desktop) {
+					font-size: 20px;
+					margin-bottom: 15px;
+				}
+				@include breakpoint(laptop) {
+					font-size: 18px;
+					margin-bottom: 15px;
+				}
+				@include breakpoint(phone) {
+					font-size: 18px;
+					margin-bottom: 15px;
+				}
+				small {
+					text-transform: none;
+					font-family: $font-main;
+				}
+			}
+		}
+	}
+	/* product detials */
+	.product-details {
+		border-left:7px solid #f1f1f2;
+		min-height: 100px;
+		padding-left: 35px;
+		margin-top: 70px;
+		@include breakpoint(desktop) {
+			padding-left: 30px;
+			margin-top: 40px;
+		}
+		@include breakpoint(laptop) {
+			padding-left: 20px;
+			margin-top: 30px;
+		}
+		@include breakpoint(phone) {
+			padding-left: 0px;
+			border:none;
+		}
+		table {
+			width: 100%;
+			text-align: left;
+			margin-bottom: 30px;
+			@include breakpoint(laptop) {
+				margin-bottom: 20px;
+			}
+			@include breakpoint(phone) {
+				
+			}
+			th {
+				background:#f1f1f2;
+				padding:15px;
+				font-size: 24px;
+				font-family: $font-heading;
+				text-transform: uppercase;
+				@include breakpoint(desktop) {
+					font-size: 20px;
+				}
+				@include breakpoint(laptop) {
+					font-size: 18px;
+				}
+				@include breakpoint(phone-xs) {
+					font-size: 14px;
+					padding:10px;
+				}
+			}
+			td {
+				padding:15px;
+				color:palette(blue);
+				@include breakpoint(phone-xs) {
+					padding:10px;
+					font-size: 12px;
+				}
+			}
+		}
+		.table-notice {
+			display: block;
+			font-size: 23px;
+			color:palette(blue);
+			@include breakpoint(phone) {
+				font-size: 16px;
+			}
+		}
+	}
+	/* action */
+	#product-actions {
+		margin-top: 60px;
+		padding-bottom: 70px;
+		@include breakpoint(laptop) {
+			margin-top: 40px;
+			padding-bottom: 40px;
+		}
+		@include breakpoint(phone) {
+			margin-top: 20px;
+			padding-bottom: 20px;
+		}
+		label {
+			font-size: 23px;
+			font-family: $font-main;
+			color:palette(blue);
+			line-height: 28px;
+			display: block;
+			@include centre(y);
+			line-height: 28px;
+			@include breakpoint(desktop) {
+				font-size: 20px;
+				line-height: 26px;
+			}
+			@include breakpoint(laptop) {
+				font-size: 17px;
+				line-height: 23px;
+			}
+			@include breakpoint(phone) {
+				font-size: 17px;
+				line-height: 23px;
+			}
+		}
+
+		.form-box {
+			margin-bottom: 10px;
+			.col-md-4 {
+				height: 60px;
+				position: relative;
+				@include breakpoint(laptop) {
+					height: 50px;
+				}
+				@include breakpoint(phone) {
+					height: 45px;
+				}
+			}
+		}
+
+		.bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+			width: 250px;
+			height: 60px;
+			margin-bottom: 20px;
+			@include breakpoint(laptop) {
+				height: 50px;
+			}
+			@include breakpoint(phone) {
+				width: 100%!important;
+				height: 50px;
+			}
+		}
+		.btn {
+			height: 60px;
+			border-radius:0px;
+			font-weight: bold;
+			color:$color-black;
+			font-size: 23px;
+			border:3px solid #c1c5cc;
+			color:palette(blue);
+			@include breakpoint(laptop) {
+				height: 50px;
+				font-size: 18px;
+			}
+			@include breakpoint(phone) {
+				height: 50px;
+				font-size: 18px;
+			}
+			&:focus {
+				outline: 0;
+			}
+		}
+		button {
+			&:focus {
+				outline: 0!important;
+				box-shadow:none;
+			}		
+			&:hover {
+				background:none;
+			}	
+		}
+		div.open {
+			.caret {
+				background:url(../img/btn/select-down.png) no-repeat center center;
+				width: 27px;
+				height: 15px;
+				border:none;
+			}
+		}
+		.caret {
+			background:url(../img/btn/select-up.png) no-repeat center center;
+			width: 27px;
+			height: 15px;
+			border:none;
+			@include animate-fade;
+			top:45%;
+		}		
+		.btn-group.open .dropdown-toggle {
+			box-shadow:none!important;
+		}		
+		.btn-default.active, .btn-default:active, .btn-default:focus, .btn-default:hover, .open>.btn-default.dropdown-toggle {
+			background:none;
+		}		
+		.dropdown-menu {
+			padding:5px;
+			li {
+				a {
+					font-size: 18px;
+					color:palette(blue);
+					padding:5px;
+					&:hover {
+					}
+				}
+			}
+		}
+
+
+	}
+	span.total-price {
+		font-size: 30px;
+		font-family: $font-heading;
+		color:palette(blue);
+		margin-bottom: 25px;
+		display: block;
+		@include breakpoint(desktop) {
+			margin-bottom: 20px;
+			font-size: 26px;
+		}
+		@include breakpoint(laptop) {
+			margin-bottom: 20px;
+			font-size: 24px;
+		}
+	}	
+	button.add-to-cart {
+		display: block;
+		background:palette(yellow);
+		border:none;
+		height: 60px;
+		line-height: 60px;
+		width: 450px;
+		font-size: 24px;
+		color:$color-white;
+		position: relative;
+		@include breakpoint(desktop) {
+			width: 400px;
+		}
+		@include breakpoint(laptop) {
+			width: 100%;
+		}
+		@include breakpoint(phone) {
+			width: 100%;
+			font-size: 20px;
+		}
+		&:after {
+			@include font-ico;
+			content:'\f054';
+			@include centre(y);
+			right:30px;
+			@include animate-fade;
+		}
+		&:hover {
+			cursor: pointer;
+			background:palette(blue, dark);
+			&:after {
+				right: 25px;
+			}
+		}
+	}
+}
+
+/*=====  End of Product Block  ======*/
+
+/*=================================
+=            Cart Page            =
+=================================*/
+
+#cart-page-wrapper {
+	padding-top: 60px;
+	@include breakpoint(phone) {
+		padding-top: 30px;
+	}
+	h1 {
+		font-size: 60px;
+		font-family: $font-heading;
+		color:palette(blue);
+		margin-bottom: 60px;
+		@include breakpoint(phone) {
+			font-size: 40px;
+			margin-bottom: 30px;
+		}
+	}
+	hr {
+		@include breakpoint(phone) {
+			border-top:3px solid #d9dbdc!important;
+		}
+	}	
+	.remove-product-btn-mobile {
+		font-size: 24px;
+		color:palette(blue);
+		display: inline-block;
+		margin-top: 30px;
+		background:url(../img/ico/remove-btn.png) no-repeat left center;
+		padding-left: 65px;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		@include breakpoint(desktop) {
+			font-size: 20px;
+			padding-left: 40px;
+			background-size:30px 30px;
+		}
+		@include breakpoint(laptop) {
+			font-size: 18px;
+			padding-left: 30px;
+			background-size:20px 20px;
+		}
+		@include breakpoint(phone) {
+			font-size: 18px;
+			background-size:20px 20px;
+			padding-left: 35px;
+			margin-top: 10px;
+		}
+		&:hover {
+			color:palette(yellow);
+		}		
+	}
+	.product-type {
+		display: inline-block;
+		h5 {
+			margin-bottom: 30px;
+		}
+		label {
+			span {
+				font-size: 20px;
+				color:palette(blue);
+				margin-left: 10px;
+				position: relative;
+				top:4px;
+			}
+		}
+	}
+	.mobile-checkbox {
+		label {
+			span {
+				font-size: 20px;
+				color:palette(blue);
+				margin-left: 10px;
+				position: relative;
+				top:4px;
+			}
+		}
+	}
+	.cart-table-header {
+		@include breakpoint(phone) {
+			border-bottom:3px solid #d9dbdc;
+		}
+		@include breakpoint(tablet) {
+			border-bottom:3px solid #d9dbdc;
+		}
+		h6 {
+			font-size: 24px;
+			font-family: $font-heading;
+			color:palette(blue);
+			margin-bottom: 40px;
+			@include breakpoint(phone) {
+				font-size: 18px;
+				margin-bottom: 20px;
+			}
+			@include breakpoint(tablet) {
+				margin-bottom: 20px;
+			}
+		}
+	}
+	.product-details {
+		.row {
+
+		}
+		img {
+			float: left;
+			max-width:350px;
+			@include breakpoint(desktop) {
+				max-width: 250px;
+			}
+			@include breakpoint(laptop) {
+				max-width: 200px;
+			}
+			@include breakpoint(tablet) {
+				display: none;
+			}
+			@include breakpoint(phone) {
+				display: none;
+			}
+		}
+		h5 {
+			font-size: 24px;
+			margin-top: 90px;
+			@include breakpoint(desktop) {
+				font-size: 20px;
+				margin-top: 60px;
+			}
+			@include breakpoint(laptop) {
+				font-size: 18px;
+				margin-top: 40px;
+			}
+			@include breakpoint(phone) {
+				margin-top: 30px;
+				font-size: 18px;
+			}
+			@include breakpoint(tablet) {
+				margin-top: 30px;
+				font-size: 18px;
+			}
+			a {
+				color:palette(blue);
+			}
+		}
+		.remove-product-btn {
+			font-size: 24px;
+			color:palette(blue);
+			display: inline-block;
+			margin-top: 30px;
+			background:url(../img/ico/remove-btn.png) no-repeat left center;
+			padding-left: 65px;
+			padding-top: 15px;
+			padding-bottom: 15px;
+			@include breakpoint(desktop) {
+				font-size: 20px;
+				padding-left: 40px;
+				background-size:30px 30px;
+			}
+			@include breakpoint(tablet) {
+				font-size: 18px;
+				padding-left: 30px;
+				background-size:20px 20px;
+			}
+			@include breakpoint(laptop) {
+				font-size: 18px;
+				padding-left: 30px;
+				background-size:20px 20px;
+			}
+			@include breakpoint(phone) {
+				font-size: 18px;
+				background-size:20px 20px;
+			}
+			&:hover {
+				color:palette(yellow);
+			}
+		}
+	}
+	.product-color {
+		padding-top: 100px;
+		@include breakpoint(phone) {
+			padding-top: 30px;
+		}
+		@include breakpoint(tablet) {
+			padding-top: 50px;
+		}
+		label {
+			font-size: 16px;
+			display: block;
+			padding-bottom: 10px;
+			font-family: $font-heading;
+			color:palette(blue);
+		}
+		.bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+			width: 100%;
+			height: 60px;
+			margin-bottom: 20px;
+			@include breakpoint(laptop) {
+				height: 50px;
+			}
+			@include breakpoint(phone) {
+				height: 50px;
+			}
+		}
+		.btn {
+			height: 60px;
+			border-radius:0px;
+			font-weight: bold;
+			color:$color-black;
+			font-size: 23px;
+			border:3px solid #c1c5cc;
+			color:palette(blue);
+			@include breakpoint(laptop) {
+				height: 50px;
+				font-size: 18px;
+			}
+			@include breakpoint(desktop) {
+				font-size: 20px;
+			}
+			@include breakpoint(phone) {
+				height: 50px;
+				font-size: 18px;
+				border:2px solid #c1c5cc;
+			}
+			&:focus {
+				outline: 0;
+			}
+		}
+		button {
+			&:focus {
+				outline: 0!important;
+				box-shadow:none;
+			}		
+			&:hover {
+				background:none;
+			}	
+		}
+		div.open {
+			.caret {
+				background:url(../img/btn/select-down.png) no-repeat center center;
+				width: 27px;
+				height: 15px;
+				border:none;
+			}
+		}
+		.caret {
+			background:url(../img/btn/select-up.png) no-repeat center center;
+			width: 27px;
+			height: 15px;
+			border:none;
+			@include animate-fade;
+			top:45%;
+		}		
+		.btn-group.open .dropdown-toggle {
+			box-shadow:none!important;
+		}		
+		.btn-default.active, .btn-default:active, .btn-default:focus, .btn-default:hover, .open>.btn-default.dropdown-toggle {
+			background:none;
+		}		
+		.dropdown-menu {
+			padding:5px;
+			li {
+				a {
+					font-size: 18px;
+					color:palette(blue);
+					padding:5px;
+					&:hover {
+					}
+				}
+			}
+		}		
+	}
+	.product-qty {
+		padding-top: 100px;
+		@include breakpoint(phone) {
+			padding-top: 10px;
+		}
+		@include breakpoint(tablet) {
+			padding-top: 50px;
+		}
+		label {
+			font-size: 16px;
+			display: block;
+			padding-bottom: 10px;
+			font-family: $font-heading;
+			color:palette(blue);
+		}		
+		.bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+			width: 100%;
+			height: 60px;
+			margin-bottom: 20px;
+			@include breakpoint(laptop) {
+				height: 50px;
+			}
+			@include breakpoint(phone) {
+				height: 50px;
+			}
+		}
+		.btn {
+			height: 60px;
+			border-radius:0px;
+			font-weight: bold;
+			color:$color-black;
+			font-size: 23px;
+			border:3px solid #c1c5cc;
+			color:palette(blue);
+			@include breakpoint(laptop) {
+				height: 50px;
+				font-size: 18px;
+			}
+			@include breakpoint(desktop) {
+				font-size: 20px;
+			}
+			@include breakpoint(phone) {
+				height: 50px;
+				font-size: 18px;
+				border:2px solid #c1c5cc;
+			}			
+			&:focus {
+				outline: 0;
+			}
+		}
+		button {
+			&:focus {
+				outline: 0!important;
+				box-shadow:none;
+			}		
+			&:hover {
+				background:none;
+			}	
+		}
+		div.open {
+			.caret {
+				background:url(../img/btn/select-down.png) no-repeat center center;
+				width: 27px;
+				height: 15px;
+				border:none;
+			}
+		}
+		.caret {
+			background:url(../img/btn/select-up.png) no-repeat center center;
+			width: 27px;
+			height: 15px;
+			border:none;
+			@include animate-fade;
+			top:45%;
+		}		
+		.btn-group.open .dropdown-toggle {
+			box-shadow:none!important;
+		}		
+		.btn-default.active, .btn-default:active, .btn-default:focus, .btn-default:hover, .open>.btn-default.dropdown-toggle {
+			background:none;
+		}		
+		.dropdown-menu {
+			padding:5px;
+			li {
+				a {
+					font-size: 18px;
+					color:palette(blue);
+					padding:5px;
+					&:hover {
+					}
+				}
+			}
+		}		
+	}
+	.product-price {
+		font-size: 24px;
+		color:palette(blue);
+		padding-top: 120px;
+		@include breakpoint(laptop) {
+			font-size: 20px;
+		}
+		@include breakpoint(phone) {
+			font-size: 18px;
+			padding-top: 30px;
+		}
+		@include breakpoint(tablet) {
+		padding-top: 60px;
+		}
+		.remove-product-x {
+			color:#d8d9da;
+			display: inline-block;
+			margin-left: 15px;
+			&:hover {
+				color:palette(yellow);
+			}
+		}
+	}
+}
+
+#cart-details-bottom {
+	margin-top: 100px;
+	@include breakpoint(phone) {
+		margin-top: 0px;
+		border-top:5px solid #d9dbdc;
+	}
+	/* cart form */
+	.cart-form {
+		input[type="text"] {
+			width: 100%;
+			background:#F1F1F2;
+			height: 50px;
+			line-height: 50px;
+			padding-left: 25px;
+			margin-top: 50px;
+			border:none;
+			font-size: 24px;
+			color:palette(blue);
+			&:focus {
+				outline: 0;
+			}
+			@include breakpoint(phone) {
+				font-size: 18px;
+				margin-top: 35px;
+			}
+		}
+	}
+	/* cart details */
+	.cart-details-sum {
+		h4 {
+			text-transform: uppercase;
+			font-size: 24px;
+			font-family: $font-heading;
+			color:palette(blue);
+			margin-bottom: 25px;
+			@include breakpoint(phone) {
+				font-size: 18px;
+				margin-bottom: 20px;
+				margin-top: 40px;
+			}
+			@include breakpoint(tablet) {
+				font-size: 20px;
+			}
+		}
+		table {
+			.text-right {
+				text-align: right;
+			}
+			td {
+				padding:17px;
+				font-size: 24px;
+				color:palette(blue);
+				@include breakpoint(phone) {
+					font-size: 16px;
+				}
+				@include breakpoint(tablet) {
+					font-size: 21px;
+				}
+			}
+			tr {
+				&:nth-child(odd) {
+					background:#ebebec;
+				}
+			}
+		}
+		footer {
+			padding-top: 25px;
+			a.checkout-button {
+				display: block;
+				background:palette(yellow);
+				border:none;
+				height: 60px;
+				line-height: 60px;
+				width: 450px;
+				font-size: 24px;
+				color:$color-white;
+				position: relative;
+				text-align: center;
+				float: right;
+				@include breakpoint(desktop) {
+					width: 400px;
+				}
+				@include breakpoint(laptop) {
+					width: 100%;
+				}
+				@include breakpoint(tablet) {
+					width: 100%;
+					font-size: 20px;
+				}
+				@include breakpoint(phone) {
+					width: 100%;
+					font-size: 16px;
+				}
+				&:after {
+					@include font-ico;
+					content:'\f054';
+					@include centre(y);
+					right:30px;
+					@include animate-fade;
+				}
+				&:hover {
+					cursor: pointer;
+					background:palette(blue, dark);
+					&:after {
+						right: 25px;
+					}
+				}				
+			}
+		}
+	}
+}
+
+/*=====  End of Cart Page  ======*/

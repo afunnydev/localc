@@ -1,0 +1,164 @@
+/*====================================
+=            Blog Wrapper            =
+====================================*/
+
+#blog-wrapper {
+	/* blog box */
+	.blog-box {
+		margin-bottom: 80px;
+		@include breakpoint(phone) {
+			margin-bottom: 40px;
+		}
+		/* img holder */
+		.img-holder {
+			overflow: hidden;
+			position: relative;
+			img {
+				width: 100%;
+				@include animate-fade;
+			}
+			&:hover {
+				img {
+					transform: scale(1.2);
+				}
+				.image-caption {
+					opacity: 1;
+				}
+			}
+			.image-caption {
+				position: absolute;
+				top:0px;
+				left:0px;
+				width: 100%;
+				height: 100%;		
+				@include animate-fade;		
+				background:url(../img/ico/plus.png) no-repeat center center;
+				background-color:rgba(55,68,79,0.8);		
+				opacity: 0;		
+				@include breakpoint(laptop) {
+					background-size:80px 80px;
+				}
+			}
+		}
+		time {
+			font-size: 22px;
+			color:palette(blue);
+			display: block;
+			margin-bottom: 15px;
+			margin-top: 25px;
+		}
+		h5 {
+			font-size: 23px;
+			font-family: $font-heading;
+			margin-bottom: 15px;
+			a {
+				color:palette(blue);
+				&:hover {
+					color:palette(yellow);
+				}
+			}
+		}
+		p {
+			font-size: 23px;
+			line-height: 28px;
+			color:palette(blue);
+			a {
+				color:palette(blue, light);
+			}
+		}
+	}
+}
+
+/*=====  End of Blog Wrapper  ======*/
+
+/*===================================
+=            Blog Single            =
+===================================*/
+
+#blog-single-page {
+	.aligncenter {
+		display: block;
+		max-width: 100%;
+		margin:0px auto;
+		margin-bottom: 40px;
+		margin-bottom: 40px;
+		@include breakpoint(desktop) {
+			margin-bottom: 30px;
+		}
+		@include breakpoint(phone) {
+			margin-bottom: 20px;
+		}
+	}
+	img {
+		@include breakpoint(desktop) {
+			max-height: 400px;
+			object-fit: cover;
+		}
+	}
+	h1 {
+		font-family: $font-heading;
+		color:palette(blue);
+		font-size: 43px;
+		line-height: 52px;
+		margin-bottom: 25px;
+		@include breakpoint(tablet) {
+			font-size: 36px;
+			line-height: 48px;
+		}
+		@include breakpoint(desktop) {
+			font-size: 41px;
+			line-height: 51px;
+			margin-bottom: 20px;
+		}
+		@include breakpoint(phone-xs) {
+			font-size: 28px;
+			line-height: 130%;
+		}
+		@include breakpoint(phone-lg) {
+			font-size: 34px;
+			line-height: 130%;
+		}
+	}
+	h2 {
+		font-size: 23px;
+		text-transform: uppercase;
+		font-weight: $regular;
+		font-family: $font-main;
+		margin-bottom: 70px;
+		@include breakpoint(tablet) {
+			font-size: 20px;
+			margin-bottom: 50px;
+		}
+		@include breakpoint(desktop) {
+			margin-bottom: 50px;
+			font-size: 21px;
+		}
+		@include breakpoint(phone-xs) {
+			font-size: 16px;
+			margin-bottom: 35px;
+			line-height: 130%;
+		}
+		@include breakpoint(phone-lg) {
+			font-size: 21px;
+			line-height: 130%;
+			margin-bottom: 35px;
+		}
+	}	
+	p {
+		font-size: 23px;
+		line-height: 28px;
+		color:palette(blue);
+		margin-bottom: 35px;
+		@include breakpoint(phone-xs) {
+			margin-bottom: 25px;
+			font-size: 20px;
+			line-height: 130%;
+		}
+		@include breakpoint(phone-lg) {
+			margin-bottom: 20px;
+			font-size: 20px;
+		}
+	}
+}
+
+/*=====  End of Blog Single  ======*/

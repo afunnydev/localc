@@ -1,0 +1,819 @@
+/*====================================
+=            Regular Page            =
+====================================*/
+
+#regular-page-wrapper {
+	/* content */
+	#regular-content {
+		p {
+			font-size: 30px;
+			line-height: 40px;
+			color:palette(blue);
+			margin-bottom: 50px;
+			@include breakpoint(laptop) {
+				margin-bottom: 40px;
+				font-size: 28px;
+				line-height: 37px;
+			}
+			@include breakpoint(tablet) {
+				font-size: 26px;
+				line-height: 34px;
+			}
+			@include breakpoint(phone-xs) {
+				font-size: 20px;
+				line-height: 140%;
+				margin-bottom: 30px;
+			}
+			@include breakpoint(phone-lg) {
+				font-size: 22px;
+				line-height: 140%;
+				margin-bottom: 30px;
+			}
+		}
+		h1 {
+			margin-top: 50px;
+			margin-bottom: 50px;
+			font-size: 51px;
+			line-height: 61px;
+			font-family: $font-heading;
+			color:#231F20;
+			max-width: 50%;
+			strong {
+				color:palette(yellow);
+			}
+			@include breakpoint(desktop) {
+				max-width: 70%;
+				font-size: 48px;
+				line-height: 59px;
+			}
+			@include breakpoint(laptop) {
+				margin-bottom: 40px;
+				margin-top: 40px;
+				font-size: 46px;
+				max-width: 90%;
+			}	
+			@include breakpoint(tablet) {
+				margin-bottom: 40px;
+				margin-top: 40px;
+				font-size: 46px;
+				max-width: 90%;
+			}		
+			@include breakpoint(phone-xs) {
+				margin-bottom: 30px;
+				margin-top: 30px;
+				font-size: 30px;
+				line-height: 130%;
+				max-width: 100%;
+			}	
+			@include breakpoint(phone-lg) {
+				margin-bottom: 30px;
+				margin-top: 30px;
+				font-size: 34px;
+				line-height: 130%;
+				max-width: 100%;
+			}
+		}
+		h2 {
+			margin-top: 50px;
+			margin-bottom: 50px;
+			font-size: 51px;
+			line-height: 61px;
+			font-family: $font-heading;
+			color:#231F20;
+			max-width: 60%;
+			@include breakpoint(desktop) {
+				max-width: 70%;
+				font-size: 44px;
+				line-height: 54px;
+			}			
+			@include breakpoint(laptop) {
+				margin-bottom: 40px;
+				margin-top: 40px;
+				font-size: 46px;
+				max-width: 90%;
+				line-height: 51px;
+			}
+			@include breakpoint(tablet) {
+				margin-bottom: 40px;
+				margin-top: 40px;
+				font-size: 46px;
+				max-width: 90%;
+				line-height: 51px;
+			}	
+			@include breakpoint(phone-xs) {
+				font-size: 28px;
+				line-height: 130%;
+				max-width: 100%;
+				margin-bottom: 30px;
+			}		
+			@include breakpoint(phone-lg) {
+				font-size: 30px;
+				line-height: 130%;
+				max-width: 100%;
+				margin-bottom: 30px;
+			}				
+			strong {
+				color:palette(yellow);
+			}
+		}
+		.featured-image {
+			max-width: 100%;
+			height: auto;
+			margin:0px auto;
+			width: 100%;
+		}
+	}
+}
+
+/*=====  End of Regular Page  ======*/
+
+/*====================================
+=            Creator Page            =
+====================================*/
+
+#our-creator-block {
+	/* creator box */
+	.creator-box {
+		position: relative;
+		overflow: hidden;
+		margin-bottom: 30px;
+		img {
+			width: 100%;
+			@include animate-fade;
+		}
+		a {
+			&:hover {
+				img {
+					transform: scale(1.2);
+				}
+				.creator-caption {
+					opacity: 1;
+					h6 {
+						margin-top: 0px;
+					}
+				}
+			}
+		}
+		.creator-caption {
+			position: absolute;
+			top:0px;
+			left:0px;
+			width: 100%;
+			height: 100%;		
+			@include animate-fade;		
+			background-color:rgba(55,68,79,0.8);		
+			opacity: 0;	
+			h6 {
+				@include centre(both);
+				color:$color-white;
+				text-transform: uppercase;
+				font-family: $font-heading;
+				font-size: 40px;
+				line-height: 48px;
+				margin-top: 20px;
+				@include animate-fade;
+				@include breakpoint(tablet) {
+					font-size: 32px;
+					line-height: 40px;
+				}
+				@include breakpoint(laptop) {
+					font-size: 32px;
+					line-height: 40px;
+				}
+				@include breakpoint(phone) {
+					font-size: 24px;
+					line-height: 130%;
+				}
+			}			
+		}
+	}
+}
+
+/*=====  End of Creator Page  ======*/
+
+/*======================================
+=            Catalogue Page            =
+======================================*/
+
+#catalogue-page-wrapper {
+	/*  catalogue sidebar */
+	#catalogue-sidebar {
+		padding-bottom: 40px;
+		.dropdown-menu-acc {
+			display: none;
+			@include breakpoint(phone) {
+				background:palette(blue);
+				padding:20px;
+			}
+			li {
+				a {
+					font-size: 22px;
+					display: block;
+					padding-top: 10px;
+					padding-bottom: 10px;
+					font-family: $font-main;
+					text-transform: none;
+					color:palette(blue);
+					@include breakpoint(phone) {
+						font-size: 16px;
+						padding-top: 5px;
+						padding-bottom: 5px;
+						color:palette(blue,light);
+					}
+					&:hover {
+						color:palette(blue,light);
+					}
+				}
+			}
+		}
+        ul {
+           > li {
+            	position: relative;
+            	> a {
+                    display: block;
+                    padding-top: 25px;
+                    padding-bottom: 25px;
+                    color:palette(blue);
+                    font-size: 26px;
+                    text-transform: uppercase;
+                    font-family: $font-heading;
+                    @include breakpoint(laptop) {
+                    	font-size: 24px;
+                    	padding-top: 20px;
+                    	padding-bottom: 20px;
+                    }
+                    @include breakpoint(tablet) {
+                    	font-size: 22px;
+                    	padding-top: 20px;
+                    	padding-bottom: 20px;
+                    }
+                    @include breakpoint(phone) {
+                    	border-bottom:1px solid palette(blue);
+                    }
+                    &:hover {
+                        text-decoration: none;
+                        color:#000;
+                    }
+                    &:focus {
+                        text-decoration: none;
+                        outline:none!important;
+                    }
+                    &.subnav-item-active {
+                        &:before {
+                        	@include font-ico;
+                        	content:'\f106'!important;
+                        	color:palette(blue);
+                        }                    	
+                    }
+                    &.subnav-item {
+                        @include animate-fade;
+                        position:absolute;
+                        top:23px;
+                        right: 0px;
+                        width: 24px;
+                        height: 24px;
+                        display: block;
+                        padding:0px!important;
+                        border:none;
+                        @include breakpoint(laptop) {
+                        	top:18px;
+                        }
+                        @include breakpoint(tablet) {
+                        	top:17px;
+                        }
+                        @include breakpoint(phone) {
+                        	top:16px;
+                        }
+                        &:before {
+                        	@include font-ico;
+                        	content:'\f107';
+                        	color:palette(blue);
+                        }
+                        &:hover {
+                        	cursor: pointer;
+                        	&:before {
+                        		color:palette(blue,light);
+                        	}
+
+                        }
+                    }
+                    @include breakpoint(phone) {
+                        padding-top: 16px;
+                        padding-bottom: 16px;
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+	}
+	/* content */
+	#catalogue-content {
+		.col-md-4 {
+			@include breakpoint(phone-lg) {
+				float: left;
+				width: 50%;
+			}
+			@media screen and (min-width:370px) and (max-width:767px) {
+				float: left;
+				width: 50%;
+			}
+		}
+		.catalogue-box {
+			position: relative;
+			overflow: hidden;
+			margin-bottom: 30px;
+			&.featured-catalogue-box {
+				img {
+					@include breakpoint(phone) {
+						height: 250px;
+						object-fit: cover;
+					}
+				}
+				.category-caption {
+					h3 {
+						font-size: 64px;
+						line-height: 80px;
+						@include breakpoint(desktop) {
+							font-size: 56px;
+							line-height: 72px;
+						}
+						@include breakpoint(laptop) {
+							font-size: 46px;
+							line-height:64px; 
+						}
+						@include breakpoint(tablet) {
+							font-size: 30px;
+							line-height: 40px;
+						}
+						@include breakpoint(phone-xs) {
+							font-size: 20px;
+							line-height: 26px;
+							padding-left: 20px;
+							padding-right: 20px;
+						}
+						@include breakpoint(phone-lg) {
+							font-size: 32px;
+							line-height: 40px;
+						}
+					}
+				}
+			}
+			img {
+				width: 100%;
+				@include animate-fade;
+			}
+			a {
+				&:hover {
+					.category-caption {
+						background:rgba(55,68,79,0.8);
+					}
+					img {
+						transform: scale(1.2) rotate(5deg);
+					}
+				}
+			}
+			/* caption */
+			.category-caption {
+				position: absolute;
+				top:0px;
+				left:0px;
+				width: 100%;
+				height: 100%;
+				text-align: center;
+				@include animate-fade;
+				h3 {
+					@include centre(both);
+					color:$color-white;
+					font-family: $font-heading;
+					font-size: 40px;
+					line-height: 48px;
+					width: 70%;
+					@include breakpoint(desktop) {
+						font-size: 36px;
+						line-height: 44px;
+					}
+					@include breakpoint(laptop) {
+						font-size: 30px;
+						line-height: 40px;
+					}
+					@include breakpoint(tablet) {
+						font-size: 26px;
+						line-height: 32px;
+						width: 100%;
+					}
+					@include breakpoint(phone) {
+						text-align: center;
+						width: 100%;
+						font-size: 20px;
+						line-height: 26px;
+					}
+					@include breakpoint(phone-xs) {
+						font-size: 22px;
+						line-height: 28px;
+					}
+				}
+			}
+		}		
+	}
+}
+
+/*=====  End of Catalogue Page  ======*/
+
+/*======================================
+=            Categorie Page            =
+======================================*/
+
+#categorie-content {
+	.categorie-box {
+		margin-bottom: 25px;
+		@include breakpoint(phone) {
+			margin-bottom: 0px;
+		}
+		.image-holder {
+			overflow: hidden;
+			position: relative;
+			span {
+				position: absolute;
+				left:0px;
+				top:0px;
+				width: 100%;
+				height: 100%;
+				background:rgba(55,68,79,0.8);
+				opacity: 0;
+				@include animate-fade;
+				small {
+					display: block;
+					width: 270px;
+					height: 70px;
+					line-height: 70px;
+					border:1px solid $color-white;
+					text-align: center;
+					font-family: $font-heading;
+					font-size: 22px;
+					text-align: center;
+					color:$color-white;
+					@include centre(both);
+					@include breakpoint(desktop) {
+						width: 220px;
+						height: 60px;
+						line-height: 60px;
+						font-size: 20px;
+					}
+					@include breakpoint(laptop) {
+						width: 170px;
+						height: 50px;
+						line-height: 50px;
+						font-size: 18px;
+					}
+					@include breakpoint(tablet) {
+						width: 170px;
+						height: 50px;
+						line-height: 50px;
+						font-size: 18px;	
+					}
+					@include breakpoint(phone) {
+						width: 170px;
+						height: 50px;
+						line-height: 50px;
+						font-size: 18px;
+					}
+				}
+			}
+			img {
+				width: 100%;
+				@include animate-fade;
+			}
+			a {
+				&:hover {
+					img {
+						transform: scale(1.1);
+					}
+					span {
+						opacity: 1;
+					}					
+				}
+
+			}
+		}
+		/* content */
+		.categorie-content {
+			text-align: center;
+			padding-top: 25px;
+			padding-bottom: 25px;
+			h3 {
+				font-size: 20px;
+				font-family: $font-heading;
+				line-height: 130%;
+				padding-left: 15px;
+				padding-right: 15px;
+				@include breakpoint(desktop) {
+					font-size: 18px;
+				}
+				@include breakpoint(laptop) {
+					font-size: 18px;
+				}
+				a {
+					color:palette(blue);
+					&:hover {
+						color:palette(blue,light);
+					}
+				}
+			}
+			p {
+			margin-top: 20px;
+			}
+		}
+	}
+}
+
+/*=====  End of Categorie Page  ======*/
+			
+/*==============================
+=            Profil            =
+==============================*/
+
+#profile-page-wrapper {
+	/* image */
+	.profile-image {
+		img {
+			width: 100%;
+		}
+	}
+	/* content */
+	.profile-content {
+		h1 {
+			text-transform: uppercase;
+			font-size: 60px;
+			line-height: 72px;
+			font-family: $font-heading;
+			color:palette(blue);
+			margin-bottom: 50px;
+			@include breakpoint(desktop) {
+				font-size: 50px;
+				line-height: 62px;
+				margin-bottom: 30px;
+			}
+			@include breakpoint(laptop) {
+				font-size: 44px;
+				margin-bottom: 20px;
+				line-height: 62px;
+			}
+			@include breakpoint(tablet) {
+				font-size: 44px;
+				margin-bottom: 20px;
+				line-height: 62px;
+			}
+			@include breakpoint(phone) {
+				font-size: 44px;
+				margin-bottom: 20px;
+				line-height: 60px;
+			}
+		}
+		p {
+			margin-bottom: 35px;
+			font-size: 24px;
+			line-height: 28px;
+			color:palette(blue);
+			font-weight: $bold;
+			@include breakpoint(desktop) {
+				font-size: 20px;
+				margin-bottom: 25px;
+				line-height: 25px;
+			}
+			@include breakpoint(laptop) {
+				font-size: 18px;
+				margin-bottom: 20px;
+				line-height: 24px;
+			}
+			@include breakpoint(tablet) {
+				font-size: 18px;
+				margin-bottom: 20px;
+				line-height: 24px;
+			}
+			@include breakpoint(phone) {
+				margin-bottom: 18px;
+				font-size: 20px;
+				line-height: 24px;
+			}
+		}
+	}
+	/* social */
+	#social-share {
+		padding-top: 50px;
+		@include breakpoint(desktop) {
+			padding-top: 25px;
+		}
+		@include breakpoint(laptop) {
+			padding-top: 20px;
+		}
+		@include breakpoint(tablet) {
+			padding-top: 20px;
+			padding-bottom: 50px;
+		}
+		@include breakpoint(phone) {
+			padding-top: 20px;
+			padding-bottom: 30px;
+		}
+		ul {
+			display: inline-block;
+			height: 44px;
+			line-height: 44px;
+			li {
+				display: inline-block;
+				a {
+					display: inline-block;
+					margin-left: 3px;
+					margin-right: 3px;
+					width: 48px;
+					height: 48px;
+					background:#D8D9DA;
+					color:$color-white;
+					text-align: center;
+					line-height: 48px;
+					border-radius:100%;
+					font-size: 22px;
+					&:hover {
+						background:palette(blue);
+						color:palette(yellow);
+					}
+					@include breakpoint(laptop) {
+						margin-left: 2px;
+						margin-right: 2px;
+					}
+					@include breakpoint(tablet) {
+						margin-left: 1px;
+						margin-right: 1px;
+					}
+				}
+			}
+		}		
+	}
+}
+
+/*=====  End of Profil  ======*/
+
+/*=====================================
+=            Related Blcok            =
+=====================================*/
+
+#related-products-block {
+	margin-top: 150px;
+	@include breakpoint(desktop) {
+		margin-top: 70px;
+	}
+	@include breakpoint(laptop) {
+		margin-top: 70px;
+	}
+	@include breakpoint(tablet) {
+		margin-top: 70px;
+	}
+	header {
+		text-align: center;
+		border-top:4px solid #d7d9da;
+		position: relative;
+		margin-left: 50px;
+		margin-right: 50px;
+		margin-bottom: 60px;
+		@include breakpoint(tablet) {
+			margin-left: 20px;
+			margin-right: 20px;
+		}
+		@include breakpoint(phone) {
+			margin-left: 10px;
+			margin-right: 10px;
+		}
+		h3 {
+			text-transform: uppercase;
+			font-size: 30px;
+			line-height: 36px;
+			font-family: $font-main;
+			color:#A6A8AB;
+			display: inline-block;
+			background:$color-white;
+			padding-left: 40px;
+			padding-right: 40px;
+			@include centre(x);
+			top:-17px;
+			@include breakpoint(laptop) {
+				padding-left: 20px;
+				padding-right: 20px;
+				font-size: 24px;
+				line-height: 30px;
+			}
+			@include breakpoint(tablet) {
+				padding-left: 15px;
+				padding-right: 15px;
+				font-size: 24px;
+				line-height: 30px;
+			}
+			@include breakpoint(phone) {
+				padding-left: 15px;
+				padding-right: 15px;
+				font-size: 20px;
+				line-height: 30px;
+			}
+			@include breakpoint(phone-xs) {
+				padding-left: 10px;
+				padding-right: 10px;
+				font-size: 18px;
+				line-height: 30px;
+			}
+		}
+	}
+	/* box */
+
+	.categorie-box {
+		margin-bottom: 25px;
+		.image-holder {
+			overflow: hidden;
+			position: relative;
+			span {
+				position: absolute;
+				left:0px;
+				top:0px;
+				width: 100%;
+				height: 100%;
+				background:rgba(55,68,79,0.8);
+				opacity: 0;
+				@include animate-fade;
+				small {
+					display: block;
+					width: 270px;
+					height: 70px;
+					line-height: 70px;
+					border:1px solid $color-white;
+					text-align: center;
+					font-family: $font-heading;
+					font-size: 22px;
+					text-align: center;
+					color:$color-white;
+					@include centre(both);
+					@include breakpoint(desktop) {
+						width: 220px;
+						height: 60px;
+						line-height: 60px;
+						font-size: 20px;
+					}
+					@include breakpoint(laptop) {
+						width: 170px;
+						height: 50px;
+						line-height: 50px;
+						font-size: 18px;
+					}
+					@include breakpoint(tablet) {
+						width: 170px;
+						height: 50px;
+						line-height: 50px;
+						font-size: 18px;	
+					}
+				}
+			}
+			img {
+				width: 100%;
+				@include animate-fade;
+			}
+			a {
+				&:hover {
+					img {
+						transform: scale(1.1);
+					}
+					span {
+						opacity: 1;
+					}					
+				}
+
+			}
+		}
+		/* content */
+		.categorie-content {
+			text-align: center;
+			padding-top: 25px;
+			padding-bottom: 25px;
+			h3 {
+				font-size: 20px;
+				font-family: $font-heading;
+				line-height: 130%;
+				padding-left: 15px;
+				padding-right: 15px;
+				@include breakpoint(desktop) {
+					font-size: 18px;
+				}
+				@include breakpoint(laptop) {
+					font-size: 18px;
+				}
+				a {
+					color:palette(blue);
+					&:hover {
+						color:palette(blue,light);
+					}
+				}
+			}
+			p {
+			margin-top: 20px;
+			}
+		}
+	}
+
+}
+
+/*=====  End of Related Blcok  ======*/
