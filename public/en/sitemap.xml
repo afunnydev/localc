@@ -1,70 +1,221 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  <url>
-    <loc>http://zoo-keeper-handles-62138.netlify.com/en/createurs/</loc>
-  </url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
     <loc>http://zoo-keeper-handles-62138.netlify.com/en/createurs/bkind/</loc>
     <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://zoo-keeper-handles-62138.netlify.com/createurs/bkind/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://zoo-keeper-handles-62138.netlify.com/en/createurs/bkind/"
+                />
   </url>
   
   <url>
     <loc>http://zoo-keeper-handles-62138.netlify.com/en/categories/</loc>
     <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://zoo-keeper-handles-62138.netlify.com/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://zoo-keeper-handles-62138.netlify.com/en/categories/"
+                />
   </url>
   
   <url>
     <loc>http://zoo-keeper-handles-62138.netlify.com/en/createurs/</loc>
     <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://zoo-keeper-handles-62138.netlify.com/createurs/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://zoo-keeper-handles-62138.netlify.com/en/createurs/"
+                />
   </url>
   
   <url>
     <loc>http://zoo-keeper-handles-62138.netlify.com/en/</loc>
     <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://zoo-keeper-handles-62138.netlify.com/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://zoo-keeper-handles-62138.netlify.com/en/"
+                />
   </url>
   
   <url>
     <loc>http://zoo-keeper-handles-62138.netlify.com/en/produits/</loc>
     <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://zoo-keeper-handles-62138.netlify.com/produits/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://zoo-keeper-handles-62138.netlify.com/en/produits/"
+                />
   </url>
   
   <url>
     <loc>http://zoo-keeper-handles-62138.netlify.com/en/tags/</loc>
     <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://zoo-keeper-handles-62138.netlify.com/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://zoo-keeper-handles-62138.netlify.com/en/tags/"
+                />
   </url>
   
   <url>
     <loc>http://zoo-keeper-handles-62138.netlify.com/en/createurs/tandem/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://zoo-keeper-handles-62138.netlify.com/createurs/tandem/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://zoo-keeper-handles-62138.netlify.com/en/createurs/tandem/"
+                />
   </url>
   
   <url>
     <loc>http://zoo-keeper-handles-62138.netlify.com/en/about/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://zoo-keeper-handles-62138.netlify.com/a-propos/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://zoo-keeper-handles-62138.netlify.com/en/about/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://zoo-keeper-handles-62138.netlify.com/en/back/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://zoo-keeper-handles-62138.netlify.com/back/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://zoo-keeper-handles-62138.netlify.com/en/back/"
+                />
   </url>
   
   <url>
     <loc>http://zoo-keeper-handles-62138.netlify.com/en/blog/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://zoo-keeper-handles-62138.netlify.com/blogue/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://zoo-keeper-handles-62138.netlify.com/en/blog/"
+                />
   </url>
   
   <url>
     <loc>http://zoo-keeper-handles-62138.netlify.com/en/catalog/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://zoo-keeper-handles-62138.netlify.com/catalogue/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://zoo-keeper-handles-62138.netlify.com/en/catalog/"
+                />
   </url>
   
   <url>
     <loc>http://zoo-keeper-handles-62138.netlify.com/en/contact/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://zoo-keeper-handles-62138.netlify.com/contact/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://zoo-keeper-handles-62138.netlify.com/en/contact/"
+                />
   </url>
   
   <url>
-    <loc>http://zoo-keeper-handles-62138.netlify.com/en/creators/</loc>
+    <loc>http://zoo-keeper-handles-62138.netlify.com/en/createurs/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://zoo-keeper-handles-62138.netlify.com/createurs/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://zoo-keeper-handles-62138.netlify.com/en/createurs/"
+                />
   </url>
   
   <url>
     <loc>http://zoo-keeper-handles-62138.netlify.com/en/produits/trousse-confort/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://zoo-keeper-handles-62138.netlify.com/produits/trousse-confort/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://zoo-keeper-handles-62138.netlify.com/en/produits/trousse-confort/"
+                />
   </url>
   
   <url>
     <loc>http://zoo-keeper-handles-62138.netlify.com/en/createurs/bkind/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://zoo-keeper-handles-62138.netlify.com/createurs/bkind/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://zoo-keeper-handles-62138.netlify.com/en/createurs/bkind/"
+                />
   </url>
   
 </urlset>
