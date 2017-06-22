@@ -1,0 +1,20 @@
+            <aside id="catalogue-sidebar">
+              <ul id="menu-mobile-new-menu" class="">
+              {{ with $.Site.Data.categoriesorg.categories }}
+                {{range $ind,$val := .}}
+                  <li class="">
+                    <a title="Home" href="/categories/{{$val.nom | urlize}}/" class="main-nav-link">{{upper $val.nom}}
+                    {{if $val.souscategories}}
+                    <a class="subnav-item"></a></a>
+                    <ul role="menu" class="dropdown-menu-acc">
+                    {{ range $val.souscategories}}
+                      <li><a href="/categories/{{ . | urlize }}/">{{ . }}</a></li>
+                    {{ end }}
+                    </ul>
+                    {{else}}</a>{{end}}
+                  </li>
+                {{ end }}
+              {{ end }}                                 
+              </ul>
+              <!-- // nav  -->
+            </aside>

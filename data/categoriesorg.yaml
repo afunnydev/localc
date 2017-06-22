@@ -1,0 +1,23 @@
+categories:
+  - nom: "Nouveautés"
+  - nom: "Alimentaire"
+    photo: "/img/categories/categorie-alimentaire.jpg"
+  - nom: "Cadeau"
+    photo: "/img/categories/categorie-cadeau.jpg"
+  - nom: "Papeterie"
+    photo: "/img/categories/categorie-papetrie.jpg"
+    souscategories:
+      - "Cahier de notes"
+      - "Imprimé"
+  - nom: "Sacs"
+    photo: "/img/categories/categorie-sacs.jpg"
+  - nom: "Accessoire"
+    photo: "/img/categories/categorie-accessoires.jpg"
+    souscategories:
+      - "Porte-carte"
+      - "Porte-passeport"
+      - "Tablier"
+      - "Noeud papillon"
+      - "Tasse"
+  - nom: "Confort"
+    photo: "/img/categories/categorie-confort.jpg"

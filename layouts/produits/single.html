@@ -191,80 +191,27 @@
       <div class="container-fluid">
 
       <div class="row">
-        
-        <div class="col-md-3 col-sm-6">
-          <div class="categorie-box">
-            <div class="image-holder">
-              <a href="#">
-                  <img src="/img/products/product1.jpg" alt="" class="img-responsive">
-                  <span><small>En savoir plus...</small></span>
-                </a>
+      {{ range $product := .Params.crosssell }}
+        {{ range where $.Site.Pages ".Params.id" $product }}
+          <div class="col-md-3 col-sm-6">
+            <div class="categorie-box">
+              <div class="image-holder">
+                <a href="{{ .Permalink }}">
+                    <img src="{{ .Params.mainimage }}" alt="" class="img-responsive">
+                    <span><small>En savoir plus...</small></span>
+                  </a>
+              </div>
+              <!-- // image holder  -->
+              <div class="categorie-content">
+                <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+                <p class="price">{{ .Params.pricerange}} / unité</p>
+              </div>
+              <!-- // content  -->
             </div>
-            <!-- // image holder  -->
-            <div class="categorie-content">
-              <h3><a href="#">Carnet de notes Marbré, Baltic Club</a></h3>
-              <p class="price">10$ à 15$ / unité</p>
-            </div>
-            <!-- // content  -->
           </div>
-        </div>
-        <!-- // categorie box  -->
-
-        <div class="col-md-3 col-sm-6">
-          <div class="categorie-box">
-            <div class="image-holder">
-              <a href="#">
-                  <img src="/img/products/product2.jpg" alt="" class="img-responsive">
-                  <span><small>En savoir plus...</small></span>
-                </a>
-            </div>
-            <!-- // image holder  -->
-            <div class="categorie-content">
-              <h3><a href="#">Carnet de notes Marbré, Baltic Club</a></h3>
-              <p class="price">10$ à 15$ / unité</p>
-            </div>
-            <!-- // content  -->
-          </div>
-        </div>
-        <!-- // categorie box  -->
-
-        <div class="col-md-3 col-sm-6">
-          <div class="categorie-box">
-            <div class="image-holder">
-              <a href="#">
-                  <img src="/img/products/product3.jpg" alt="" class="img-responsive">
-                  <span><small>En savoir plus...</small></span>
-                </a>
-            </div>
-            <!-- // image holder  -->
-            <div class="categorie-content">
-              <h3><a href="#">Carnet de notes Marbré, Baltic Club</a></h3>
-              <p class="price">10$ à 15$ / unité</p>
-            </div>
-            <!-- // content  -->
-          </div>
-        </div>
-        <!-- // categorie box  -->
-
-        <div class="col-md-3 col-sm-6">
-          <div class="categorie-box">
-            <div class="image-holder">
-              <a href="#">
-                  <img src="/img/products/product4.jpg" alt="" class="img-responsive">
-                  <span><small>En savoir plus...</small></span>
-                </a>
-            </div>
-            <!-- // image holder  -->
-            <div class="categorie-content">
-              <h3><a href="#">Carnet de notes Marbré, Baltic Club</a></h3>
-              <p class="price">10$ à 15$ / unité</p>
-            </div>
-            <!-- // content  -->
-          </div>
-        </div>
-        <!-- // categorie box  -->                        
-
-
+          <!-- // categorie box  -->
+        {{ end }}
+      {{ end }}
 
       </div>
       <!-- // row -->

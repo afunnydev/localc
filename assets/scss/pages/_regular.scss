@@ -368,7 +368,7 @@
 						background:rgba(55,68,79,0.8);
 					}
 					img {
-						transform: scale(1.2) rotate(5deg);
+						transform: scale(1.2);
 					}
 				}
 			}
@@ -380,6 +380,7 @@
 				width: 100%;
 				height: 100%;
 				text-align: center;
+				background:rgba(55,68,79,0.2);
 				@include animate-fade;
 				h3 {
 					@include centre(both);

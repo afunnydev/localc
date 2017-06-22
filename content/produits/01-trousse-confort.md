@@ -10,8 +10,8 @@ images:
 createurs: bkind
 categories:
  - Confort
- - Cadeaux
- - Accessoires
+ - Cadeau
+ - Accessoire
 prix:
  - quantite: 50
    montant: 17.50
@@ -22,6 +22,7 @@ prix:
  - quantite: 500 +
    montant: 12.50
 noteprix: "*Prix incluant une seule couleur"
+pricerange: "12,50$ à 17,50$"
 variante:
  - nom: Crème de main
    choix:
@@ -33,6 +34,8 @@ variante:
     - Orange à la lavande
 personnalisation:
  - "Écusson de cuir estampé de votre logo"
+crosssell:
+ - 01-trousse-confort
 id: 01-trousse-confort
 
 ---
