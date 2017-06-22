@@ -1,7 +1,7 @@
 ---
 layout: index
 title: Testing
-type: createurs
+type: nos-createurs
 layout: index
 menu: createurs
 ---

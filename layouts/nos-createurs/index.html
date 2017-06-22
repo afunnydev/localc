@@ -1,0 +1,32 @@
+{{ partial "head.html" . }}
+
+    {{ partial "header.html" . }}
+
+<section id="our-creator-block">
+
+      <div class="container">
+        <div class="row">
+        {{ range where $.Site.Pages "Type" "createurs-indiv" }}
+          <div class="col-md-4 col-sm-6">
+            <div class="creator-box">
+              <a href="{{.Permalink}}">
+                <img src="{{.Params.image}}" alt="" class="img-responsive">  
+                <div class="creator-caption">
+                  <h6>{{upper .Title}}</h6>
+                </div>
+                <!-- // caption   -->
+              </a>
+            </div>
+          </div>
+          <!-- // creator box  -->
+        {{ end }}
+          
+        </div>
+        <!-- // row  -->
+        </div>
+        <!-- // container  -->
+
+      </div>
+    </section>
+    <!-- // regular wrapper  -->
+{{ partial "footer.html" . }}

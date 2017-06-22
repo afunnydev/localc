@@ -1,0 +1,290 @@
+{{ partial "head.html" . }}
+
+    {{ partial "header.html" . }}
+    <section id="product-page-block">
+      <div class="container">
+
+      <div class="row visible-xs mobile-header-products">
+        <div class="col-md-12">
+          <header>
+            <a href="#"><i class="fa fa-angle-left" aria-hidden="true"></i> Retour</a>
+            <h1>{{.Title}}</h1>
+          </header>
+        </div>
+      </div>
+      <!-- // mobile title  -->
+
+        <div class="row">
+          
+          <div class="col-md-6 col-sm-12">
+            <div id="product-images">
+              
+
+                      <div class="slider slider-for">
+                        {{ range .Params.image }}
+                        <div class="easyzoom easyzoom--overlay">
+                          <a href="{{ . }}">
+                            <img src="{{ . }}" id="image" title="" alt="" />
+                          </a>
+                        </div>
+                        {{ end }}
+                      </div>
+                      <!-- // big images  -->
+
+                      <div class="slider slider-nav">
+                        {{ range .Params.image }}
+                          <div class="thumb-box">
+                              <img src="{{ . }}" id="image" class="img-responsive" title="" alt="" />
+                          </div>
+                        {{ end }}                                               
+                      </div>
+                      <!-- // product image slider nav -->
+
+                <div id="social-share">
+                  <ul>
+                    <li><a href="https://www.facebook.com/sharer/sharer.php?u={{.Permalink}}" target="_blank" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <!-- <li><a href="#" target="_blank" data-toggle="tooltip" data-placement="top" title="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a></li> -->
+                    <li><a href="https://pinterest.com/pin/create/button/?url={{.Permalink}}&media={{ range .Params.image }}{{.}}{{end}}&description={{.Summary}}" target="_blank" data-toggle="tooltip" data-placement="top" title="Pinterest"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+                    <!-- <li><a href="#" target="_blank" data-toggle="tooltip" data-placement="top" title="Linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li> -->
+                  </ul>                  
+                </div>
+                <!-- // share  -->                      
+
+
+            </div>
+          </div>
+          <!-- // product images  -->
+
+          <div class="col-md-6 col-sm-12">
+            <div id="product-content">
+              
+              <header class="hidden-xs">
+                <h1>{{.Title}}</h1>
+              </header>
+
+              <div class="product-description">
+                {{ .Content }}
+
+                <h6>CRÉATEUR: <a href="/createurs/{{.Params.createurs}}">{{.Params.nomcreateur}}</a></h6>
+                <!-- <h6>MATÉRIAUX: <small>Papier et carton</small></h6> -->
+                <h6>DÉLAIS DE LIVRAISON: <small>{{.Params.delai}}</small></h6>
+                <h6>Catégorie de produits: <small>{{ range $i, $e := .Params.categories }}{{ if $i }}, {{ end }}{{ $e }}{{ end }}</small></h6>
+
+              </div>
+              <!-- // description  -->
+
+              <div class="product-details">
+                
+                <table width="100%">
+                  <tr>
+                    <th colspan="5">PRIX / QUANTITÉ</th>
+                  </tr>
+                  <tr>
+                    <td><strong>Quantité</strong></td>
+                    <td>50</td>
+                    <td>100</td>
+                    <td>250</td>
+                    <td>500 et +</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Prix</strong></td>
+                    <td>15.00$</td>
+                    <td>14.50$</td>
+                    <td>13.00$</td>
+                    <td>10.00$</td>
+                  </tr>
+                </table>
+
+                <small class="table-notice">*Prix incluant une seule couleur</small>
+
+                <div id="product-actions">
+
+                  <div class="row form-box">
+                    <div class="col-md-4 col-xl-4 col-lg-5 col-sm-5">
+                      <label for="">Couleur :</label>
+                    </div>
+                    <!-- // label  -->
+
+                    <div class="col-md-4 col-xl-4 col-lg-5 col-sm-7">
+                      <select name="" id="" class="selectpicker">
+                        <option value="">Marbré</option>
+                        <option value="">A-Z</option>
+                        <option value="">Z-A</option>
+                        <option value="">Price: Low to High</option>
+                        <option value="">Price: High to Low</option>
+                      </select>                      
+                    </div>
+                    <!-- // select  -->
+                  </div>
+                  <!-- // row  -->
+
+                  <div class="row form-box">
+                    <div class="col-md-4 col-xl-4 col-lg-5 col-sm-5">
+                      <label for="">Quantité :</label>
+                    </div>
+                    <!-- // label  -->
+
+                    <div class="col-md-4 col-xl-4 col-lg-5 col-sm-7">
+                      <select name="" id="" class="selectpicker">
+                        <option value="">100</option>
+                        <option value="">200</option>
+                        <option value="">300</option>
+                        <option value="">400</option>
+                        <option value="">500</option>
+                      </select>                         
+                    </div>
+                    <!-- // select  -->
+                  </div>
+                  <!-- // row  -->
+
+                  <div class="row form-box">
+                    <div class="col-md-4 col-xl-4 col-lg-5 col-sm-5">
+                      <label for="">Type de personnalisation :</label>
+                    </div>
+                    <!-- // label  -->
+
+                    <div class="col-md-4 col-xl-4 col-lg-5 col-sm-7">
+                      <select name="" id="" class="selectpicker">
+                        <option value="">Engravé</option>
+                        <option value="">A-Z</option>
+                        <option value="">Z-A</option>
+                        <option value="">Price: Low to High</option>
+                        <option value="">Price: High to Low</option>
+                      </select>                         
+                    </div>
+                    <!-- // select  -->
+                  </div>
+                  <!-- // row  -->
+
+                  <div class="row form-box">
+                    <div class="col-md-4 col-xl-4 col-lg-5 col-sm-5">
+                      <label for="">Surface d’impression :</label>
+                    </div>
+                    <!-- // label  -->
+
+                    <div class="col-md-4 col-xl-4 col-lg-5 col-sm-7">
+                      <select name="" id="" class="selectpicker">
+                        <option value="">Format</option>
+                        <option value="">A-Z</option>
+                        <option value="">Z-A</option>
+                        <option value="">Price: Low to High</option>
+                        <option value="">Price: High to Low</option>
+                      </select>                         
+                    </div>
+                    <!-- // select  -->
+                  </div>
+                  <!-- // row  -->                                                      
+
+                </div>
+                <!-- // actions  -->
+
+                <span class="total-price">Total:   1450.00$</span>
+
+                <button class="add-to-cart">Ajouter au devis</button>
+
+              </div>
+              <!-- // details  -->
+
+            </div>
+          </div>
+          <!-- // content  -->
+
+        </div>
+        <!-- // row  -->
+      </div>
+      <!-- // container  -->
+    </section>
+    <!-- // product  -->
+
+    <section id="related-products-block">
+      <header>
+        <h3>VOUS AIMEREZ AUSSI</h3>
+      </header>
+
+      <div class="container-fluid">
+
+      <div class="row">
+        
+        <div class="col-md-3 col-sm-6">
+          <div class="categorie-box">
+            <div class="image-holder">
+              <a href="#">
+                  <img src="/img/products/product1.jpg" alt="" class="img-responsive">
+                  <span><small>En savoir plus...</small></span>
+                </a>
+            </div>
+            <!-- // image holder  -->
+            <div class="categorie-content">
+              <h3><a href="#">Carnet de notes Marbré, Baltic Club</a></h3>
+              <p class="price">10$ à 15$ / unité</p>
+            </div>
+            <!-- // content  -->
+          </div>
+        </div>
+        <!-- // categorie box  -->
+
+        <div class="col-md-3 col-sm-6">
+          <div class="categorie-box">
+            <div class="image-holder">
+              <a href="#">
+                  <img src="/img/products/product2.jpg" alt="" class="img-responsive">
+                  <span><small>En savoir plus...</small></span>
+                </a>
+            </div>
+            <!-- // image holder  -->
+            <div class="categorie-content">
+              <h3><a href="#">Carnet de notes Marbré, Baltic Club</a></h3>
+              <p class="price">10$ à 15$ / unité</p>
+            </div>
+            <!-- // content  -->
+          </div>
+        </div>
+        <!-- // categorie box  -->
+
+        <div class="col-md-3 col-sm-6">
+          <div class="categorie-box">
+            <div class="image-holder">
+              <a href="#">
+                  <img src="/img/products/product3.jpg" alt="" class="img-responsive">
+                  <span><small>En savoir plus...</small></span>
+                </a>
+            </div>
+            <!-- // image holder  -->
+            <div class="categorie-content">
+              <h3><a href="#">Carnet de notes Marbré, Baltic Club</a></h3>
+              <p class="price">10$ à 15$ / unité</p>
+            </div>
+            <!-- // content  -->
+          </div>
+        </div>
+        <!-- // categorie box  -->
+
+        <div class="col-md-3 col-sm-6">
+          <div class="categorie-box">
+            <div class="image-holder">
+              <a href="#">
+                  <img src="/img/products/product4.jpg" alt="" class="img-responsive">
+                  <span><small>En savoir plus...</small></span>
+                </a>
+            </div>
+            <!-- // image holder  -->
+            <div class="categorie-content">
+              <h3><a href="#">Carnet de notes Marbré, Baltic Club</a></h3>
+              <p class="price">10$ à 15$ / unité</p>
+            </div>
+            <!-- // content  -->
+          </div>
+        </div>
+        <!-- // categorie box  -->                        
+
+
+
+      </div>
+      <!-- // row -->
+
+      </div>
+      <!-- // fluid  -->
+
+    </section>
+    <!-- // related block  -->
+{{ partial "footer.html" . }}

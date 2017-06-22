@@ -7,11 +7,12 @@ preserveTaxonomyNames = true
 RemovePathAccents = true
 
 [taxonomies]
-	category = "categories"
-  	tag = "tags"
-    author = "authors"
+  category = "categories"
+  tag = "tags"
+  createur = "createurs"
 
 [Languages]
 [Languages.en]
 
 [Languages.fr]
+

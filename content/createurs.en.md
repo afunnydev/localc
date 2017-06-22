@@ -1,7 +1,7 @@
 ---
-slug: our-creators
+slug: creators
 title: Testing
-type: createurs
+type: nos-createurs
 layout: index
 menu: createurs
 ---

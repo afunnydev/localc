@@ -2,7 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://zoo-keeper-handles-62138.netlify.com/authors/</loc>
+    <loc>http://zoo-keeper-handles-62138.netlify.com/createurs/</loc>
+  </url>
+  
+  <url>
+    <loc>http://zoo-keeper-handles-62138.netlify.com/categories/accessoires/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://zoo-keeper-handles-62138.netlify.com/createurs/bkind/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://zoo-keeper-handles-62138.netlify.com/categories/cadeaux/</loc>
     <priority>0</priority>
   </url>
   
@@ -12,13 +26,32 @@
   </url>
   
   <url>
+    <loc>http://zoo-keeper-handles-62138.netlify.com/categories/confort/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://zoo-keeper-handles-62138.netlify.com/createurs/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://zoo-keeper-handles-62138.netlify.com/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://zoo-keeper-handles-62138.netlify.com/produits/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://zoo-keeper-handles-62138.netlify.com/tags/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://zoo-keeper-handles-62138.netlify.com/createurs/tandem/</loc>
   </url>
   
   <url>
@@ -39,6 +72,14 @@
   
   <url>
     <loc>http://zoo-keeper-handles-62138.netlify.com/createurs/</loc>
+  </url>
+  
+  <url>
+    <loc>http://zoo-keeper-handles-62138.netlify.com/produits/trousse-confort/</loc>
+  </url>
+  
+  <url>
+    <loc>http://zoo-keeper-handles-62138.netlify.com/createurs/bkind/</loc>
   </url>
   
 </urlset>

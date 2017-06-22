@@ -1,0 +1,129 @@
+{{ partial "head.html" . }}
+
+    {{ partial "header.html" . }}
+    <section id="profile-page-wrapper">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-md-6 col-sm-12 col-md-push-6">
+            <div class="profile-content">
+              <h1>{{upper .Title}}</h1>
+              {{ .Content }}
+
+                <div id="social-share">
+                  <ul>
+                  	{{if .Params.site }}<li><a href="{{.Params.site}}" target="_blank" data-toggle="tooltip" data-placement="top" title="Site web"><i class="fa fa-link" aria-hidden="true"></i></a></li>{{end}}
+                    {{if .Params.facebook }}<li><a href="{{.Params.facebook}}" target="_blank" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>{{end}}
+                    {{if .Params.instagram }}<li><a href="{{.Params.instagram}}" target="_blank" data-toggle="tooltip" data-placement="top" title="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>{{ end }}
+                    {{if .Params.pinterest }}<li><a href="{{.Params.pinterest}}" target="_blank" data-toggle="tooltip" data-placement="top" title="Pinterest"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>{{ end }}
+                    {{if .Params.linkedin }}<li><a href="{{.Params.linkedin}}" target="_blank" data-toggle="tooltip" data-placement="top" title="Linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>{{ end }}
+                  </ul>                  
+                </div>
+                <!-- // share  -->
+
+            </div>
+          </div>
+          <!-- // content  -->
+
+          <div class="col-md-6 col-sm-12 col-md-pull-6">
+            <div class="profile-image">
+              <img src="{{.Params.image}}" alt="" class="img-responsive">
+            </div>
+          </div>
+          <!-- // image  -->          
+
+        </div>
+        <!-- // row  -->
+      </div>
+      <!-- // container  -->
+    </section>
+    <!-- // profile page  -->
+
+    <section id="related-products-block">
+      <header>
+        <h3>DÉCOUVREZ SES PRODUITS</h3>
+      </header>
+
+      <div class="container-fluid">
+
+      <div class="row">
+        
+        <div class="col-md-3 col-sm-6">
+          <div class="categorie-box">
+            <div class="image-holder">
+              <a href="#">
+                  <img src="img/misc/product1.jpg" alt="" class="img-responsive">
+                  <span><small>En savoir plus...</small></span>
+                </a>
+            </div>
+            <!-- // image holder  -->
+            <div class="categorie-content">
+              <h3><a href="#">Carnet de notes Marbré, Baltic Club</a></h3>
+            </div>
+            <!-- // content  -->
+          </div>
+        </div>
+        <!-- // categorie box  -->
+
+        <div class="col-md-3 col-sm-6">
+          <div class="categorie-box">
+            <div class="image-holder">
+              <a href="#">
+                  <img src="img/misc/product2.jpg" alt="" class="img-responsive">
+                  <span><small>En savoir plus...</small></span>
+                </a>
+            </div>
+            <!-- // image holder  -->
+            <div class="categorie-content">
+              <h3><a href="#">Carnet de notes Marbré, Baltic Club</a></h3>
+            </div>
+            <!-- // content  -->
+          </div>
+        </div>
+        <!-- // categorie box  -->
+
+        <div class="col-md-3 col-sm-6">
+          <div class="categorie-box">
+            <div class="image-holder">
+              <a href="#">
+                  <img src="img/misc/product3.jpg" alt="" class="img-responsive">
+                  <span><small>En savoir plus...</small></span>
+                </a>
+            </div>
+            <!-- // image holder  -->
+            <div class="categorie-content">
+              <h3><a href="#">Carnet de notes Marbré, Baltic Club</a></h3>
+            </div>
+            <!-- // content  -->
+          </div>
+        </div>
+        <!-- // categorie box  -->
+
+        <div class="col-md-3 col-sm-6">
+          <div class="categorie-box">
+            <div class="image-holder">
+              <a href="#">
+                  <img src="img/misc/product4.jpg" alt="" class="img-responsive">
+                  <span><small>En savoir plus...</small></span>
+                </a>
+            </div>
+            <!-- // image holder  -->
+            <div class="categorie-content">
+              <h3><a href="#">Carnet de notes Marbré, Baltic Club</a></h3>
+            </div>
+            <!-- // content  -->
+          </div>
+        </div>
+        <!-- // categorie box  -->                        
+
+
+
+      </div>
+      <!-- // row -->
+
+      </div>
+      <!-- // fluid  -->
+
+    </section>
+    <!-- // related block  -->
+{{ partial "footer.html" . }}

@@ -42,7 +42,7 @@
 				color:palette(yellow);
 			}
 			@include breakpoint(desktop) {
-				max-width: 70%;
+				max-width: 90%;
 				font-size: 48px;
 				line-height: 59px;
 			}
@@ -82,7 +82,7 @@
 			color:#231F20;
 			max-width: 60%;
 			@include breakpoint(desktop) {
-				max-width: 70%;
+				max-width: 90%;
 				font-size: 44px;
 				line-height: 54px;
 			}			
