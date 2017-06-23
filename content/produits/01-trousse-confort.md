@@ -57,7 +57,8 @@ Ou baume à lèvres orange et lavande : Ingrédients : cire de candelilla, beurr
 
 *Dimension:* 9” x 5,5”
 
-*Matériaux:* 
+*Matériaux:*
+ 
 Brosse à dent : manche en bambou, poil en polymères, exempts de BPA et d’autres toxines 
  
 Crème à main forêt: Ingrédients: beurre de karité, huile de coco, huile de jojoba, huiles essentielles d'aiguille de sapin, pin et bois de cèdre.

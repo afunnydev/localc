@@ -1,7 +1,7 @@
 ---
 type: produits
 title: Porte-carte
-slug: porte-carte-tandem
+slug: porte-carte-1
 nomcreateur: Tandem
 delai: "3 à 4 semaines"
 mainimage: /img/products/produit6-1.jpg
@@ -42,8 +42,8 @@ Ce porte-cartes est simple, mince et efficace, ne laissant pas de place aux cart
 
 La petite fente en triangle au bas facilite l’accès aux cartes. Le fil ciré et la couture à la main promettent une belle maturité et un produit durable.
 
-Dimension: 10.5 cm X 7 cm
+*Dimension*: 10.5 cm X 7 cm
 
-Matériaux: Cuir de vache
+*Matériaux*: Cuir de vache
 
-Surface d’impression: 0.5 x 2 pouces 
+*Surface d’impression*: 0.5 x 2 pouces 

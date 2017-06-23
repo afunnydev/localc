@@ -4,6 +4,7 @@
 //@prepros-prepend libs/slick.min.js
 //@prepros-prepend libs/bootstrap-select.min.js
 //@prepros-prepend jquery.matchHeight.js
+//@prepros-prepend libs/simpleCart.min.js
 
 /* Init slick slider homepage top */
 $("#top-slider").slick({
