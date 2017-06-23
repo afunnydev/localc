@@ -1,7 +1,7 @@
 ---
 title: Tandem & Co.
 image: /img/createurs/createur_tandemco.jpg
-type: createurs-indiv
+type: createursindiv
 site: "http://www.tandemco.ca/"
 facebook: "https://www.facebook.com/Tandem-co-146388678739834/"
 instagram: "https://www.instagram.com/tandem_co/"

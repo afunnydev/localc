@@ -1,7 +1,7 @@
 ---
 title: bkind
 image: /img/createurs/createur_bkind.jpg
-type: createurs-indiv
+type: createursindiv
 site: "https://bkind.ca/"
 facebook: "https://www.facebook.com/bkindproducts"
 instagram: "https://www.instagram.com/bkind.products/"

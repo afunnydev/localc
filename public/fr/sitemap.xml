@@ -23,6 +23,10 @@
   </url>
   
   <url>
+    <loc>http://zoo-keeper-handles-62138.netlify.com/produits/bloc-porte-cartes-daffaires/</loc>
+  </url>
+  
+  <url>
     <loc>http://zoo-keeper-handles-62138.netlify.com/categories/cadeau/</loc>
     <priority>0</priority>
   </url>
@@ -63,6 +67,15 @@
   </url>
   
   <url>
+    <loc>http://zoo-keeper-handles-62138.netlify.com/categories/cuir/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://zoo-keeper-handles-62138.netlify.com/produits/duo-porte-cartes-cles/</loc>
+  </url>
+  
+  <url>
     <loc>http://zoo-keeper-handles-62138.netlify.com/createurs/</loc>
     <xhtml:link
                 rel="alternate"
@@ -92,6 +105,23 @@
   </url>
   
   <url>
+    <loc>http://zoo-keeper-handles-62138.netlify.com/createurs/localc/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://zoo-keeper-handles-62138.netlify.com/produits/pochette-canevas/</loc>
+  </url>
+  
+  <url>
+    <loc>http://zoo-keeper-handles-62138.netlify.com/produits/porte-carte-tandem/</loc>
+  </url>
+  
+  <url>
+    <loc>http://zoo-keeper-handles-62138.netlify.com/produits/porte-cles/</loc>
+  </url>
+  
+  <url>
     <loc>http://zoo-keeper-handles-62138.netlify.com/produits/</loc>
     <priority>0</priority>
     <xhtml:link
@@ -107,6 +137,11 @@
   </url>
   
   <url>
+    <loc>http://zoo-keeper-handles-62138.netlify.com/categories/sac/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://zoo-keeper-handles-62138.netlify.com/tags/</loc>
     <priority>0</priority>
     <xhtml:link
@@ -119,6 +154,11 @@
                 hreflang="fr"
                 href="http://zoo-keeper-handles-62138.netlify.com/tags/"
                 />
+  </url>
+  
+  <url>
+    <loc>http://zoo-keeper-handles-62138.netlify.com/createurs/tandem/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -217,6 +257,18 @@
                 hreflang="fr"
                 href="http://zoo-keeper-handles-62138.netlify.com/produits/trousse-confort/"
                 />
+  </url>
+  
+  <url>
+    <loc>http://zoo-keeper-handles-62138.netlify.com/produits/trousse-confort/</loc>
+  </url>
+  
+  <url>
+    <loc>http://zoo-keeper-handles-62138.netlify.com/produits/trousse-confort/</loc>
+  </url>
+  
+  <url>
+    <loc>http://zoo-keeper-handles-62138.netlify.com/produits/trousse-confort/</loc>
   </url>
   
   <url>
