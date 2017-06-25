@@ -3,6 +3,20 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://zoo-keeper-handles-62138.netlify.com/en/panier/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://zoo-keeper-handles-62138.netlify.com/panier/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://zoo-keeper-handles-62138.netlify.com/en/panier/"
+                />
+  </url>
+  
+  <url>
     <loc>http://zoo-keeper-handles-62138.netlify.com/en/createurs/bkind/</loc>
     <priority>0</priority>
     <xhtml:link

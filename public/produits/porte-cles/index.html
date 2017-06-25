@@ -55,7 +55,7 @@
             <div class="user-box">
             <a href="tel:T. 514.433.4319" class="phone-ico"></a>
               <span class="bag-btn">
-                <a href="#"><i class="fa fa-shopping-bag" aria-hidden="true"></i> <span class="badge">14</span></a>
+                <a href="#"><i class="fa fa-shopping-bag" aria-hidden="true"></i> <span class="badge simpleCart_quantity"></span></a>
               </span>              
             </div>
           </div>
@@ -88,9 +88,9 @@
           <div class="col-xl-2 col-lg-3 col-lg-offset-1 col-xl-offset-0 col-md-3 col-sm-3">
             <div id="user-box">
               <span class="bag-btn">
-                <a href="#">
+                <a href="/panier/">
                   <small>Devis</small>                
-                  <i class="fa fa-shopping-bag" aria-hidden="true"></i> <span class="badge">14</span>
+                  <i class="fa fa-shopping-bag" aria-hidden="true"></i><span class="badge simpleCart_quantity"></span>
                 </a>
               </span>
             </div>
@@ -104,8 +104,7 @@
                   
                 
               </ul>
-              <input type="text" placeholder="Recherche">
-              <input type="submit" value="">
+              
             </div>
           </div>
           
@@ -137,14 +136,14 @@
       
     </nav>
         
-    <section id="product-page-block">
+    <section id="product-page-block" class="simpleCart_shelfItem">
       <div class="container">
 
       <div class="row visible-xs mobile-header-products">
         <div class="col-md-12">
           <header>
             <a href="#"><i class="fa fa-angle-left" aria-hidden="true"></i> Retour</a>
-            <h1>Porte-clés</h1>
+            <h1 class="item_name">Porte-clés</h1>
           </header>
         </div>
       </div>
@@ -160,19 +159,19 @@
                         
                         <div class="easyzoom easyzoom--overlay">
                           <a href="/img/products/produit4-1.jpg">
-                            <img src="/img/products/produit4-1.jpg" id="image" title="" alt="" />
+                            <img src="/img/products/produit4-1.jpg" id="image" title="" alt="" class="item_thumb" />
                           </a>
                         </div>
                         
                         <div class="easyzoom easyzoom--overlay">
                           <a href="/img/products/produit4-2.jpg">
-                            <img src="/img/products/produit4-2.jpg" id="image" title="" alt="" />
+                            <img src="/img/products/produit4-2.jpg" id="image" title="" alt="" class="" />
                           </a>
                         </div>
                         
                         <div class="easyzoom easyzoom--overlay">
                           <a href="/img/products/produit4-3.jpg">
-                            <img src="/img/products/produit4-3.jpg" id="image" title="" alt="" />
+                            <img src="/img/products/produit4-3.jpg" id="image" title="" alt="" class="" />
                           </a>
                         </div>
                         
@@ -217,7 +216,7 @@
               <header class="hidden-xs">
                 <h1>Porte-clés</h1>
               </header>
-
+              
               <div class="product-description">
                 <p>Fait à la main, avec des retailles de production de TANDEM CO., votre logo peut-être gravé d’un côté d’ajouter une autre information de l’autre. Muni d’un bouton pression de couleur antique, il peut s’accrocher n’importe où.</p>
 
@@ -229,7 +228,6 @@
 
 
                 <h6>CRÉATEUR: <a href="/createurs/tandem">Tandem &amp; Co</a></h6>
-                
                 <h6>DÉLAIS DE LIVRAISON: <small>3 semaines</small></h6>
                 <h6>Catégorie de produits: <small>Accessoire</small></h6>
 
@@ -317,14 +315,31 @@
                     
                   </div>
                   
-                                                                        
+                  <div class="row form-box">
+                    <div class="col-md-4 col-xl-4 col-lg-5 col-sm-5">
+                      <label for="">Quantité :</label>
+                    </div>
+                    
+
+                    <div class="col-md-4 col-xl-4 col-lg-5 col-sm-7">
+                      <select name="" id="" class="selectpicker qty-items">
+                        <option value="50">50</option>
+                        <option value="100">100</option>
+                        <option value="250">250</option>
+                        <option value="500">500</option>
+                      </select>                         
+                    </div>
+                    
+                  </div>
+                                                                      
 
                 </div>
                 
 
-                <span class="total-price">Total:   <span class="amount">0</span>$</span>
+                <span class="total-price">Total:   <span class="amount item_price">0</span>$ pour <span class="item_number">50</span> unités</span>
+                <span class="item_color" style="display: none;"></span>
 
-                <button class="add-to-cart">Ajouter au devis</button>
+                <a class="add-to-cart item_add" href="javascript:;">Ajouter au devis</a>
 
               </div>
               
@@ -368,60 +383,6 @@
           </div>
           
         
-          <div class="col-md-3 col-sm-6">
-            <div class="categorie-box">
-              <div class="image-holder">
-                <a href="http://zoo-keeper-handles-62138.netlify.com/produits/trousse-confort/">
-                    <img src="/img/products/produit1.jpg" alt="" class="img-responsive">
-                    <span><small>En savoir plus...</small></span>
-                  </a>
-              </div>
-              
-              <div class="categorie-content">
-                <h3><a href="http://zoo-keeper-handles-62138.netlify.com/produits/trousse-confort/">Trousse Confort</a></h3>
-                <p class="price">12,50$ à 17,50$ / unité</p>
-              </div>
-              
-            </div>
-          </div>
-          
-        
-          <div class="col-md-3 col-sm-6">
-            <div class="categorie-box">
-              <div class="image-holder">
-                <a href="http://zoo-keeper-handles-62138.netlify.com/produits/trousse-confort/">
-                    <img src="/img/products/produit1.jpg" alt="" class="img-responsive">
-                    <span><small>En savoir plus...</small></span>
-                  </a>
-              </div>
-              
-              <div class="categorie-content">
-                <h3><a href="http://zoo-keeper-handles-62138.netlify.com/produits/trousse-confort/">Trousse Confort</a></h3>
-                <p class="price">12,50$ à 17,50$ / unité</p>
-              </div>
-              
-            </div>
-          </div>
-          
-        
-          <div class="col-md-3 col-sm-6">
-            <div class="categorie-box">
-              <div class="image-holder">
-                <a href="http://zoo-keeper-handles-62138.netlify.com/produits/trousse-confort/">
-                    <img src="/img/products/produit1.jpg" alt="" class="img-responsive">
-                    <span><small>En savoir plus...</small></span>
-                  </a>
-              </div>
-              
-              <div class="categorie-content">
-                <h3><a href="http://zoo-keeper-handles-62138.netlify.com/produits/trousse-confort/">Trousse Confort</a></h3>
-                <p class="price">12,50$ à 17,50$ / unité</p>
-              </div>
-              
-            </div>
-          </div>
-          
-        
       
 
       </div>
@@ -432,6 +393,22 @@
 
     </section>
     
+    <script>
+      var price = [];
+      var variantes = [];
+      
+        
+          price.push( 9.2 );
+        
+          price.push( 8.65 );
+        
+          price.push( 7.15 );
+        
+          price.push( 6.55 );
+        
+      
+    </script>
+
 <a href="#start" class="scroll-to-top"></a>
 
     <footer id="page-footer">

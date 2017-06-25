@@ -1,14 +1,14 @@
 {{ partial "head.html" . }}
 
     {{ partial "header.html" . }}
-    <section id="product-page-block">
+    <section id="product-page-block" class="simpleCart_shelfItem">
       <div class="container">
 
       <div class="row visible-xs mobile-header-products">
         <div class="col-md-12">
           <header>
             <a href="#"><i class="fa fa-angle-left" aria-hidden="true"></i> Retour</a>
-            <h1>{{.Title}}</h1>
+            <h1 class="item_name">{{.Title}}</h1>
           </header>
         </div>
       </div>
@@ -21,10 +21,10 @@
               
 
                       <div class="slider slider-for">
-                        {{ range .Params.images }}
+                        {{ range $i, $e := .Params.images }}
                         <div class="easyzoom easyzoom--overlay">
-                          <a href="{{ . }}">
-                            <img src="{{ . }}" id="image" title="" alt="" />
+                          <a href="{{ $e }}">
+                            <img src="{{ $e }}" id="image" title="" alt="" class="{{ if eq $i 0}}item_thumb{{end}}" />
                           </a>
                         </div>
                         {{ end }}
@@ -66,8 +66,7 @@
                 {{ .Content }}
 
                 <h6>CRÉATEUR: <a href="/createurs/{{.Params.createurs}}">{{.Params.nomcreateur}}</a></h6>
-                <!-- <h6>MATÉRIAUX: <small>Papier et carton</small></h6> -->
-                <h6>DÉLAIS DE LIVRAISON: <small>{{.Params.delai}}</small></h6>
+                <h6>DÉLAIS DE LIVRAISON: <small>{{ .Params.delai }}</small></h6>
                 <h6>Catégorie de produits: <small>{{ range $i, $e := .Params.categories }}{{ if $i }}, {{ end }}{{ $e }}{{ end }}</small></h6>
 
               </div>
@@ -141,33 +140,31 @@
                     <!-- // select  -->
                   </div>
                   <!-- // row  -->
-                  {{ if .Params.impression}}
                   <div class="row form-box">
                     <div class="col-md-4 col-xl-4 col-lg-5 col-sm-5">
-                      <label for="">Surface d’impression :</label>
+                      <label for="">Quantité :</label>
                     </div>
                     <!-- // label  -->
 
                     <div class="col-md-4 col-xl-4 col-lg-5 col-sm-7">
-                      <select name="" id="" class="selectpicker">
-                        <option value="">Format</option>
-                        <option value="">A-Z</option>
-                        <option value="">Z-A</option>
-                        <option value="">Price: Low to High</option>
-                        <option value="">Price: High to Low</option>
+                      <select name="" id="" class="selectpicker qty-items">
+                        <option value="50">50</option>
+                        <option value="100">100</option>
+                        <option value="250">250</option>
+                        <option value="500">500</option>
                       </select>                         
                     </div>
                     <!-- // select  -->
                   </div>
-                  <!-- // row  -->
-                  {{ end }}                                                      
+                  <!-- // row  -->                                                    
 
                 </div>
                 <!-- // actions  -->
 
-                <span class="total-price">Total:   <span class="amount">0</span>$</span>
+                <span class="total-price">Total:   <span class="amount item_price">0</span>$ pour <span class="item_number">50</span> unités</span>
+                <span class="item_color" style="display: none;"></span>
 
-                <button class="add-to-cart">Ajouter au devis</button>
+                <a class="add-to-cart item_add" href="javascript:;">Ajouter au devis</a>
 
               </div>
               <!-- // details  -->
@@ -204,7 +201,7 @@
               <!-- // image holder  -->
               <div class="categorie-content">
                 <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
-                <p class="price">{{ .Params.pricerange}} / unité</p>
+                <p class="price">{{ .Params.pricerange }} / unité</p>
               </div>
               <!-- // content  -->
             </div>
@@ -221,4 +218,14 @@
 
     </section>
     <!-- // related block  -->
+    <script>
+      var price = [];
+      var variantes = [];
+      {{with .Params.prix}}
+        {{range $ind,$val := .}}
+          price.push({{ $val.montant }});
+        {{end}}
+      {{end}}
+    </script>
+
 {{ partial "footer.html" . }}

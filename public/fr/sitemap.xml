@@ -3,7 +3,49 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://zoo-keeper-handles-62138.netlify.com/produits/13-quinoa-souffle/</loc>
+  </url>
+  
+  <url>
+    <loc>http://zoo-keeper-handles-62138.netlify.com/produits/14-guimauves-chocolat/</loc>
+  </url>
+  
+  <url>
+    <loc>http://zoo-keeper-handles-62138.netlify.com/produits/15-caramels-mous/</loc>
+  </url>
+  
+  <url>
+    <loc>http://zoo-keeper-handles-62138.netlify.com/produits/16-sucette-caramel/</loc>
+  </url>
+  
+  <url>
+    <loc>http://zoo-keeper-handles-62138.netlify.com/produits/17-bougie-soja/</loc>
+  </url>
+  
+  <url>
+    <loc>http://zoo-keeper-handles-62138.netlify.com/produits/18-envelopp-semences/</loc>
+  </url>
+  
+  <url>
+    <loc>http://zoo-keeper-handles-62138.netlify.com/produits/19-bloc-note/</loc>
+  </url>
+  
+  <url>
+    <loc>http://zoo-keeper-handles-62138.netlify.com/produits/20-tasse-cafe/</loc>
+  </url>
+  
+  <url>
     <loc>http://zoo-keeper-handles-62138.netlify.com/categories/accessoire/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://zoo-keeper-handles-62138.netlify.com/categories/alimentaire/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://zoo-keeper-handles-62138.netlify.com/createurs/bals-provisions/</loc>
     <priority>0</priority>
   </url>
   
@@ -52,6 +94,11 @@
   </url>
   
   <url>
+    <loc>http://zoo-keeper-handles-62138.netlify.com/createurs/coria/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://zoo-keeper-handles-62138.netlify.com/createurs/</loc>
     <priority>0</priority>
     <xhtml:link
@@ -73,6 +120,10 @@
   
   <url>
     <loc>http://zoo-keeper-handles-62138.netlify.com/produits/duo-porte-cartes-cles/</loc>
+  </url>
+  
+  <url>
+    <loc>http://zoo-keeper-handles-62138.netlify.com/produits/duo-sucre/</loc>
   </url>
   
   <url>
@@ -110,15 +161,37 @@
   </url>
   
   <url>
+    <loc>http://zoo-keeper-handles-62138.netlify.com/panier/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://zoo-keeper-handles-62138.netlify.com/en/panier/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://zoo-keeper-handles-62138.netlify.com/panier/"
+                />
+  </url>
+  
+  <url>
     <loc>http://zoo-keeper-handles-62138.netlify.com/produits/pochette-canevas/</loc>
   </url>
   
   <url>
-    <loc>http://zoo-keeper-handles-62138.netlify.com/produits/porte-carte-tandem/</loc>
+    <loc>http://zoo-keeper-handles-62138.netlify.com/produits/porte-carte-1/</loc>
+  </url>
+  
+  <url>
+    <loc>http://zoo-keeper-handles-62138.netlify.com/produits/porte-carte-2/</loc>
   </url>
   
   <url>
     <loc>http://zoo-keeper-handles-62138.netlify.com/produits/porte-cles/</loc>
+  </url>
+  
+  <url>
+    <loc>http://zoo-keeper-handles-62138.netlify.com/produits/porte-passeport/</loc>
   </url>
   
   <url>
@@ -139,6 +212,14 @@
   <url>
     <loc>http://zoo-keeper-handles-62138.netlify.com/categories/sac/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://zoo-keeper-handles-62138.netlify.com/produits/sac-a-lunch/</loc>
+  </url>
+  
+  <url>
+    <loc>http://zoo-keeper-handles-62138.netlify.com/produits/tablier-caneva/</loc>
   </url>
   
   <url>
@@ -246,6 +327,10 @@
   </url>
   
   <url>
+    <loc>http://zoo-keeper-handles-62138.netlify.com/produits/trio-sale/</loc>
+  </url>
+  
+  <url>
     <loc>http://zoo-keeper-handles-62138.netlify.com/produits/trousse-confort/</loc>
     <xhtml:link
                 rel="alternate"
@@ -257,18 +342,6 @@
                 hreflang="fr"
                 href="http://zoo-keeper-handles-62138.netlify.com/produits/trousse-confort/"
                 />
-  </url>
-  
-  <url>
-    <loc>http://zoo-keeper-handles-62138.netlify.com/produits/trousse-confort/</loc>
-  </url>
-  
-  <url>
-    <loc>http://zoo-keeper-handles-62138.netlify.com/produits/trousse-confort/</loc>
-  </url>
-  
-  <url>
-    <loc>http://zoo-keeper-handles-62138.netlify.com/produits/trousse-confort/</loc>
   </url>
   
   <url>
