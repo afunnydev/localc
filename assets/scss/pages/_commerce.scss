@@ -474,6 +474,13 @@
 				right: 25px;
 			}
 		}
+		&.alert {
+			cursor: not-allowed;
+			background: red;
+			&:after {
+				right: 25px;
+			}
+		}
 	}
 }
 

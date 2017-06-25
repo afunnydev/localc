@@ -211,7 +211,14 @@ if (window.location.href.indexOf("produits") > -1){
   });
   spanPrix.text((50*price[0]).toFixed(2));
   spanColor.text(variantes.join(", "));
-  $('.item_add').click(function(){$(this).text('Ajouté').removeClass('item_add').addClass('added')});
+  simpleCart.bind( "afterAdd" , function( item , isNew ){
+    // if( isNew ){
+      $('.item_add').text('Ajouté').removeClass('item_add').addClass('added');
+    // } else {
+    //   item.quantity(1);
+    //   $('.item_add').text('Déjà dans le panier').removeClass('item_add').addClass('alert');
+    // }
+  });
 }
 simpleCart.bind( 'load update' , function(){
   var cartSubTotal = simpleCart.total();
