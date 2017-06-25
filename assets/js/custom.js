@@ -193,13 +193,13 @@ if (window.location.href.indexOf("produits") > -1){
     var qty = $(this).val();
     $('span.item_number').text(qty);
     if (qty == 50){
-      spanPrix.text(qty*price[0].toFixed(2));
+      spanPrix.text((qty*price[0]).toFixed(2));
     } else if (qty == 100) {
-      spanPrix.text(qty*price[1].toFixed(2));
+      spanPrix.text((qty*price[1]).toFixed(2));
     } else if (qty == 250) {
-      spanPrix.text(qty*price[2].toFixed(2));
+      spanPrix.text((qty*price[2]).toFixed(2));
     } else if (qty == 500) {
-      spanPrix.text(qty*price[3].toFixed(2));
+      spanPrix.text((qty*price[3]).toFixed(2));
     } else {}
   });
   $('select:not(.qty-items)').each(function(index){
@@ -209,7 +209,7 @@ if (window.location.href.indexOf("produits") > -1){
       spanColor.text(variantes.join(", "));
     })
   });
-  spanPrix.text(50*price[0].toFixed(2));
+  spanPrix.text((50*price[0]).toFixed(2));
   spanColor.text(variantes.join(", "));
   $('.item_add').click(function(){$(this).text('Ajouté').removeClass('item_add').addClass('added')});
 }
@@ -222,8 +222,4 @@ simpleCart.bind( 'load update' , function(){
   $('.cart-details-sum span.cart-tps').text(cartTps.toFixed(2));
   $('.cart-details-sum span.cart-tvq').text(cartTvq.toFixed(2));
   $('.cart-details-sum span.cart-total').text(cartTotal.toFixed(2));
-});
-
-$(window).load(function() {
-  $('.itemRow').addClass('row'); 
 });
