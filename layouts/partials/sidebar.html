@@ -3,7 +3,7 @@
               {{ with $.Site.Data.categoriesorg.categories }}
                 {{range $ind,$val := .}}
                   <li class="">
-                    <a title="Home" href="/categories/{{$val.nom | urlize}}/" class="main-nav-link">{{upper $val.nom}}
+                    <a title="Home" href="{{ if $val.url }}{{ $val.url }}{{else}}/categories/{{$val.nom | urlize}}/{{end}}" class="main-nav-link">{{upper $val.nom}} ({{$val.nombre}})
                     {{if $val.souscategories}}
                     <a class="subnav-item"></a></a>
                     <ul role="menu" class="dropdown-menu-acc">

@@ -352,12 +352,12 @@
 			}
 		}
 		.btn {
-			height: 60px;
+			height: 50px;
 			border-radius:0px;
 			font-weight: bold;
 			color:$color-black;
-			font-size: 23px;
-			border:3px solid #c1c5cc;
+			font-size: 20px;
+			border:2px solid #c1c5cc;
 			color:palette(blue);
 			@include breakpoint(laptop) {
 				height: 50px;

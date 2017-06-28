@@ -272,8 +272,8 @@
 #steps-block {
 	/* steps content */
 	#steps-content {
-		padding-top: 80px;
-		padding-bottom: 80px;
+		padding-top: 50px;
+		padding-bottom: 50px;
 		padding-left: 70px;
 		padding-right: 70px;
 		background:palette(gray);
@@ -285,23 +285,23 @@
 		}
 		header {
 			text-align: center;
-			padding-bottom: 30px;
+			padding-bottom: 20px;
 			h4 {
-				font-size: 52px;
-				line-height: 63px;
+				font-size: 40px;
+				line-height: 50px;
 				color:palette(blue);
 				font-family: $font-heading;
 				@include breakpoint(tablet) {
-					font-size: 44px;
-					line-height: 53px;
+					font-size: 34px;
+					line-height: 44px;
 				}
 				@include breakpoint(laptop) {
-					font-size: 48px;
-					line-height: 59px;
+					font-size: 38px;
+					line-height: 48px;
 				}
 				@include breakpoint(desktop) {
-					font-size: 46px;
-					line-height: 56px;
+					font-size: 36px;
+					line-height: 46px;
 				}
 				@include breakpoint(phone) {
 					font-size: 16px;
@@ -332,8 +332,8 @@
 				padding-bottom: 25px;
 			}
 			img {
-				max-width: 135px;
-				max-height: 135px;
+				max-width: 100px;
+				max-height: 100px;
 				@include breakpoint(phone-xs) {
 					width: 70px;
 				}
@@ -341,25 +341,25 @@
 					width: 80px;
 				}
 				@include breakpoint(laptop) {
-					width: 100px;
+					width: 90px;
 				}
 				@include breakpoint(tablet) {
-					width: 100px;
+					width: 90px;
 				}
 			}
 			p {
-				font-size: 42px;
-				line-height: 51px;
+				font-size: 32px;
+				line-height: 42px;
 				color:palette(blue);
 				@include centre(y);
 				padding-left: 190px;
 				@include breakpoint(desktop) {
-					font-size: 38px;
-					line-height: 47px;
+					font-size: 28px;
+					line-height: 38px;
 				}
 				@include breakpoint(laptop) {
-					font-size: 30px;
-					line-height: 40px;
+					font-size: 25px;
+					line-height: 35px;
 				}
 				@include breakpoint(tablet) {
 					font-size: 26px;

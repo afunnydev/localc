@@ -1,18 +1,27 @@
 categories:
+  - nom: "Tous nos produits"
+    url: "/produits"
+    nombre: 12
   - nom: "Nouveautés"
+    nombre: 0
   - nom: "Alimentaire"
     photo: "/img/categories/categorie-alimentaire.jpg"
+    nombre: 2
   - nom: "Cadeau"
     photo: "/img/categories/categorie-cadeau.jpg"
+    nombre: 1
   - nom: "Papeterie"
     photo: "/img/categories/categorie-papetrie.jpg"
+    nombre: 0
     souscategories:
       - "Cahier de notes"
       - "Imprimé"
   - nom: "Sac"
     photo: "/img/categories/categorie-sacs.jpg"
+    nombre: 2
   - nom: "Accessoire"
     photo: "/img/categories/categorie-accessoires.jpg"
+    nombre: 10
     souscategories:
       - "Porte-carte"
       - "Porte-passeport"
@@ -21,3 +30,4 @@ categories:
       - "Tasse"
   - nom: "Confort"
     photo: "/img/categories/categorie-confort.jpg"
+    nombre: 2

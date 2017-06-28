@@ -213,7 +213,7 @@ if (window.location.href.indexOf("produits") > -1){
   spanColor.text(variantes.join(", "));
   simpleCart.bind( "afterAdd" , function( item , isNew ){
     if( isNew ){
-      $('.item_add').text('Ajouté').removeClass('item_add').addClass('added');
+      $('.item_add').text('Déjà ajouté au panier').removeClass('item_add').addClass('added');
     } else {
     }
   });
