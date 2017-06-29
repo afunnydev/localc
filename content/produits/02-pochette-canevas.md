@@ -33,6 +33,7 @@ personnalisation:
 crosssell:
  - 01-trousse-confort
 id: 02-pochette-canevas
+i18nlanguage: fr
 ---
 
 Pochette multi-usages, résistante, pouvant contenir crayons, petit cahier de notes, outils ou le nécessaire de voyage.

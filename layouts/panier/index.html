@@ -6,7 +6,7 @@
         <div class="row">
           <div class="col-md-12">
             <ul>
-              <li><a href="#">Accueil</a></li>
+              <li><a href="{{.Site.BaseURL}}">Accueil</a></li>
               <li><a href="#">Mon panier</a></li>
             </ul>
           </div>
@@ -33,17 +33,24 @@
         <hr>                        
 
         <div class="row" id="cart-details-bottom">
-
-          <div class="col-lg-5 col-lg-offset-1 col-sm-6">
-            <div class="cart-form">
-              <input type="text" placeholder="Votre courriel*">
-              <input type="text" placeholder="Votre entreprise*">
-              <input type="text" placeholder="Votre téléphone*">
+          <div class="row">
+            <div class="col-lg-5 col-lg-offset-1 col-sm-6">
+              <div class="cart-form">
+                <input type="text" placeholder="Votre courriel*">
+                <input type="text" placeholder="Votre entreprise*">
+                <input type="text" placeholder="Votre téléphone*">
+              </div>
+            </div>
+            <div class="col-lg-5 col-sm-6">
+              <div class="cart-form">
+                <textarea name="comments" id="" rows="3" placeholder="Un commentaire?"></textarea>
+                <p>Fichier: <input type="file"></p> 
+              </div>
             </div>
           </div>
           <!-- // cart form  -->
 
-          <div class="col-lg-5 col-sm-6">
+          <div class="col-lg-6 col-lg-offset-1 col-sm-offset-3 col-sm-6">
             <div class="cart-details-sum">
               <h4>TOTAL DE VOTRE SÉLECTION:</h4>
               <table width="100%">

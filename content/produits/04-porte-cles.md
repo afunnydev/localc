@@ -34,6 +34,7 @@ personnalisation:
 crosssell:
  - 01-trousse-confort
 id: 04-porte-cles
+i18nlanguage: fr
 ---
 
 Fait à la main, avec des retailles de production de TANDEM CO., votre logo peut-être gravé d’un côté d’ajouter une autre information de l’autre. Muni d’un bouton pression de couleur antique, il peut s’accrocher n’importe où. 

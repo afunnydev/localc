@@ -31,6 +31,7 @@ personnalisation:
 crosssell:
  - 01-trousse-confort
 id: 10-sac-lunch
+i18nlanguage: fr
 
 ---
 

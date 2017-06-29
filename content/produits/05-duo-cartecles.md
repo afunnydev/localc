@@ -33,6 +33,7 @@ personnalisation:
 crosssell:
  - 01-trousse-confort
 id: 05-duo-cartecles
+i18nlanguage: fr
 
 ---
 

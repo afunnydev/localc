@@ -33,6 +33,7 @@ personnalisation:
 crosssell:
  - 01-trousse-confort
 id: 07-tablier-caneva
+i18nlanguage: fr
 ---
 Tablier résistant parfait pour vos événements, votre atelier ou vos employés. Personnalisez-le avec un écusson de cuir. Ils est ajustable au niveau du cou avec une belle ganse de cuir et deux bandes de caneva pour la taille. Poches au devant pour avoir toujours vos outils à porté de main. 
 

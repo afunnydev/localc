@@ -30,6 +30,7 @@ personnalisation:
 crosssell:
  - 01-trousse-confort
 id: 11-duo-sucre
+i18nlanguage: fr
 
 ---
 

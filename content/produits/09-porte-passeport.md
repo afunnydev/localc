@@ -34,6 +34,7 @@ crosssell:
  - 05-duo-cartecles
  - 06-porte-carte
 id: 09-porte-passeport
+i18nlanguage: fr
 
 ---
 Porte-passeport parfait pour les voyages d’affaires. Il contient une fente pour le passeport et deux fentes du côté opposé pour y insérer tous vos autres cartes. Résistant grâce à ses coutures faites à la main, il sera votre compagnon de voyage pour de nombreuses années. 

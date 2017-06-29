@@ -35,6 +35,7 @@ personnalisation:
 crosssell:
  - 01-trousse-confort
 id: 08-porte-carte
+i18nlanguage: fr
 
 ---
 

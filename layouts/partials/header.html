@@ -67,7 +67,17 @@
           </div>
           <!-- // social and phone box  -->  
 
-          <div class="col-xl-2 col-lg-3 col-lg-offset-1 col-xl-offset-0 col-md-3 col-sm-3">
+          <!-- <div class="col-xl-2 col-lg-3 col-lg-offset-1 col-xl-offset-0 col-md-3 col-sm-3">
+            <div id="user-box">
+              <span class="bag-btn">
+                <a href="/panier/">
+                  <small>Devis</small>                
+                  <i class="fa fa-shopping-bag" aria-hidden="true"></i><span class="badge simpleCart_quantity"></span>
+                </a>
+              </span>
+            </div>
+          </div> -->
+          <div class="col-xl-4 col-lg-6 col-lg-offset-1 col-xl-offset-0 col-md-7 col-sm-6">
             <div id="user-box">
               <span class="bag-btn">
                 <a href="/panier/">
@@ -79,7 +89,26 @@
           </div>
           <!-- // user  -->
 
-          <div class="col-xl-3 col-lg-4 col-md-5 col-sm-4">
+          <!-- <div class="col-xl-3 col-lg-4 col-md-5 col-sm-4">
+            <div id="search-box">
+              <ul>
+                {{ if .Params.translatedslug }}
+                  {{ if eq .Lang "fr" }}
+                    <li><a href="{{ .Site.BaseURL }}{{ .Params.translatedslug }}">EN</a></li>
+                  {{ else if eq .Lang "en" }}
+                    <li><a href="{{ .Site.BaseURL }}{{ .Params.translatedslug }}">FR</a></li>
+                  {{ end }}
+                {{ else }}
+                  {{ range .Translations }}
+                   <li><a href="{{ .Permalink }}">{{.Lang}}</a></li>
+                  {{ end }}
+                {{ end }}
+              </ul>
+              <input type="text" placeholder="Recherche">
+              <input type="submit" value="">
+            </div>
+          </div> -->
+          <div class="col-xl-1 col-lg-1 col-md-1 col-sm-1">
             <div id="search-box">
               <ul>
                 {{ if .Params.translatedslug }}

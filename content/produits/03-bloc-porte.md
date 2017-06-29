@@ -27,6 +27,7 @@ personnalisation:
 crosssell:
  - 01-trousse-confort
 id: 03-bloc-porte
+i18nlanguage: fr
 ---
 
 Porte cartes d’affaires personnalisé au logo de votre entreprise.

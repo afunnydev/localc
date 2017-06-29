@@ -37,6 +37,7 @@ personnalisation:
 crosssell:
  - 01-trousse-confort
 id: 01-trousse-confort
+i18nlanguage: fr
 
 ---
 

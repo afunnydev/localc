@@ -30,7 +30,7 @@ personnalisation:
 crosssell:
  - 01-trousse-confort
 id: 12-trio-sale
-
+i18nlanguage: fr
 ---
 
 Cet ensemble salé est parfait pour accompagner les fromages, pour des burger ou simplement pour un pique-nique. Entièrement fait à partir de produits locaux et naturels, il s’agit une belle façon de remercier ou chouchouter vos employés ou vos clients. 
