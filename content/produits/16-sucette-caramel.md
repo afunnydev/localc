@@ -1,16 +1,36 @@
 ---
-i18nlanguage: fr
-id: 16-sucette-caramel
+title: Sucette - caramel beurre salé
+slug: sucette-caramel-beurre-sale
+nomcreateur: Dinette nationale
+delai: 3 à 4 semaines
 mainimage: /img/products/produit16.jpg
-images:
- - /img/products/produit16.jpg
+createurs: dinette
+categories:
+  - Alimentaire
 prix:
- - quantite: 50
-   montant: 20
- - quantite: 100
-   montant: 17.50
- - quantite: 250
-   montant: 16.88
- - quantite: 500 +
-   montant: 15
+  - montant: '2.5'
+    quantite: 50
+  - montant: '2.25'
+    quantite: 100
+  - montant: '2'
+    quantite: 250
+  - montant: '2'
+    quantite: 500 +
+pricerange: '2$ à 2,50$'
+crosssell:
+  - 15-caramels-mous
+i18nlanguage: fr
+images:
+  - /img/products/produit16.jpg
+variante:
+  - choix:
+      - Aucune
+    nom: Couleur
+personnalisation:
+  - Plusieurs options disponibles
+id: 16-sucette-caramel
 ---
+Sucette en forme de bouton, à laisser fondre ou à lécher énergiquement ! Votre coeur d’enfant (ou vos enfants) seront comblés!
+
+_Matériaux_: Sucre, beurre, fleur de sel, vinaigre blanc, gousses de vanille
+
