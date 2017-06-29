@@ -114,7 +114,7 @@ collections:
       - {label: "Description SEO", name: "description", widget: "text", , required: false}
       - {label: "Lien", name: "slug", widget: "string", default: "ceci-est-un-example", pattern: ["^[a-z0-9]+(?:-[a-z0-9/]+)*$", "Svp utilisez le format ceci-est-un-test/"]}
       - {label: "Nom d'affichage du créateur", name: "nomcreateur", widget: "string", default: "Local C"}
-      - {label: "Délai de livraison", name: "delai", widget: "string"}
+      - {label: "Délai de livraison", name: "delai", widget: "string", default: "3 à 4 semaines"}
       - {label: "Image principale", name: "mainimage", widget: "image"}
       # - label: "Toutes les images (incluant la principale)"
       #   name: "images"
@@ -128,10 +128,10 @@ collections:
         widget: "list"
         fields: 
           - {label: "Quantité", widget: "string", name: "quantite" }
-          - {label: "Prix pour cette quantité", widget: "string", name: "montant" }
+          - {label: "Prix pour cette quantité (sans symbole)", widget: "number", name: "montant" }
       - {label: "Note à propos du prix", name: "noteprix", widget: "string", required: false}
       - {label: "Interval de prix (pour l'affichage en catalogue)", name: "pricerange", widget: "string", default: "12,50$ à 17,50$"}
-      - label: "Variantes (options pour le client"
+      - label: "Variantes (options pour le client)porh"
         name: "variante"
         widget: "list"
         fields: 

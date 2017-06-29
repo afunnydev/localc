@@ -8,13 +8,13 @@ createurs: dinette
 categories:
   - Alimentaire
 prix:
-  - montant: '10.5'
+  - montant: 10.5
     quantite: '50'
-  - montant: '10'
+  - montant: 10
     quantite: '100'
-  - montant: '9.75'
+  - montant: 9.75
     quantite: '250'
-  - montant: '9.25'
+  - montant: 9.25
     quantite: '500'
 pricerange: '9,25$ à 10,50$'
 crosssell:
