@@ -3,7 +3,7 @@ title: 'Tasse Ti-café '
 slug: tasse-ti-cafe
 nomcreateur: Not made in China
 delai: 3 à 4 semaines
-mainimage: /img/products/produit20.jpg
+image: /img/products/produit20.jpg
 createurs: not-made-in-china
 categories:
   - Nouveautés

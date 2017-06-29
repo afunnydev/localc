@@ -4,9 +4,9 @@ title: Trousse Confort
 slug: trousse-confort
 nomcreateur: BKind
 delai: "3 à 4 semaines"
-mainimage: /img/products/produit1.jpg
+image: /img/products/produit1.jpg
 images:
- - filename: /img/products/produit1.jpg
+ - /img/products/produit1.jpg
 createurs: bkind
 categories:
  - Confort

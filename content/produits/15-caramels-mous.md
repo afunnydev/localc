@@ -3,7 +3,7 @@ title: Caramels mous en papillote - 100 g
 slug: caramels-mous-papillote
 nomcreateur: Dinette Nationale
 delai: 3 à 4 semaines
-mainimage: /img/products/produit15.jpg
+image: /img/products/produit15.jpg
 createurs: dinette
 categories:
   - Alimentaire

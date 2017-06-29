@@ -4,7 +4,7 @@ title: Trio Salé
 slug: trio-sale
 nomcreateur: Bals provisions
 delai: "3 à 4 semaines"
-mainimage: /img/products/produit12.jpg
+image: /img/products/produit12.jpg
 images:
  - /img/products/produit12.jpg
 createurs: bals-provisions

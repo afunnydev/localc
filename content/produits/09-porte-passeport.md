@@ -4,7 +4,7 @@ title: Porte-passeport
 slug: porte-passeport
 nomcreateur: Coria
 delai: "3 à 4 semaines"
-mainimage: /img/products/produit9-1.jpg
+image: /img/products/produit9-1.jpg
 images:
  - /img/products/produit9-1.jpg
  - /img/products/produit9-2.jpg

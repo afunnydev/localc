@@ -4,7 +4,7 @@ title: Porte-carte
 slug: porte-carte-1
 nomcreateur: Tandem
 delai: "3 à 4 semaines"
-mainimage: /img/products/produit6-1.jpg
+image: /img/products/produit6-1.jpg
 images:
  - /img/products/produit6-1.jpg
  - /img/products/produit6-2.jpg

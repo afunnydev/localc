@@ -1,5 +1,5 @@
 ---
-mainimage: /img/products/produit21.jpg
+image: /img/products/produit21.jpg
 images:
  - /img/products/produit21.jpg
 id: 21-tasse-petit

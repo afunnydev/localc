@@ -4,7 +4,7 @@ title: Porte-clés
 slug: porte-cles
 nomcreateur: Tandem & Co
 delai: "3 semaines"
-mainimage: /img/products/produit4-1.jpg
+image: /img/products/produit4-1.jpg
 images:
  - /img/products/produit4-1.jpg
  - /img/products/produit4-2.jpg

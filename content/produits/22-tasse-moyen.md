@@ -1,5 +1,5 @@
 ---
-mainimage: /img/products/produit22.jpg
+image: /img/products/produit22.jpg
 images:
  - /img/products/produit22.jpg
 id: 22-tasse-moyen

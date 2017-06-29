@@ -3,7 +3,7 @@ title: Quinoa soufflé au caramel - 150g
 slug: quinoa-souffle-caramel
 nomcreateur: Dinette Nationale
 delai: 3 à 4 semaines
-mainimage: /img/products/produit13.jpg
+image: /img/products/produit13.jpg
 createurs: dinette
 categories:
   - Alimentaire

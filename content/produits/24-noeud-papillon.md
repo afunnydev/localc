@@ -1,5 +1,5 @@
 ---
-mainimage: /img/products/produit24-1.jpg
+image: /img/products/produit24-1.jpg
 images:
  - /img/products/produit24-1.jpg
  - /img/products/produit24-2.jpg

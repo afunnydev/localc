@@ -4,7 +4,7 @@ title: Pochette canevas
 slug: pochette-canevas
 nomcreateur: Local C
 delai: "3 à 4 semaines"
-mainimage: /img/products/produit2.jpg
+image: /img/products/produit2.jpg
 images:
  - /img/products/produit2.jpg
 createurs: localc

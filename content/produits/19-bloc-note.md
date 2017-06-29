@@ -3,7 +3,7 @@ title: Bloc-note
 slug: bloc-note
 nomcreateur: Ma compagnie
 delai: 3 à 4 semaines
-mainimage: /img/products/produit19.jpg
+image: /img/products/produit19.jpg
 createurs: ma-compagnie
 categories:
   - Papeterie

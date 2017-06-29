@@ -4,7 +4,7 @@ title: Duo sucré
 slug: duo-sucre
 nomcreateur: Bals provisions
 delai: "3 à 4 semaines"
-mainimage: /img/products/produit11.jpg
+image: /img/products/produit11.jpg
 images:
  - /img/products/produit11.jpg
 createurs: bals-provisions

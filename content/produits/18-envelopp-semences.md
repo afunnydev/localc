@@ -3,7 +3,7 @@ description: ''
 slug: enveloppe-semences
 nomcreateur: Laurie-Anne Fleur
 delai: 3 à 4 semaines
-mainimage: /img/products/produit18-1.jpg
+image: /img/products/produit18-1.jpg
 createurs: laurie-anne-fleur
 categories:
   - Cadeau

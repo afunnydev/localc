@@ -4,7 +4,7 @@ title: Duo porte-cartes porte-clés
 slug: duo-porte-cartes-cles
 nomcreateur: Tandem & Co
 delai: "3 à 4 semaines"
-mainimage: /img/products/produit5.jpg
+image: /img/products/produit5.jpg
 images:
  - /img/products/produit5.jpg
 createurs: tandem

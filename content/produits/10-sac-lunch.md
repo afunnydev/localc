@@ -4,7 +4,7 @@ title: Sac à lunch
 slug: sac-a-lunch
 nomcreateur: Local C
 delai: "3 à 4 semaines"
-mainimage: /img/products/produit10.jpg
+image: /img/products/produit10.jpg
 images:
  - /img/products/produit10.jpg
 createurs: localc

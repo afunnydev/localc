@@ -3,7 +3,7 @@ title: Bougie à base de soja
 slug: bougie-soja
 nomcreateur: Blanc soja
 delai: 3 à 4 semaines
-mainimage: /img/products/produit17.jpg
+image: /img/products/produit17.jpg
 createurs: blancsoja
 categories:
   - Cadeau

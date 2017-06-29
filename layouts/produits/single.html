@@ -44,7 +44,7 @@
                   <ul>
                     <li><a href="https://www.facebook.com/sharer/sharer.php?u={{.Permalink}}" target="_blank" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                     <!-- <li><a href="#" target="_blank" data-toggle="tooltip" data-placement="top" title="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a></li> -->
-                    <li><a href="https://pinterest.com/pin/create/button/?url={{.Permalink}}&media={{ range .Params.image }}{{.}}{{end}}&description={{.Summary}}" target="_blank" data-toggle="tooltip" data-placement="top" title="Pinterest"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+                    <li><a href="https://pinterest.com/pin/create/button/?url={{.Permalink}}&media={{ .Params.image }}&description={{.Summary}}" target="_blank" data-toggle="tooltip" data-placement="top" title="Pinterest"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
                     <!-- <li><a href="#" target="_blank" data-toggle="tooltip" data-placement="top" title="Linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li> -->
                   </ul>                  
                 </div>
@@ -194,7 +194,7 @@
             <div class="categorie-box">
               <div class="image-holder">
                 <a href="{{ .Permalink }}">
-                    <img src="{{ .Params.mainimage }}" alt="" class="img-responsive">
+                    <img src="{{ .Params.image }}" alt="" class="img-responsive">
                     <span><small>En savoir plus...</small></span>
                   </a>
               </div>

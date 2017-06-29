@@ -3,7 +3,7 @@ title: Sucette - caramel beurre salé
 slug: sucette-caramel-beurre-sale
 nomcreateur: Dinette nationale
 delai: 3 à 4 semaines
-mainimage: /img/products/produit16.jpg
+image: /img/products/produit16.jpg
 createurs: dinette
 categories:
   - Alimentaire

@@ -4,7 +4,7 @@ title: Bloc porte cartes d’affaires
 slug: bloc-porte-cartes-daffaires
 nomcreateur: Tandem & Co
 delai: "3 à 4 semaines"
-mainimage: /img/products/produit3-1.jpg
+image: /img/products/produit3-1.jpg
 images:
  - /img/products/produit3-1.jpg
  - /img/products/produit3-2.jpg

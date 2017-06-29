@@ -1,5 +1,5 @@
 ---
-mainimage: /img/products/produit25.jpg
+image: /img/products/produit25.jpg
 images:
  - /img/products/produit25.jpg
 id: 25-grand-sac
