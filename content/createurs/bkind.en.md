@@ -1,12 +1,13 @@
 ---
-title: bkind
+title: BKind
 image: /img/createurs/createur_bkind.jpg
-type: createursindiv
 site: "https://bkind.ca/"
 facebook: "https://www.facebook.com/bkindproducts"
 instagram: "https://www.instagram.com/bkind.products/"
 pinterest: "https://www.pinterest.com/BkindProducts/"
 id: bkind
+type: createursindiv
+i18nlanguage: en
 ---
 
 *BKIND* est une entreprise montréalaise fondée en 2014 qui propose une gamme de produits de soin pour la peau naturels, végétaliens et non testés sur les animaux. 

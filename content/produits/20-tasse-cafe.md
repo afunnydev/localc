@@ -23,7 +23,7 @@ personnalisation:
   - Garder la mention Ti-café
   - Retirer la mention Ti-Café
 crosssell:
-  - 1-trousse-confort
+  - 01-trousse-confort
 i18nlanguage: fr
 images:
   - /img/products/produit20.jpg
@@ -33,6 +33,7 @@ variante:
       - Aucune
     nom: Couleur
 id: 20-tasse-cafe
+type: produits
 ---
 Ti comment? Assez ti pour contenir un espresso court! Cette tasse en porcelaine est faite à la main. De plus, elle est résistante au micro-onde et au lave vaisselle.
 

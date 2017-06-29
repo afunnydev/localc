@@ -13,6 +13,12 @@ RemovePathAccents = true
 
 [Languages]
 [Languages.en]
+[Languages.en.Taxonomies]
+category = "categories"
+creator = "creators"
 
 [Languages.fr]
+[Languages.fr.Taxonomies]
+category = "categories"
+createur = "createurs"
 

@@ -2,10 +2,10 @@
 
 Tel que mentionné dans l'introduction, il faut bien maitrîser le concept d'identifiant:
 
-- Deux articles différents **ne doivent pas** avoir le même identifiant.
-- La version française d'un article et la version anglaise d'un article **ont le même identifiant**.
+- Deux produits différents **ne doivent pas** avoir le même identifiant.
+- La version française d'un produit et la version anglaise d'un produit **ont le même identifiant**.
 
-C'est de cette manière que notre ami Hugo (encore une fois, ce n'est pas un nom de personne) reconnaîtra que c'est le même article, mais sous une différente forme.
+C'est de cette manière que notre ami Hugo (encore une fois, ce n'est pas un nom de personne) reconnaîtra que c'est le même produit, mais sous une différente forme.
 
 ```hint|directive
 Aussi, n'oubliez pas le Flow de travail décrit dans l'Introduction ;)
@@ -26,46 +26,58 @@ La version française et la version anglaise de votre produit sont séparées da
 
 ### Les champs
 
-- *Titre officiel* : Ceci est le titre du produit que tout le monde pourra voir dans la liste et sur la page d'un article individuel
-- *Titre SEO* : Titre de la page web, indexé par Google. *non-visible*
+- *Nom officiel* : Ceci est le nom du produit que tout le monde pourra voir dans la liste et sur la page d'un produit individuel
 - *Description SEO* : Description de la page web, indexé par Google. *non-visible*
-- *Lien* : La portion de lien de la page web qui sera après le http://www.cryos.com ou http://www.cryos.com/en. Il peut contenir seulement des chiffes, lettres et tirets. C'est très important de le choisir intelligement, pour le référencement. 
+- *Lien* : La portion de lien de la page web qui sera après le http://www.localc.com ou http://www.localc.com/en. Il peut contenir seulement des chiffes, lettres et tirets. C'est très important de le choisir intelligement, pour le référencement. 
 
 ```hint|directive
-Exemple en français: "ceci-est-un-exemple" donnera http://www.cryos.com/ceci-est-un-example
-Exemple en anglais: "this-is-my-example" donnera http://www.cryos.com/en/this-is-my-example
+Exemple en français: "ceci-est-un-exemple" donnera http://www.localc.com/ceci-est-un-example
+Exemple en anglais: "this-is-my-example" donnera http://www.localc.com/en/this-is-my-example
 ```
 
-- *Identifiant* : Nous en avons discuté dans l'introduction. C'est l'identifiant unique de cet article, qui doit être le même dans toutes les langues traduites. Il peut contenir seulement des chiffes, lettres et tirets. Ex: 04-exemple-article
-- *Résumé court* : Notre ami Hugo (encore une fois pas le nom) crée automatiquement des résumé d'article pour les carousel et les pages où il y plusieurs articles. Cependant, sur certaines tailles d'appareil, cette description est trop grande sur la page d'accueil. Écrivez donc ici quelque chose entre 250 et 300 caractères seulement si l'article est sur la page d'accueil
-- *Auteur* : C'est bien important d'appliquer le concept d'identifiant ici, pour qu'Hugo puisse retrouver les informations de l'auteur. Chaque auteur possède un identifiant unique, qu'il faut utiliser ici pour associer l'article à l'auteur
+- *Nom d'affichage du créateur* : Ceci est le nom du créateur que tout le monde pourra voir sur la page d'un produit individuel
+- *Délai de livraison* : Délai de livraison, vous pouvez écrire ce que vous voulez
+- *Image principale* : C'est l'image qui apparaîtra **partout où le produit est sous son format "aperçu", c'est-à-dire dans le catalogue, dans les produits connexes ou bien les créateurs**.**AUCUN ESPACE, CARACTÈRE SPÉCIAUX OU ACCENT DANS LE NOM DU FICHIER**
+- *Toutes les images* : **EN CONSTRUCTION**. Votre caroussel d'image sera créé à partir de toutes ces images là. N'oubliez pas la principale, vous devez aussi la mettre.**AUCUN ESPACE, CARACTÈRE SPÉCIAUX OU ACCENT DANS LE NOM DU FICHIER**
+- *Identifiant du créateur* : Nous en avons discuté dans l'introduction. C'est l'identifiant unique du créateur de ce produit. C'est comme ça qu'Hugo va associer le produit à son créateur. Il est le même en anglais et en français. Il peut contenir seulement des chiffes, lettres et tirets. Ex: localc
 
 ```hint|directive
-Vous voulez associé cette article à Charlène Boisclair? Vous devez utiliser son identifiant unique que vous pouvez retrouver dans [la section auteur de votre CMS](/admin/#/collections/settings/entries/auteur). Dans ce cas-ci, vous utiliserez *boisclair*.
+Vous voulez associé ce produit à Local C? Vous devez utiliser son identifiant unique que vous pouvez retrouver dans [la section créateur de votre CMS](/admin/#/collections/settings/entries/createurs). Dans ce cas-ci, vous utiliserez *localc*.
 ```
 
-- *Date de publication* : La date de publication de l'article. Sachez que dans la majorité des cas, les articles sont affichées en ordre de publication. Vous pouvez donc jouer avec ses dates pour faire varier l'ordre des articles
-- *Image: Choisissez votre image dans votre ordinateur. Je vous conseille de changer le nom du fichier de l'image pour le même que celui de l'identifiant, ce sera plus facile à retrouver. Cette fonctionnalité sera améliorée avec le temps :) **AUCUN ESPACE, CARACTÈRE SPÉCIAUX OU ACCENT DANS LE NOM DU FICHIER**
-
-```hint|directive
-Exemple de nom de fichier: 04-example-article.jpg, soigne-vos-pieds.jpg, les-podiatres.jpg
-```
-
-```hint|warning
-*Mauvais exemple de nom de fichier*: soigné vos pieds.jpg, cryospôdiatrie.jpg
-```
-
-- *Catégories* : C'est ici que vous entrerez les noms des catégories utilisées. **Vous devez être constants dans le nom des catégories** pour qu'Hugo fasse le lien entre les articles. S'il y a plusieurs articles, vous devez les séparer d'une virgule et d'un espace. Vous pouvez entrer un nombre illimité de catégories. Vous n'avez qu'à jeter un coup d'oeil à la page blogue pour voir la liste des catégories actives et apporter les corrections nécessaires si une erreur s'est glissée.
+- *Catégories* : C'est ici que vous entrerez les noms des catégories utilisées. **Vous devez être constants dans le nom des catégories** pour qu'Hugo fasse le lien entre les articles. S'il y a plusieurs articles, vous devez les séparer d'une virgule et d'un espace. Vous pouvez entrer un nombre illimité de catégories.
 
 ```hint|directive
 Voici un example si vous avez 4 catégories: Biomécanique, Blessures sportives, Orthèses plantaires, Posture
 ```
 
 ```hint|warning
-Les catégories FOOT ORTHOTICS et Foot Orthotics ne sont pas les mêmes.
+Les catégories CADEAU, CADEAUX, cadeau, Cadeaux et Cadeau ne sont pas les mêmes.
+```
+- *Quantité et prix* : Vous devez créer des duos quantité et prix pour chacun de vos prix. Vous avez toute la latitude nécessaire.
+- *Note à propos du prix* : *Pas obligatoire*. Si vous avez quelque chose à rajouter sous le prix
+- *Interval de prix* : C'est l'interval qui apparaîtra **partout où le produit est sous son format "aperçu", c'est-à-dire dans le catalogue, dans les produits connexes ou bien les créateurs**. Très important de le rentrer.
+- *Variantes* : Ces champs vont générer les premiers menus déroulants sous les prix. Vous pouvez créer autant de dup que vous voulez, chaque duo d'information deviendra une nouvelle ligne (donc nouveau champ). Pour les différents choix de la variante, vous **devez faire une liste d'éléments séparés d'une virgule**.
+- *Personnalisations possibles*: C'est le dernier des menus déroulants, qui permet au gens de savoir comment ils peuvent personnaliser leur produit. Vous **devez faire une liste de personnalisations possibles, séparées d'une virgule**.
+
+```hint|directive
+Exemple: Logo estampé, Logo en graffiti, Ajouté un nom
 ```
 
-- *Voir sur la page d'accueil, orthèses ou cryvizion* : Par défaut, ils sont inactifs. Si vous voulez voir cette article sur la page indiquée, vous n'avez qu'à cliquer sur le sélecteur pour le rendre coloré. Noté qu'Hugo gère les langues, donc votre article en anglais apparaît seulement dans le site anglais, peu importe la page.
+```hint|warning
+*Mauvais exemple*: Logo en graffit/Logo estampé Ajouté un nom
+```
+
+- *Produits connexes* : C'est ici que vous entrerez les produits connexes qui apparaitront dans le bas de la page de ce produit-ci. Pour ce faire, vous **devez faire une liste des identifiants de ses produits, séparées d'une virgule**. Il est bien important d'utiliser les identifiants uniques.
+
+```hint|directive
+Exemple: 01-trousse-confort, 16-sucette-caramel, 20-tasse-cafe
+```
+
+```hint|warning
+*Mauvais exemple*: Bloc porte cartes d’affaires, BOUGIE À BASE DE SOJA
+```
+
 
 ### Texte
 
@@ -78,51 +90,37 @@ Pour prévisualiser le passage du format Markdown au format texte, vous pouvez c
 - *Les liens* : Vous n'avez qu'à surligner un portion de texte et cliquer sur cette outil. Votre CMS vous demandera le lien que vous voulez mettre. Vous n'avez qu'à le rentrer et cliquer sur OK, le formattage se fera tout seul.
 - *Le +* : Utilisé pour insérer une image. Vous choisissez une image sur votre ordinateur et puis vous entrez 1 mot ou 2 pour la décrire (Alt text), votre CMS se charge de formatter le tout
 
-#### Exemple d'article
+#### Exemple de produit
 
 ```
-*Comme parents, il est normal que les douleurs aux pieds de vos enfants vous inquiètent. C’est d’autant plus vrai si vous-mêmes, vous êtes aux prises avec ce même genre de problèmes.
-C’est pourquoi plusieurs parents questionnent les podiatres afin de savoir s’il existe un lien entre les douleurs aux pieds et le facteur héréditaire. Afin de vous renseigner sur la question, nous nous sommes adressés à Dre Marie-Michelle Fecteau, podiatre.*
+Cette trousse confort contient :
 
-#### Est-ce que certaines affections podiariques présentes chez l’enfant peuvent être héréditaires ?
+-   Une brosse à dent biodégradable 
+-   Crème à main (50g)
+-   Baume à lèvres
+-   Pochette de canevas avec écusson de cuir 
+ 
+Brosse à dent : manche en bambou, poil en polymères, exempts de BPA et d’autres toxines 
+ 
+Crème à main forêt: Ingrédients: beurre de karité, huile de coco, huile de jojoba, huiles essentielles d'aiguille de sapin, pin et bois de cèdre.
+Ou Crème à main Thé blanc à la rose: Ingrédients: beurre de karité, huile de coco, huile de jojoba, thé blanc organique à la rose, extrait de rose.
+ 
+Baume à lèvres forêt: Ingrédients : cire de candelilla, beurre de cacao, beurre de karité, huile d’abricot, huile de jojoba, huile de ricin, huiles essentielles de cèdre, eucalyptus et pin.
+Ou baume à lèvres orange et lavande : Ingrédients : cire de candelilla, beurre de cacao, beurre de karité, huile d’abricot, huile de jojoba, huile de ricin, huile essentielle d’orange et extrait de lavande.
 
-Certaines conditions podiatriques chez l’enfant peuvent, c’est vrai, être léguées par les parents. Je pense, par exemple, à certaines malformations ou au pied plat, etc. Par contre, il faut préciser que l’enfant n’héritera pas automatiquement des problèmes de pieds de ses parents.
+*Dimension:* 9” x 5,5”
 
-#### Dans le cas du pied plat chez l’enfant, est-ce que c’est assurément héréditaire?
-
-Premièrement, il faut savoir que chaque enfant naît avec le pied plat. L’arche prendra sa forme definitive entre 3 et 5 ans.
-
-Si après coup son pied reste plat, l’hérédité peut en être la cause mais ce n’est pas un automatisme. Et, comme nous le disons à plusieurs parents, il existe de nombreuses façons d’aider les enfants dans ce genre de situation.
-
-#### Est-ce que l’historique familial est un facteur déterminant dans ce genre de situation?
-
-Bien sûr, si les deux parents souffrent de douleurs aux pieds causées par leur morphologie, l’enfant a de plus grandes chances d’en hériter.
-
-#### Est-ce que la mère risque davantage de transmettre des problèmes à son enfant que le père?
-
-Les problèmes héréditaires peuvent être transmis autant par la mère que par le père. Par contre, l’enfant peut développer certains problèmes lorsqu’il est à l’intérieur du ventre de sa mère. Il est possible que le bébé ait les jambes compressées aux parois de l’utérus et qu’il manque d’espace, ce qui peut causer une malformation comme le pied bot ou une torsion tibiale.
-
-#### Est-ce que les problèmes podiatriques héréditaires peuvent être soignés?
-
-Dans les cas des douleurs aux pieds qui sont causés par une condition biomécanique, oui, c’est possible d’aider l’enfant. Par exemple, il est possible de lui conseiller de faire certains exercices ou encore de porter des orthèses plantaires.
-
-> Bien sûr, plus tôt nous avons la chance de voir l’enfant, plus vite il est possible de l’aider.
-
-#### Est-ce que le parent peut influencer l’enfant par son comportement?
-
-Oui, absolument! Si l’enfant voit l’un de ses parents marcher ou encore s’asseoir d’une telle façon, il pourrait être porté à l’imiter.
-
-C’est tout à fait dans la nature de l’enfant de faire ça. Le parent qui souhaite aider son enfant doit donc surveiller sa posture, son type de chaussures ou la façon dont il s’assseoit.
-
-#### Si les deux parents souffrent d’une mauvaise condition podiatrique, est-ce que l’enfant en héritera automatiquement?
-
-Non, pas nécessairement. Bien sûr, l’enfant dont les deux parents souffrent du pied plat, par exemple, aura de plus grandes chances d’en hériter aussi. Mais il est tout à fait possible qu’il profite d’une parfaite santé des pieds sans la moindre douleur.
-
-#### En conclusion, est-ce que les douleurs aux pieds peuvent être héréditaires?
-
-Dans certains oui, c’est possible, mais ça n’arrive pas tout le temps. Comme nous le disons aux parents, il est inutile de se blâmer systématiquement si votre enfant souffre des mêmes douleurs aux pieds que lui.
-
-Nous leur conseillons plutôt de consulter un podiatre. De cette façon, nous pouvons rapidement trouver des solutions afin de lui venir en aide.
+*Matériaux:*
+ 
+Brosse à dent : manche en bambou, poil en polymères, exempts de BPA et d’autres toxines 
+ 
+Crème à main forêt: Ingrédients: beurre de karité, huile de coco, huile de jojoba, huiles essentielles d'aiguille de sapin, pin et bois de cèdre.
+Ou Crème à main Thé blanc à la rose: Ingrédients: beurre de karité, huile de coco, huile de jojoba, thé blanc organique à la rose, extrait de rose.
+ 
+Baume à lèvres forêt: Ingrédients : cire de candelilla, beurre de cacao, beurre de karité, huile d’abricot, huile de jojoba, huile de ricin, huiles essentielles de cèdre, eucalyptus et pin.
+Ou baume à lèvres orange et lavande : Ingrédients : cire de candelilla, beurre de cacao, beurre de karité, huile d’abricot, huile de jojoba, huile de ricin, huile essentielle d’orange et extrait de lavande.
+ 
+Pochette: canvas 12 oz. 100% coton et écusson en cuir de vache
 ```
 
 ### L'aperçu
@@ -131,4 +129,4 @@ Cette portion est encore en construction, ne vous y fiez pas pour le moment, pui
 
 ## Modification
 
-Pour modifier un article, tous les champs sont identiques que ceux de la création. **Ne modifiez jamais un identifiant ou bien le lien de l'article**. La personne en charge de votre référencement vous taperais sur les doigts. Il faut comprendre que Google indexe les liens de votre site et que si vous changez le lien, les gens ne pourront pu y accéder par Google tant que Google ne sera pas passer à nouveau sur votre site, ce qui peut être long, il a autre chose à faire ;) Si vous devez vraiment changer un lien, faites-moi signe!
+Pour modifier un article, tous les champs sont identiques que ceux de la création. **Ne modifiez jamais un identifiant ou bien le lien du produit**. La personne en charge de votre référencement vous taperait sur les doigts. Il faut comprendre que Google indexe les liens de votre site et que si vous changez le lien, les gens ne pourront pu y accéder par Google tant que Google ne sera pas passer à nouveau sur votre site, ce qui peut être long, il a autre chose à faire ;) Si vous devez vraiment changer un lien, faites-moi signe!

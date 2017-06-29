@@ -3,34 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://zoo-keeper-handles-62138.netlify.com/produits/14-guimauves-chocolat/</loc>
-  </url>
-  
-  <url>
-    <loc>http://zoo-keeper-handles-62138.netlify.com/produits/15-caramels-mous/</loc>
-  </url>
-  
-  <url>
-    <loc>http://zoo-keeper-handles-62138.netlify.com/produits/16-sucette-caramel/</loc>
-  </url>
-  
-  <url>
-    <loc>http://zoo-keeper-handles-62138.netlify.com/produits/17-bougie-soja/</loc>
-  </url>
-  
-  <url>
-    <loc>http://zoo-keeper-handles-62138.netlify.com/produits/18-envelopp-semences/</loc>
-  </url>
-  
-  <url>
-    <loc>http://zoo-keeper-handles-62138.netlify.com/produits/19-bloc-note/</loc>
-  </url>
-  
-  <url>
-    <loc>http://zoo-keeper-handles-62138.netlify.com/produits/20-tasse-cafe/</loc>
-  </url>
-  
-  <url>
     <loc>http://zoo-keeper-handles-62138.netlify.com/categories/accessoire/</loc>
     <priority>0</priority>
   </url>
@@ -41,13 +13,7 @@
   </url>
   
   <url>
-    <loc>http://zoo-keeper-handles-62138.netlify.com/createurs/bals-provisions/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://zoo-keeper-handles-62138.netlify.com/createurs/bkind/</loc>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -61,12 +27,39 @@
   </url>
   
   <url>
+    <loc>http://zoo-keeper-handles-62138.netlify.com/createurs/bals-provisions/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://zoo-keeper-handles-62138.netlify.com/createurs/bkind/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://zoo-keeper-handles-62138.netlify.com/createurs/blancsoja/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://zoo-keeper-handles-62138.netlify.com/produits/bloc-porte-cartes-daffaires/</loc>
+  </url>
+  
+  <url>
+    <loc>http://zoo-keeper-handles-62138.netlify.com/produits/bloc-note/</loc>
+  </url>
+  
+  <url>
+    <loc>http://zoo-keeper-handles-62138.netlify.com/produits/bougie-soja/</loc>
   </url>
   
   <url>
     <loc>http://zoo-keeper-handles-62138.netlify.com/categories/cadeau/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://zoo-keeper-handles-62138.netlify.com/produits/caramels-mous-papillote/</loc>
   </url>
   
   <url>
@@ -120,6 +113,10 @@
   </url>
   
   <url>
+    <loc>http://zoo-keeper-handles-62138.netlify.com/produits/23-duo-pichet/</loc>
+  </url>
+  
+  <url>
     <loc>http://zoo-keeper-handles-62138.netlify.com/produits/duo-porte-cartes-cles/</loc>
   </url>
   
@@ -128,17 +125,20 @@
   </url>
   
   <url>
+    <loc>http://zoo-keeper-handles-62138.netlify.com/produits/25-grand-sac/</loc>
+  </url>
+  
+  <url>
+    <loc>http://zoo-keeper-handles-62138.netlify.com/produits/guimauves-chocolat/</loc>
+  </url>
+  
+  <url>
     <loc>http://zoo-keeper-handles-62138.netlify.com/createurs/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://zoo-keeper-handles-62138.netlify.com/en/createurs/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://zoo-keeper-handles-62138.netlify.com/createurs/"
-                />
+  </url>
+  
+  <url>
+    <loc>http://zoo-keeper-handles-62138.netlify.com/createurs/laurie-anne-fleur/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -162,6 +162,29 @@
   </url>
   
   <url>
+    <loc>http://zoo-keeper-handles-62138.netlify.com/createurs/ma-compagnie/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://zoo-keeper-handles-62138.netlify.com/produits/enveloppe-semences/</loc>
+  </url>
+  
+  <url>
+    <loc>http://zoo-keeper-handles-62138.netlify.com/produits/24-noeud-papillon/</loc>
+  </url>
+  
+  <url>
+    <loc>http://zoo-keeper-handles-62138.netlify.com/createurs/not-made-in-china/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://zoo-keeper-handles-62138.netlify.com/categories/nouveautes/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://zoo-keeper-handles-62138.netlify.com/panier/</loc>
     <xhtml:link
                 rel="alternate"
@@ -173,6 +196,11 @@
                 hreflang="fr"
                 href="http://zoo-keeper-handles-62138.netlify.com/panier/"
                 />
+  </url>
+  
+  <url>
+    <loc>http://zoo-keeper-handles-62138.netlify.com/categories/papeterie/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -224,22 +252,11 @@
   </url>
   
   <url>
-    <loc>http://zoo-keeper-handles-62138.netlify.com/produits/tablier-caneva/</loc>
+    <loc>http://zoo-keeper-handles-62138.netlify.com/produits/sucette-caramel-beurre-sale/</loc>
   </url>
   
   <url>
-    <loc>http://zoo-keeper-handles-62138.netlify.com/tags/</loc>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://zoo-keeper-handles-62138.netlify.com/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://zoo-keeper-handles-62138.netlify.com/tags/"
-                />
+    <loc>http://zoo-keeper-handles-62138.netlify.com/produits/tablier-caneva/</loc>
   </url>
   
   <url>
@@ -259,6 +276,18 @@
                 hreflang="fr"
                 href="http://zoo-keeper-handles-62138.netlify.com/createurs/tandem/"
                 />
+  </url>
+  
+  <url>
+    <loc>http://zoo-keeper-handles-62138.netlify.com/produits/22-tasse-moyen/</loc>
+  </url>
+  
+  <url>
+    <loc>http://zoo-keeper-handles-62138.netlify.com/produits/21-tasse-petit/</loc>
+  </url>
+  
+  <url>
+    <loc>http://zoo-keeper-handles-62138.netlify.com/produits/tasse-ti-cafe/</loc>
   </url>
   
   <url>
@@ -346,20 +375,6 @@
                 rel="alternate"
                 hreflang="fr"
                 href="http://zoo-keeper-handles-62138.netlify.com/produits/trousse-confort/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://zoo-keeper-handles-62138.netlify.com/createurs/bkind/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://zoo-keeper-handles-62138.netlify.com/en/createurs/bkind/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://zoo-keeper-handles-62138.netlify.com/createurs/bkind/"
                 />
   </url>
   
