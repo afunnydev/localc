@@ -1,10 +1,11 @@
 ---
+menuposition: catalogue
 title: Guimauves au chocolat -100g
 slug: guimauves-chocolat
 nomcreateur: Dinette Nationale
 delai: 3 à 4 semaines
 image: /img/products/produit14.jpg
-createurs: dinette
+createurs: dinette-nationale
 categories:
   - Alimentaire
 prix:

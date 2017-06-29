@@ -1,4 +1,5 @@
 ---
+menuposition: catalogue
 type: produits
 title: Porte-carte
 slug: porte-carte-2
@@ -9,7 +10,7 @@ images:
  - /img/products/produit8-1.jpg
  - /img/products/produit8-2.jpg
  - /img/products/produit8-3.jpg
-createurs: tandem
+createurs: tandem-co
 categories:
  - Cuir
  - Accessoire

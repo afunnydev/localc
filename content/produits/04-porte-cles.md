@@ -1,4 +1,5 @@
 ---
+menuposition: catalogue
 type: produits
 title: Porte-clés
 slug: porte-cles
@@ -9,7 +10,7 @@ images:
  - /img/products/produit4-1.jpg
  - /img/products/produit4-2.jpg
  - /img/products/produit4-3.jpg
-createurs: tandem
+createurs: tandem-co
 categories:
  - Accessoire
 prix:

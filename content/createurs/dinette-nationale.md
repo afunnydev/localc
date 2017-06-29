@@ -2,7 +2,7 @@
 type: createursindiv
 title: Dinette Nationale
 description: null
-id: dinette
+id: dinette-nationale
 site: 'http://www.dinettenationale.com/ '
 facebook: 'https://www.facebook.com/dinettenationale'
 instagram: 'https://www.instagram.com/dinettenationale/ '
@@ -10,6 +10,8 @@ pinterest: null
 linkedin: null
 image: /img/uploads/dinetteNationale.jpg
 i18nlanguage: fr
+menuposition: createurs
+slug: dinette-nationale
 ---
 **Erica et Catherine fabriquent des choses sucrées.**
 

@@ -1,4 +1,5 @@
 ---
+menuposition: catalogue
 type: produits
 title: Duo sucré
 slug: duo-sucre

@@ -1,4 +1,5 @@
 ---
+menuposition: catalogue
 title: Bloc-note
 slug: bloc-note
 nomcreateur: Ma compagnie

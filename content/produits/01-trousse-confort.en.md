@@ -4,6 +4,7 @@ title: Trousse Confort
 slug: trousse-confort
 createurs: bkind
 i18nlanguage: en
+menuposition: catalogue
 ---
 
 Cette trousse confort contient : 

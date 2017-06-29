@@ -145,11 +145,11 @@
     <nav id="menu-block" class="hidden-xs">
       <div class="container">
         <ul>
-          <li class='{{ if eq .Params.menu "catalogue"}}current_page_item{{end}}'><a href="/catalogue/">CATALOGUE</a></li>
-          <li class='{{ if eq .Params.menu "createurs"}}current_page_item{{end}}'><a href="/createurs/">NOS CRÉATEURS</a></li>
-          <li class='{{ if eq .Params.menu "apropos"}}current_page_item{{end}}'><a href="/a-propos/">À PROPOS</a></li>
-          <li class='{{ if eq .Params.menu "contact"}}current_page_item{{end}}'><a href="/contact/">NOUS CONTACTER</a></li>
-          <li class='{{ if eq .Params.menu "blog"}}current_page_item{{end}}'><a href="/blogue/">BLOGUE</a></li>
+          <li class='{{ if eq .Params.menuposition "catalogue"}}current_page_item{{end}}'><a href="/catalogue/">CATALOGUE</a></li>
+          <li class='{{ if eq .Params.menuposition "createurs"}}current_page_item{{end}}'><a href="/nos-createurs/">NOS CRÉATEURS</a></li>
+          <li class='{{ if eq .Params.menuposition "apropos"}}current_page_item{{end}}'><a href="/a-propos/">À PROPOS</a></li>
+          <li class='{{ if eq .Params.menuposition "contact"}}current_page_item{{end}}'><a href="/contact-nous/">NOUS CONTACTER</a></li>
+          <li class='{{ if eq .Params.menuposition "blog"}}current_page_item{{end}}'><a href="/blogue/">BLOGUE</a></li>
           <!-- <li class="current_page_item"> -->
         </ul>
       </div>

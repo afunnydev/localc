@@ -1,7 +1,7 @@
 ---
 slug: about
-title: Testing
+title: About
 type: a-propos
 layout: index
-menu: apropos
+menuposition: apropos
 ---

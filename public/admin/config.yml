@@ -109,7 +109,6 @@ collections:
       field: "i18nlanguage"
       value: "fr"
     fields: # The fields for each document, usually in front matter
-      - {label: "Type", name: "type", widget: "hidden", default: "produits"}
       - {label: "Nom officiel", name: "title", widget: "string"}
       - {label: "Description SEO", name: "description", widget: "text", , required: false}
       - {label: "Lien", name: "slug", widget: "string", default: "ceci-est-un-example", pattern: ["^[a-z0-9]+(?:-[a-z0-9/]+)*$", "Svp utilisez le format ceci-est-un-test/"]}
@@ -141,7 +140,9 @@ collections:
       - {label: "Produits connexes (utiliser les identifiants)", name: "crosssell", widget: "list"}
       - {label: "Identifiant UNIQUE", name: "id", widget: "string", default: "01-trousse-confort", pattern: ["^[a-z0-9]+(?:-[a-z0-9]+)*$", "Svp utilisez le format 04-exemple-produit"]}
       - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "fr"}
+      - {label: "Menu", name: "menuposition", widget: "hidden", default: "catalogue"}
       - {label: "Description du produit", name: "body", widget: "markdown"}
+      - {label: "Type", name: "type", widget: "hidden", default: "produits"}
 
   - name: "produitsen" # Used in routes, e.g. /admin/collections/blog
     label: "Produits-EN" # Used in the UI
@@ -152,7 +153,6 @@ collections:
       field: "i18nlanguage"
       value: "en"
     fields: # The fields for each document, usually in front matter
-      - {label: "Type", name: "type", widget: "hidden", default: "produits"}
       - {label: "Nom officiel", name: "title", widget: "string"}
       - {label: "Description SEO", name: "description", widget: "text", , required: false}
       - {label: "Lien", name: "slug", widget: "string", default: "ceci-est-un-example", pattern: ["^[a-z0-9]+(?:-[a-z0-9/]+)*$", "Svp utilisez le format ceci-est-un-test/"]}
@@ -184,7 +184,9 @@ collections:
       - {label: "Produits connexes (utiliser les identifiants)", name: "crosssell", widget: "list"}
       - {label: "Identifiant UNIQUE", name: "id", widget: "string", default: "01-trousse-confort", pattern: ["^[a-z0-9]+(?:-[a-z0-9]+)*$", "Svp utilisez le format 04-exemple-produit"]}
       - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "en"}
-      - {label: "Description du produit", name: "body", widget: "markdown"}   
+      - {label: "Menu", name: "menuposition", widget: "hidden", default: "catalogue"}
+      - {label: "Description du produit", name: "body", widget: "markdown"}
+      - {label: "Type", name: "type", widget: "hidden", default: "produits"}   
   
   - name: "createursfr" # Used in routes, e.g. /admin/collections/blog
     label: "Créateurs-FR" # Used in the UI
@@ -199,6 +201,7 @@ collections:
       - {label: "Nom officiel", name: "title", widget: "string"}
       - {label: "Description SEO", name: "description", widget: "text", , required: false}
       - {label: "Identifiant UNIQUE", name: "id", widget: "string", default: "localc", pattern: ["^[a-z0-9]+(?:-[a-z0-9]+)*$", "Svp utilisez le format 04-exemple-article"]}
+      - {label: "Lien (identique à l'identifiant)", name: "slug", widget: "string", default: "localc", pattern: ["^[a-z0-9]+(?:-[a-z0-9/]+)*$", "Svp utilisez le format ceci-est-un-test/"]}
       - {label: "Site web du créateur (OBLIGATOIRE)", name: "site", widget: "string"}
       - {label: "Lien vers sa page Facebook", name: "facebook", widget: "string", required: false}
       - {label: "Lien vers sa page Instagram", name: "instagram", widget: "string", required: false}
@@ -206,6 +209,7 @@ collections:
       - {label: "Lien vers sa page LinkedIn", name: "linkedin", widget: "string", required: false}
       - {label: "Image ", name: "image", widget: "image"}
       - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "fr"}
+      - {label: "Menu", name: "menuposition", widget: "hidden", default: "createurs"}
       - {label: "Description du créateur", name: "body", widget: "markdown"}
 
   - name: "createursen" # Used in routes, e.g. /admin/collections/blog
@@ -221,6 +225,7 @@ collections:
       - {label: "Nom officiel", name: "title", widget: "string"}
       - {label: "Description SEO", name: "description", widget: "text", , required: false}
       - {label: "Identifiant UNIQUE", name: "id", widget: "string", default: "localc", pattern: ["^[a-z0-9]+(?:-[a-z0-9]+)*$", "Svp utilisez le format 04-exemple-article"]}
+      - {label: "Lien (identique à l'identifiant)", name: "slug", widget: "string", default: "localc", pattern: ["^[a-z0-9]+(?:-[a-z0-9/]+)*$", "Svp utilisez le format ceci-est-un-test/"]}
       - {label: "Site web du créateur (OBLIGATOIRE)", name: "site", widget: "string"}
       - {label: "Lien vers sa page Facebook", name: "facebook", widget: "string", required: false}
       - {label: "Lien vers sa page Instagram", name: "instagram", widget: "string", required: false}
@@ -228,4 +233,5 @@ collections:
       - {label: "Lien vers sa page LinkedIn", name: "linkedin", widget: "string", required: false}
       - {label: "Image ", name: "image", widget: "image"}
       - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "en"}
+      - {label: "Menu", name: "menuposition", widget: "hidden", default: "createurs"}
       - {label: "Description du créateur", name: "body", widget: "markdown"}

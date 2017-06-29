@@ -1,4 +1,5 @@
 ---
+menuposition: catalogue
 type: produits
 title: Trio Salé
 slug: trio-sale

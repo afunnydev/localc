@@ -1,4 +1,5 @@
 ---
+menuposition: catalogue
 type: produits
 title: Bloc porte cartes d’affaires
 slug: bloc-porte-cartes-daffaires
@@ -8,7 +9,7 @@ image: /img/products/produit3-1.jpg
 images:
  - /img/products/produit3-1.jpg
  - /img/products/produit3-2.jpg
-createurs: tandem
+createurs: tandem-co
 categories:
  - Accessoire
 prix:

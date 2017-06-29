@@ -65,7 +65,7 @@
               <div class="product-description">
                 {{ .Content }}
 
-                <h6>CRÉATEUR: <a href="/createurs/{{.Params.createurs}}">{{.Params.nomcreateur}}</a></h6>
+                <h6>CRÉATEUR: <a href="/{{.Params.createurs}}">{{.Params.nomcreateur}}</a></h6>
                 <h6>DÉLAIS DE LIVRAISON: <small>{{ .Params.delai }}</small></h6>
                 <h6>Catégorie de produits: <small>{{ range $i, $e := .Params.categories }}{{ if $i }}, {{ end }}{{ $e }}{{ end }}</small></h6>
 

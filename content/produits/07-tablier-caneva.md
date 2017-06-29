@@ -1,4 +1,5 @@
 ---
+menuposition: catalogue
 type: produits
 title: Tablier caneva et cuir
 slug: tablier-caneva

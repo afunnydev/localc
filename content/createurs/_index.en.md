@@ -1,6 +1,6 @@
 ---
 slug: creators
-title: Testing you man
-menu: createurs
+title: Créateurs
+menuposition: createurs
 i18nlanguage: autre
 ---

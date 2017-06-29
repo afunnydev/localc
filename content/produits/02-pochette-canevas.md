@@ -1,4 +1,5 @@
 ---
+menuposition: catalogue
 type: produits
 title: Pochette canevas
 slug: pochette-canevas

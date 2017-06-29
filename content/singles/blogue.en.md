@@ -1,7 +1,7 @@
 ---
 slug: blog
-title: Testing
+title: Blog
 type: blogue
 layout: index
-menu: blog
+menuposition: blog
 ---

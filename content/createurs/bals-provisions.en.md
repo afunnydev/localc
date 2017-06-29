@@ -10,6 +10,8 @@ pinterest: null
 linkedin: null
 image: /img/uploads/bals-provisions.jpg
 i18nlanguage: en
+menuposition: createurs
+slug: bals-provisions
 ---
 Bals Provisions is a preserving company based out of Montreal, Quebec. Working in small batches, Crystal is dedicated to producing family recipes and developing original and delicious products. Her goals are simple: to work with Quebec farmers to promote the wondrous bounty of Quebec-grown produce, and to provide low- sugar, high-flavor jams, sauces and pickles.
 

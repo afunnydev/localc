@@ -10,6 +10,8 @@ pinterest: null
 linkedin: null
 image: /img/uploads/coria.jpg
 i18nlanguage: fr
+menuposition: createurs
+slug: coria
 ---
 La mission de l’entreprise est de faire redécouvrir le savoir-faire de l’artisan en offrant des accessoires fabriqués localement, à la main, avec des matériaux nobles qui résisteront à l’usure du temps.
 

@@ -1,4 +1,5 @@
 ---
+menuposition: catalogue
 image: /img/products/produit22.jpg
 images:
  - /img/products/produit22.jpg

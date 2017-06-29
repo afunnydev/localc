@@ -6,6 +6,10 @@ metaDataFormat = "yaml"
 preserveTaxonomyNames = true
 RemovePathAccents = true
 
+[permalinks]
+  	createurs = "/:slug/"
+  	singles = "/:slug/"
+
 [taxonomies]
   category = "categories"
   tag = "tags"

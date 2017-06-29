@@ -1,7 +1,7 @@
 ---
 slug: catalog
-title: Testing
+title: Catalog
 type: catalogue
 layout: index
-menu: catalogue
+menuposition: catalogue
 ---

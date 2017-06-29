@@ -1,4 +1,5 @@
 ---
+menuposition: catalogue
 type: produits
 title: Porte-passeport
 slug: porte-passeport

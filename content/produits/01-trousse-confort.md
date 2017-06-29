@@ -1,4 +1,5 @@
 ---
+menuposition: catalogue
 type: produits
 title: Trousse Confort
 slug: trousse-confort

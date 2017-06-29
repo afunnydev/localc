@@ -1,4 +1,5 @@
 ---
+menuposition: catalogue
 type: produits
 title: Sac à lunch
 slug: sac-a-lunch

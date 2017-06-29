@@ -10,6 +10,8 @@ pinterest: null
 linkedin: null
 image: /img/uploads/bals-provisions.jpg
 i18nlanguage: fr
+menuposition: createurs
+slug: bals-provisions
 ---
 Bals Provisions est une entreprise montréalaise spécialisée dans la conserve. Inspirée par ses recettes familiales, Crystal crée des produits originaux qu’elle confectionne en petits lots. Ses objectifs sont simples : collaborer avec les agriculteurs du Québec afin de faire connaître toutes les merveilles de notre terroir, et produire des confitures, sauces et marinades qui sont aussi faibles en sucre que riches en saveur!
 

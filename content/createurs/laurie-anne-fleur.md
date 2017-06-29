@@ -10,6 +10,8 @@ pinterest: null
 linkedin: null
 image: /img/uploads/laurieanne-atelierfleur.jpg
 i18nlanguage: fr
+menuposition: createurs
+slug: laurie-anne-fleur
 ---
 L'atelier fleur s'occupe de fleurir votre mariage ou autres événements ainsi que votre quotidien avec des fleurs fraîches soyeusement sélectionnées pour leur beauté et durabilité, le plus souvent locales. Les bouquets dégagent une atmosphère douce et naturelle.
 

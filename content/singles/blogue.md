@@ -1,6 +1,6 @@
 ---
-title: Testing
+title: Blogue
 type: blogue
 layout: index
-menu: blog
+menuposition: blog
 ---

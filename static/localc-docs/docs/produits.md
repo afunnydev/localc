@@ -27,7 +27,7 @@ La version française et la version anglaise de votre produit sont séparées da
 ### Les champs
 
 - *Nom officiel* : Ceci est le nom du produit que tout le monde pourra voir dans la liste et sur la page d'un produit individuel
-- *Description SEO* : Description de la page web, indexé par Google. *non-visible*
+- *Description SEO* : Description de la page web, indexé par Google. *Non-visible*, mais important pour le référecement.
 - *Lien* : La portion de lien de la page web qui sera après le http://www.localc.com ou http://www.localc.com/en. Il peut contenir seulement des chiffes, lettres et tirets. C'est très important de le choisir intelligement, pour le référencement. 
 
 ```hint|directive
@@ -40,6 +40,7 @@ Exemple en anglais: "this-is-my-example" donnera http://www.localc.com/en/this-i
 - *Image principale* : C'est l'image qui apparaîtra **partout où le produit est sous son format "aperçu", c'est-à-dire dans le catalogue, dans les produits connexes ou bien les créateurs**.**AUCUN ESPACE, CARACTÈRE SPÉCIAUX OU ACCENT DANS LE NOM DU FICHIER**
 - *Toutes les images* : **EN CONSTRUCTION**. Votre caroussel d'image sera créé à partir de toutes ces images là. N'oubliez pas la principale, vous devez aussi la mettre.**AUCUN ESPACE, CARACTÈRE SPÉCIAUX OU ACCENT DANS LE NOM DU FICHIER**
 - *Identifiant du créateur* : Nous en avons discuté dans l'introduction. C'est l'identifiant unique du créateur de ce produit. C'est comme ça qu'Hugo va associer le produit à son créateur. Il est le même en anglais et en français. Il peut contenir seulement des chiffes, lettres et tirets. Ex: localc
+- *Identifiant UNIQUE* : Nous en avons discuté dans l'introduction. C'est l'identifiant unique du produit. C'est comme ça qu'Hugo va associer le produit à d'autres produits ou à sa traduction. Il est le même en anglais et en français. Il peut contenir seulement des chiffes, lettres et tirets. Ex: 01-trousse-confort
 
 ```hint|directive
 Vous voulez associé ce produit à Local C? Vous devez utiliser son identifiant unique que vous pouvez retrouver dans [la section créateur de votre CMS](/admin/#/collections/settings/entries/createurs). Dans ce cas-ci, vous utiliserez *localc*.
@@ -77,7 +78,6 @@ Exemple: 01-trousse-confort, 16-sucette-caramel, 20-tasse-cafe
 ```hint|warning
 *Mauvais exemple*: Bloc porte cartes d’affaires, BOUGIE À BASE DE SOJA
 ```
-
 
 ### Texte
 

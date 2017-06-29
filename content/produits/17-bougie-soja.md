@@ -1,4 +1,5 @@
 ---
+menuposition: catalogue
 title: Bougie à base de soja
 slug: bougie-soja
 nomcreateur: Blanc soja

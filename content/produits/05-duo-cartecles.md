@@ -1,4 +1,5 @@
 ---
+menuposition: catalogue
 type: produits
 title: Duo porte-cartes porte-clés
 slug: duo-porte-cartes-cles
@@ -7,7 +8,7 @@ delai: "3 à 4 semaines"
 image: /img/products/produit5.jpg
 images:
  - /img/products/produit5.jpg
-createurs: tandem
+createurs: tandem-co
 categories:
  - Cuir
  - Accessoire

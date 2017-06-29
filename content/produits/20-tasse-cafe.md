@@ -1,4 +1,5 @@
 ---
+menuposition: catalogue
 title: 'Tasse Ti-café '
 slug: tasse-ti-cafe
 nomcreateur: Not made in China
