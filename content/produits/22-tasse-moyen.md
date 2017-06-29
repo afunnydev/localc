@@ -5,4 +5,5 @@ images:
 id: 22-tasse-moyen
 title: "Tasse Moyen café 8oz"
 type: produits
+i18nlanguage: fr
 ---

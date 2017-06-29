@@ -115,7 +115,7 @@ collections:
       - {label: "Lien", name: "slug", widget: "string", default: "ceci-est-un-example", pattern: ["^[a-z0-9]+(?:-[a-z0-9/]+)*$", "Svp utilisez le format ceci-est-un-test/"]}
       - {label: "Nom d'affichage du créateur", name: "nomcreateur", widget: "string", default: "Local C"}
       - {label: "Délai de livraison", name: "delai", widget: "string", default: "3 à 4 semaines"}
-      - {label: "Image principale", name: "mainimage", widget: "image"}
+      - {label: "Image principale", name: "image", widget: "image"}
       # - label: "Toutes les images (incluant la principale)"
       #   name: "images"
       #   widget: "list"
@@ -158,7 +158,7 @@ collections:
       - {label: "Lien", name: "slug", widget: "string", default: "ceci-est-un-example", pattern: ["^[a-z0-9]+(?:-[a-z0-9/]+)*$", "Svp utilisez le format ceci-est-un-test/"]}
       - {label: "Nom d'affichage du créateur", name: "nomcreateur", widget: "string", default: "Local C"}
       - {label: "Délai de livraison", name: "delai", widget: "string", default: "3 à 4 semaines"}
-      - {label: "Image principale", name: "mainimage", widget: "image"}
+      - {label: "Image principale", name: "image", widget: "image"}
       # - label: "Toutes les images (incluant la principale)"
       #   name: "images"
       #   widget: "list"
@@ -201,9 +201,9 @@ collections:
       - {label: "Identifiant UNIQUE", name: "id", widget: "string", default: "localc", pattern: ["^[a-z0-9]+(?:-[a-z0-9]+)*$", "Svp utilisez le format 04-exemple-article"]}
       - {label: "Site web du créateur (OBLIGATOIRE)", name: "site", widget: "string"}
       - {label: "Lien vers sa page Facebook", name: "facebook", widget: "string", required: false}
-      - {label: "Lien vers sa page Facebook", name: instagram", widget: "string", required: false}
-      - {label: "Lien vers sa page Facebook", name: "pinterest", widget: "string", required: false}
-      - {label: "Lien vers sa page Facebook", name: "linkedin", widget: "string", required: false}
+      - {label: "Lien vers sa page Instagram", name: "instagram", widget: "string", required: false}
+      - {label: "Lien vers sa page Pinterest", name: "pinterest", widget: "string", required: false}
+      - {label: "Lien vers sa page LinkedIn", name: "linkedin", widget: "string", required: false}
       - {label: "Image ", name: "image", widget: "image"}
       - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "fr"}
       - {label: "Description du créateur", name: "body", widget: "markdown"}
@@ -223,11 +223,9 @@ collections:
       - {label: "Identifiant UNIQUE", name: "id", widget: "string", default: "localc", pattern: ["^[a-z0-9]+(?:-[a-z0-9]+)*$", "Svp utilisez le format 04-exemple-article"]}
       - {label: "Site web du créateur (OBLIGATOIRE)", name: "site", widget: "string"}
       - {label: "Lien vers sa page Facebook", name: "facebook", widget: "string", required: false}
-      - {label: "Lien vers sa page Facebook", name: instagram", widget: "string", required: false}
-      - {label: "Lien vers sa page Facebook", name: "pinterest", widget: "string", required: false}
-      - {label: "Lien vers sa page Facebook", name: "linkedin", widget: "string", required: false}
+      - {label: "Lien vers sa page Instagram", name: "instagram", widget: "string", required: false}
+      - {label: "Lien vers sa page Pinterest", name: "pinterest", widget: "string", required: false}
+      - {label: "Lien vers sa page LinkedIn", name: "linkedin", widget: "string", required: false}
       - {label: "Image ", name: "image", widget: "image"}
       - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "en"}
       - {label: "Description du créateur", name: "body", widget: "markdown"}
-
-  

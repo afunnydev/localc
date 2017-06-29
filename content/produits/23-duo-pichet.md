@@ -5,4 +5,5 @@ images:
 id: 23-duo-pichet
 title: "Duo pichet à eau Ciel! La nuit et tasse"
 type: produits
+i18nlanguage: fr
 ---

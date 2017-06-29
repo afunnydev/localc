@@ -5,4 +5,5 @@ images:
 id: 21-tasse-petit
 title: "Tasse Petit café 6oz"
 type: produits
+i18nlanguage: fr
 ---

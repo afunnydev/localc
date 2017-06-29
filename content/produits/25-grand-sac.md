@@ -5,4 +5,5 @@ images:
 id: 25-grand-sac
 title: "Grand sac en coton réutilisable avec étiquette de cuir"
 type: produits
+i18nlanguage: fr
 ---

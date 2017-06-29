@@ -7,4 +7,5 @@ images:
 id: 24-noeud-papillon
 title: "Noeud papillon 100% personnalisable"
 type: produits
+i18nlanguage: fr
 ---

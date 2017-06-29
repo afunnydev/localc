@@ -3,6 +3,7 @@ type: produits
 title: Trousse Confort
 slug: trousse-confort
 createurs: bkind
+i18nlanguage: en
 ---
 
 Cette trousse confort contient : 
