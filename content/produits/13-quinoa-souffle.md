@@ -1,10 +1,11 @@
 ---
 title: Quinoa soufflé au caramel - 150g
-description: Le quinoa souffle au caramel est très bon!
 slug: quinoa-souffle-caramel
 nomcreateur: Dinette Nationale
 delai: 3 à 4 semaines
-mainimage: /img/uploads/IMG_7926_categorie-alimentaire.jpg
+mainimage: /img/products/produit13.jpg
+images:
+ - /img/products/produit13.jpg
 createurs: dinette
 categories:
   - Alimentaire
@@ -17,7 +18,6 @@ prix:
     quantite: '250'
   - montant: '9.25'
     quantite: '500'
-noteprix: Gâtez-vous
 pricerange: '9,25$ à 10,50$'
 variante:
   - choix:

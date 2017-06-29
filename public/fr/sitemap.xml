@@ -3,10 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://zoo-keeper-handles-62138.netlify.com/produits/13-quinoa-souffle/</loc>
-  </url>
-  
-  <url>
     <loc>http://zoo-keeper-handles-62138.netlify.com/produits/14-guimauves-chocolat/</loc>
   </url>
   
@@ -119,6 +115,11 @@
   </url>
   
   <url>
+    <loc>http://zoo-keeper-handles-62138.netlify.com/createurs/dinette/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://zoo-keeper-handles-62138.netlify.com/produits/duo-porte-cartes-cles/</loc>
   </url>
   
@@ -207,6 +208,10 @@
                 hreflang="fr"
                 href="http://zoo-keeper-handles-62138.netlify.com/produits/"
                 />
+  </url>
+  
+  <url>
+    <loc>http://zoo-keeper-handles-62138.netlify.com/produits/quinoa-souffle-caramel/</loc>
   </url>
   
   <url>
