@@ -1,45 +1,46 @@
 ---
-menuposition: catalogue
-type: produits
 title: Trousse Confort
+description: Trousse confort avec produits naturels pour le corps
 slug: trousse-confort
 nomcreateur: BKind
-delai: "3 à 4 semaines"
+delai: 3 à 4 semaines
 image: /img/products/produit1.jpg
-images:
- - /img/products/produit1.jpg
 createurs: bkind
 categories:
- - Confort
- - Cadeau
- - Accessoire
+  - Confort
+  - Cadeau
+  - Accessoire
+images:
+  - /img/products/produit1.jpg
 prix:
- - quantite: 50
-   montant: 17.50
- - quantite: 100
-   montant: 16.25
- - quantite: 250
-   montant: 15
- - quantite: 500 +
-   montant: 12.50
-noteprix: "*Prix incluant une seule couleur"
-pricerange: "12,50$ à 17,50$"
+  - montant: 17.5
+    quantite: 50
+  - montant: 16.25
+    quantite: 100
+  - montant: 15
+    quantite: 250
+  - montant: 12.5
+    quantite: 500 +
+noteprix: '*Prix incluant la pochette'
+pricerange: '12,50$ à 17,50$'
 variante:
- - nom: Crème de main
-   choix:
-    - Forêt
-    - Thé blanc à la rose
- - nom: Baume à lèvres
-   choix:
-    - Forêt
-    - Orange à la lavande
+  - choix:
+      - Forêt
+      - Thé blanc à la rose
+    nom: Crème à main
+  - choix:
+      - Forêt
+      - Orange à la lavande
+    nom: Baume à lèvres
 personnalisation:
- - "Écusson de cuir estampé de votre logo"
+  - Écusson de cuir estampé de votre logo
 crosssell:
- - 01-trousse-confort
+  - 01-trousse-confort
+  - 10-sac-lunch
 id: 01-trousse-confort
 i18nlanguage: fr
-
+menuposition: catalogue
+type: produits
 ---
 
 Cette trousse confort contient :
