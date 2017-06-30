@@ -1,6 +1,5 @@
 ---
-menuposition: catalogue
-title: Quinoa soufflé au caramel - 150g
+description: 'Quinoa soufflé au caramel avec possibilité de personnaliser l''emballage '
 slug: quinoa-souffle-caramel
 nomcreateur: Dinette Nationale
 delai: 3 à 4 semaines
@@ -8,6 +7,9 @@ image: /img/products/produit13.jpg
 createurs: dinette-nationale
 categories:
   - Alimentaire
+images:
+  - /img/products/produit13.jpg
+title: Quinoa soufflé au caramel - 150g
 prix:
   - montant: 10.5
     quantite: '50'
@@ -18,25 +20,20 @@ prix:
   - montant: 9.25
     quantite: '500'
 pricerange: '9,25$ à 10,50$'
+variante: []
+personnalisation:
+  - Emballage
 crosssell:
   - 01-trousse-confort
   - 08-porte-carte
   - 15-caramels-mous
-i18nlanguage: fr
-images:
-  - /img/products/produit13.jpg
-variante:
-  - choix:
-      - Aucune
-    nom: Couleur
-personnalisation:
-  - Plusieurs options disponible
 id: 13-quinoa-souffle
+i18nlanguage: fr
+menuposition: catalogue
 ---
 Collation croquante, un brin salée, un brin sucrée, bref, le bonheur à l’état pur!
 
-_Dimension_: 8cmx21cmx5cm
+_Dimension_: 8cm x 21cm x 5cm
 
-*Matériaux*: Quinoa soufflé bio, graines de citrouille bio, sucre, beurre, tamari sans gluten, gousses de vanille
-
+_Ingrédients_: Quinoa soufflé bio, graines de citrouille bio, sucre, beurre, tamari sans gluten, gousses de vanille
 
