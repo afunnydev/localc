@@ -71,3 +71,4 @@ Baume à lèvres forêt: Ingrédients : cire de candelilla, beurre de cacao, beu
 Ou baume à lèvres orange et lavande : Ingrédients : cire de candelilla, beurre de cacao, beurre de karité, huile d’abricot, huile de jojoba, huile de ricin, huile essentielle d’orange et extrait de lavande.
  
 Pochette: canvas 12 oz. 100% coton et écusson en cuir de vache
+
