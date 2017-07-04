@@ -1,14 +1,16 @@
 ---
+description: 'Bloc-notes en bois personnalisable '
 slug: bloc-note
-delai: 3 à 4 semaines
+nomcreateur: Ma compagnie
+delai: 2 à 3 semaines
 image: /img/products/produit19.jpg
 createurs: ma-compagnie
 categories:
   - Papeterie
+  - Accessoire
 images:
   - /img/products/produit19.jpg
-title: Bloc-note
-nomcreateur: Ma compagnie
+title: Bloc-notes en bois
 prix:
   - montant: '0'
     quantite: 50
@@ -18,15 +20,18 @@ prix:
     quantite: 250
   - montant: '0'
     quantite: 500 +
-pricerange: 0$
+pricerange: À venir
 variante:
   - choix:
-      - Essence de bois au choix
-    nom: Couleur
+      - Autres essences de bois disponibles
+    nom: Essence de bois
 personnalisation:
-  - Laser sur bois
+  - Logo gravé au laser
 crosssell:
   - 18-envelopp-semences
+  - 03-bloc-porte
+  - 21-tasse-petit
+  - 23-duo-pichet
 id: 19-bloc-note
 i18nlanguage: fr
 menuposition: catalogue
@@ -34,5 +39,6 @@ menuposition: catalogue
 Joli, pratique et rechargeable ce bloc-note convient autant à la maison qu’au bureau!
 
 _Matériaux_: Pin et papiers
+
 
 
