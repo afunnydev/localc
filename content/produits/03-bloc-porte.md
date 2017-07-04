@@ -24,7 +24,7 @@ noteprix: ''
 pricerange: '4,75$ à 7$'
 variante:
   - choix:
-      - Autre essence de bois disponible
+      - Autres essences de bois disponibles
     nom: Essence de bois
 personnalisation:
   - Logo gravé au laser
@@ -45,5 +45,6 @@ Porte cartes d’affaires personnalisé au logo de votre entreprise.
 *Matériaux*: Pin canadien
 
 *Surface d’impression*: 0,75 x 2 pouces
+
 
 
