@@ -1,7 +1,9 @@
 ---
+title: Porte-clés
+description: Porte-clés en cuir personnalisable
 slug: porte-cles
 nomcreateur: Tandem & Co
-delai: 3 semaines
+delai: 2 à 3 semaines
 image: /img/products/produit4-1.jpg
 createurs: tandem-co
 categories:
@@ -10,7 +12,6 @@ images:
   - /img/products/produit4-1.jpg
   - /img/products/produit4-2.jpg
   - /img/products/produit4-3.jpg
-title: Porte-clés
 prix:
   - montant: 9.2
     quantite: 50
@@ -20,7 +21,7 @@ prix:
     quantite: 250
   - montant: 6.55
     quantite: 500 +
-noteprix: '*Prix incluant une seule couleur'
+noteprix: ''
 pricerange: '12,50$ à 17,50$'
 variante:
   - choix:
@@ -32,16 +33,18 @@ personnalisation:
   - Maximum deux lignes de 20 caractères
 crosssell:
   - 01-trousse-confort
+  - 09-porte-passeport
+  - 08-porte-carte
 id: 04-porte-cles
 i18nlanguage: fr
 menuposition: catalogue
 type: produits
 ---
+Fait à la main, avec des retailles de production de TANDEM CO., votre logo peut-être gravé d’un côté et ajouter une autre information de l’autre. Muni d’un bouton pression de couleur antique, il peut s’accrocher n’importe où.
 
-Fait à la main, avec des retailles de production de TANDEM CO., votre logo peut-être gravé d’un côté d’ajouter une autre information de l’autre. Muni d’un bouton pression de couleur antique, il peut s’accrocher n’importe où. 
+_Dimension_: 1”largeur x 4 “longueur
 
-*Dimension*: 1”largeur x 4 “longueur
+_Matériaux_: Cuir
 
-*Matériaux*: Cuir
+_Surface d’impression_: 0.5 x 2 pouces
 
-*Surface d’impression*: 0.5 x 2 pouces 
