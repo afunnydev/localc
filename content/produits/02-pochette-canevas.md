@@ -3,7 +3,7 @@ title: Pochette canevas
 description: pochette en canevas de coton personnalisable
 slug: pochette-canevas
 nomcreateur: Local C
-delai: 3 à 4 semaines
+delai: 2 à 3 semaines
 image: /img/products/produit2.jpg
 createurs: localc
 categories:
@@ -21,7 +21,7 @@ prix:
     quantite: 250
   - montant: 8.8
     quantite: 500 +
-noteprix: '*Prix incluant une seule couleur'
+noteprix: ''
 pricerange: '8,80$ à 12,96$'
 variante:
   - choix:
@@ -44,3 +44,4 @@ Pochette multi-usages, résistante, pouvant contenir crayons, petit cahier de no
 *Dimension*: 9” x 5,5”
 
 *Matériaux*: canvas 12 oz. 100% coton et écusson en cuir de vache
+
