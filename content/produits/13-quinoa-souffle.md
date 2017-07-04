@@ -9,7 +9,7 @@ categories:
   - Alimentaire
 images:
   - /img/products/produit13.jpg
-title: Quinoa soufflé au caramel - 150g
+title: Quinoa soufflé au caramel
 prix:
   - montant: 10.5
     quantite: '50'
@@ -37,5 +37,6 @@ Collation croquante, un brin salée, un brin sucrée, bref, le bonheur à l’é
 _Dimension_: 150g
 
 _Ingrédients_: Quinoa soufflé bio, graines de citrouille bio, sucre, beurre, tamari sans gluten, gousses de vanille
+
 
 
