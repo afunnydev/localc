@@ -1,7 +1,9 @@
 ---
+title: Sac à lunch
+description: 'Sac à lunch en canevas et cuir personnalisable '
 slug: sac-a-lunch
 nomcreateur: Local C
-delai: 3 à 4 semaines
+delai: 2 à 3 semaines
 image: /img/products/produit10.jpg
 createurs: localc
 categories:
@@ -9,7 +11,6 @@ categories:
   - Accessoire
 images:
   - /img/products/produit10.jpg
-title: Sac à lunch
 prix:
   - montant: 0
     quantite: 50
@@ -32,16 +33,17 @@ personnalisation:
 crosssell:
   - 01-trousse-confort
   - 25-grand-sac
+  - 07-tablier-canevas
 id: 10-sac-lunch
 i18nlanguage: fr
 menuposition: catalogue
 type: produits
 ---
+Ce superbe sac à lunch réutilisable est fait de canevas de coton. Ses ganses de cuir lui donne un aspect distingué.
 
-Ce superbe sac à lunch réutilisable est fait de caneva de coton. Ses ganses de cuir lui donne un aspect distingué.te l’accès aux cartes. Le fil ciré et la couture à la main promettent une belle maturité et un produit durable.
+_Dimension_: 5.5 x 7 x 12 pouces
 
-*Dimension*: B30
+_Matériaux_: Canevas et cuir italien
 
-*Matériaux*: Canevas et cuir italien
+_Surface d’impression_: 0.25 x 0.5 pouces
 
-*Surface d’impression*: 0.25 x 0.5 pouces 
