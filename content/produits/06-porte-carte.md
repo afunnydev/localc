@@ -1,6 +1,6 @@
 ---
-title: Porte-carte
-description: 'Porte-carte en cuir personnalisable '
+title: Porte-cartes horizontal
+description: 'Porte-carte horizontal en cuir personnalisable '
 slug: porte-carte-1
 nomcreateur: Tandem & Co
 delai: 2 à 3 semaines
@@ -51,3 +51,4 @@ La petite fente en triangle au bas facilite l’accès aux cartes. Le fil ciré 
 *Matériaux*: Cuir de vache
 
 *Surface d’impression*: 0.5 x 2 pouces 
+
