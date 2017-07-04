@@ -2,7 +2,7 @@
 description: 'Quinoa soufflé au caramel avec possibilité de personnaliser l''emballage '
 slug: quinoa-souffle-caramel
 nomcreateur: Dinette Nationale
-delai: 3 à 4 semaines
+delai: 2 à 3 semaines
 image: /img/products/produit13.jpg
 createurs: dinette-nationale
 categories:
@@ -24,16 +24,17 @@ variante: []
 personnalisation:
   - Emballage
 crosssell:
-  - 01-trousse-confort
-  - 08-porte-carte
   - 15-caramels-mous
+  - 10-sac-lunch
+  - 14-guimauves-chocolat
+  - 20-tasse-cafe
 id: 13-quinoa-souffle
 i18nlanguage: fr
 menuposition: catalogue
 ---
 Collation croquante, un brin salée, un brin sucrée, bref, le bonheur à l’état pur!
 
-_Dimension_: 8cm x 21cm x 5cm
+_Dimension_: 150g
 
 _Ingrédients_: Quinoa soufflé bio, graines de citrouille bio, sucre, beurre, tamari sans gluten, gousses de vanille
 
