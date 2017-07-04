@@ -3,7 +3,7 @@ title: Trousse Confort
 description: Trousse confort avec produits naturels pour le corps
 slug: trousse-confort
 nomcreateur: BKind
-delai: 3 à 4 semaines
+delai: 2 à 3 semaines
 image: /img/products/produit1.jpg
 createurs: bkind
 categories:
@@ -34,6 +34,7 @@ variante:
     nom: Baume à lèvres
 personnalisation:
   - Écusson de cuir estampé de votre logo
+  - tirette de cuir
 crosssell:
   - 01-trousse-confort
   - 10-sac-lunch
@@ -71,4 +72,5 @@ Baume à lèvres forêt: Ingrédients : cire de candelilla, beurre de cacao, beu
 Ou baume à lèvres orange et lavande : Ingrédients : cire de candelilla, beurre de cacao, beurre de karité, huile d’abricot, huile de jojoba, huile de ricin, huile essentielle d’orange et extrait de lavande.
  
 Pochette: canvas 12 oz. 100% coton et écusson en cuir de vache
+
 
