@@ -10,7 +10,7 @@ categories:
 images:
   - /img/products/produit18-1.jpg
   - /img/products/produit18-2.jpg
-title: Mini enveloppe de semences
+title: Petite enveloppe de semences
 prix:
   - montant: '3'
     quantite: 50
@@ -43,5 +43,6 @@ menuposition: catalogue
 Un peu cadeau vert? Cette enveloppe se glisse partout! De quoi semer le bonheur.
 
 _Matériaux_: Semences
+
 
 
