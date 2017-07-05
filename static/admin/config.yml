@@ -91,7 +91,7 @@ collections:
             fields:
               - {label: "Nom", name: "nom", widget: "string"}
               - {label: "Lien", name: "url", widget: "string", required: false}
-              - {label: "Nombre d'items", name: "number", widget: "string"}
+              - {label: "Nombre d'items", name: "nombre", widget: "number"}
               - {label: "Image", name: "photo", widget: "image", required: false}
               - {label: "Sous-catégories", name: "souscategories", widget: "list", required: false}
 
