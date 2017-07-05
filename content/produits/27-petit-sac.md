@@ -5,6 +5,8 @@ slug: petit-sac
 nomcreateur: Local C
 delai: 2 à 3 semaines
 image: /img/uploads/IMG_8044_PSD.jpg
+images:
+  - url: /img/uploads/laurie%20anne%20-%20atelier%20fleur.jpg
 createurs: localc
 categories:
   - Sac
@@ -39,4 +41,5 @@ type: produits
 Passe-partout, ce petit sac est parfait pour y trimballer par exemple un petit goûter ou ses chaussures!
 
 _Matériaux_: canevas 12 oz. 100% coton
+
 
