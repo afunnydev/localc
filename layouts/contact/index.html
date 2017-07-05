@@ -31,12 +31,15 @@
           <!-- // contact left  -->
 
           <div class="col-md-6 col-lg-5 col-sm-6">
-            <div id="contact-right">
-              <input type="text" placeholder="Votre nom">
-              <input type="text" placeholder="Votre courriel">
-              <textarea name="" id="" placeholder="Questions / Commentaires"></textarea>
+            <form id="contact-right" action="https://formspree.io/hello@localc.ca" method="POST">
+              <input type="text" placeholder="Votre nom" name="nom">
+              <input type="text" placeholder="Votre courriel" name="email">
+              <textarea name="" id="commentaire" placeholder="Questions / Commentaires"></textarea>
+              <input type="hidden" name="_next" value="/" />
+              <input type="text" name="_gotcha" style="display:none" />
+              <input type="hidden" name="_language" value="fr" />
               <input type="submit" value="Soumettre">
-            </div>
+            </form>
           </div>
           <!-- // right  -->
 

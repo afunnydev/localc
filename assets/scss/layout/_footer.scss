@@ -160,6 +160,22 @@
 	/* newsletter box */
 	#newsletter-box {
 		margin-top: 50px;
+		-webkit-transition: 0.5s;
+		-moz-transition: 0.5s;
+		-ms-transition: 0.5s;
+		-o-transition: 0.5s;
+		transition: 0.5s;
+		&:hover {
+			margin-top: 10px;
+			margin-bottom: 40px;
+			@include breakpoint(phone) {
+				margin-top: 40px;
+				margin-bottom: 0;
+			} 
+			input[type=submit] {
+				opacity: 1;
+			}
+		}
 		@include breakpoint(phone) {
 			margin-top: 40px;
 		}
@@ -189,16 +205,53 @@
 				font-size: 14px;
 			}
 		}
-		a.newsletter-btn {
+		input[type=submit] {
+			display: block;
+		    height: 50px;
+			line-height: 50px;
+			margin-top: 10px;
+			width: 200px;
+		    background: url(../img/btn/submit-next.png) no-repeat 85% center;
+		    background-color: #37444f;
+		    text-align: left;
+		    padding-left: 34px;
+		    color: #fff;
+		    font-size: 21px;
+		    font-family: "heebobold";
+		    transition: .25s ease-in-out;
+		    border: none;
+		    outline: none !important;
+		    opacity: 0;
+		    -webkit-transition: 0.5s;
+			-moz-transition: 0.5s;
+			-ms-transition: 0.5s;
+			-o-transition: 0.5s;
+			transition: 0.5s;
+		    &:hover {
+		    	background-color: #c3a520;
+    			cursor: pointer;
+		    }
+		    @include breakpoint(phone) {
+				opacity: 1;
+			}
+		}
+		input.newsletter-btn {
 			display: block;
 			width: 100%;
 			height: 60px;
 			line-height: 53px;
 			padding-left: 30px;
 			font-size: 21px;
-			color:palette(blue,light);
+			color:$color-white;
 			border:4px solid palette(blue,light);
 			position: relative;
+			background-color: transparent;
+			-webkit-transition: 0.5s;
+			-moz-transition: 0.5s;
+			-ms-transition: 0.5s;
+			-o-transition: 0.5s;
+			transition: 0.5s;
+			outline: none !important;
 			@include breakpoint(tablet) {
 				font-size: 18px;
 			}
@@ -209,10 +262,22 @@
 				font-size: 18px;
 				border:2px solid palette(blue,light);
 			}
-			&:hover {
-				background:palette(yellow);
-				color:$color-white;
-				border:4px solid palette(yellow);
+			&::-webkit-input-placeholder { 
+			    color: #fff;
+			}
+			&:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+			   color:    #fff;
+			   opacity:  1;
+			}
+			&::-moz-placeholder { /* Mozilla Firefox 19+ */
+			   color:    #fff;
+			   opacity:  1;
+			}
+			&:-ms-input-placeholder { /* Internet Explorer 10-11 */
+			   color:    #fff;
+			}
+			&::-ms-input-placeholder { /* Microsoft Edge */
+			   color:    #fff;
 			}
 			&:after {
 				content:'\f105';

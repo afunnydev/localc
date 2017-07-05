@@ -9,13 +9,23 @@
 
     <div id="mobile-menu">
         <ul>
-          <li><a href="#" class="search-ico">sve</a></li>
-          <li><a href="#">CATALOGUE</a></li>
-          <li><a href="#">NOS CRÉATEURS</a></li>
-          <li><a href="#">À PROPOS</a></li>
-          <li><a href="#">NOUS CONTACTER</a></li>
-          <li><a href="#">BLOG</a></li>
-          <li><a href="#">EN</a></li>
+          <!-- <li><a href="#" class="search-ico">sve</a></li> -->
+          <li><a href="/catalogue/">CATALOGUE</a></li>
+          <li><a href="/nos-createurs/">NOS CRÉATEURS</a></li>
+          <li><a href="/a-propos/">À PROPOS</a></li>
+          <li><a href="/contactez-nous/">NOUS CONTACTER</a></li>
+          <li><a href="/blogue/">BLOGUE</a></li>
+          {{ if .Params.translatedslug }}
+            {{ if eq .Lang "fr" }}
+              <li><a href="{{ .Site.BaseURL }}{{ .Params.translatedslug }}">EN</a></li>
+            {{ else if eq .Lang "en" }}
+              <li><a href="{{ .Site.BaseURL }}{{ .Params.translatedslug }}">FR</a></li>
+            {{ end }}
+          {{ else }}
+            {{ range .Translations }}
+             <li><a href="{{ .Permalink }}">{{.Lang}}</a></li>
+            {{ end }}
+          {{ end }}
         </ul>      
     </div>
     <!-- // mobile menu  -->
@@ -37,7 +47,7 @@
             <div class="user-box">
             <a href="tel:T. 514.433.4319" class="phone-ico"></a>
               <span class="bag-btn">
-                <a href="#"><i class="fa fa-shopping-bag" aria-hidden="true"></i> <span class="badge simpleCart_quantity"></span></a>
+                <a href="/panier/"><i class="fa fa-shopping-bag" aria-hidden="true"></i> <span class="badge simpleCart_quantity"></span></a>
               </span>              
             </div>
           </div>

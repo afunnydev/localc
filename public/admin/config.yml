@@ -9,11 +9,11 @@ public_folder: "img/uploads" # The src attribute for uploaded media will begin w
 publish_mode: editorial_workflow
 
 collections:
-  # - name: "settings"
-  #   label: "Settings"
-  #   editor:
-  #     preview: false
-  #   files:
+  - name: "settings"
+    label: "Paramètres"
+    editor:
+      preview: false
+    files:
   #     - name: "partenaires"
   #       label: "Partenaires"
   #       file: "data/partenaires.yml"
@@ -81,24 +81,19 @@ collections:
   #             - {label: "Témoin - FR", name: "temoinfr", widget: "string"}
   #             - {label: "Témoin - EN", name: "temoinen", widget: "string"}
   #             - {label: "Image", name: "image", widget: "image"}
-  #     - name: "auteur"
-  #       label: "Auteurs"
-  #       file: "data/authors.yml"
-  #       fields:
-  #         - name: authors
-  #           label: Auteurs
-  #           widget: list
-  #           fields:
-  #             - {label: "Identifiant", name: "user_nicename", widget: "string"}
-  #             - {label: "Nom d'affichage", name: "display_name", widget: "string"}
-  #             - {label: "Adresse (rue)", name: "address", widget: "string", default: "999 rue de l'Example"}
-  #             - {label: "Ville, Province et code postal", name: "city", widget: "string", default: "Montréal, QC, X0X 0X0"}
-  #             - {label: "Description - FR", name: "description", widget: "text"}
-  #             - {label: "Description - EN", name: "descriptionen", widget: "text", required: false}
-  #             - {label: "Image", name: "photo", widget: "image", required: false}
-  #             - {label: "Numéro de téléphone", name: "phone", widget: "string"}
-  #             - {label: "Courriel", name: "user_email", widget: "string"}
-  #             - {label: "Site internet", name: "user_url", widget: "string", pattern: ["^https?", "N'oubliez pas le http:// ou https://"]}
+      - name: "categoriesorg"
+        label: "Organisation des catégories"
+        file: "data/categoriesorg.yml"
+        fields:
+          - name: categories
+            label: Catégories
+            widget: list
+            fields:
+              - {label: "Nom", name: "nom", widget: "string"}
+              - {label: "Lien", name: "url", widget: "string", required: false}
+              - {label: "Nombre d'items", name: "number", widget: "string"}
+              - {label: "Image", name: "photo", widget: "image", required: false}
+              - {label: "Sous-catégories", name: "souscategories", widget: "list", required: false}
 
   - name: "produitsfr" # Used in routes, e.g. /admin/collections/blog
     label: "Produits-FR" # Used in the UI
@@ -121,7 +116,6 @@ collections:
         fields: 
           - {label: "Image", name: "url", widget: "image" }
       - {label: "Identifiant du créateur", name: "createurs", widget: "relation", collection: "createursfr", searchFields: ["id"], valueField: "id"}
-      # - {label: "Identifiant du créateur", name: "createurs", widget: "string", default: "localc", pattern: ["^[a-z0-9]+(?:-[a-z0-9]+)*$", "Svp utilisez le format 04-exemple-article"]}
       - {label: "Catégories", name: "categories", widget: "list"}
       - label: "Quantité et prix (qui formera le tableau)"
         name: "prix"
@@ -140,7 +134,7 @@ collections:
           - {label: "Les différents choix pour cette variante", widget: "list", name: "choix" }
       - {label: "Personnalisations possibles", name: "personnalisation", widget: "list"}
       - {label: "Produits connexes (utiliser les identifiants)", name: "crosssell", widget: "list"}
-      - {label: "Identifiant UNIQUE", name: "id", widget: "string", default: "01-trousse-confort", pattern: ["^[a-z0-9]+(?:-[a-z0-9]+)*$", "Svp utilisez le format 04-exemple-produit"]}
+      - {label: "Identifiant UNIQUE", name: "id", default: "01-trousse-confort", pattern: ["^[a-z0-9]+(?:-[a-z0-9]+)*$", "Svp utilisez le format 04-exemple-produit"], widget: "relation", collection: "produitsfr", searchFields: ["id"], valueField: "id"}
       - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "fr"}
       - {label: "Menu", name: "menuposition", widget: "hidden", default: "catalogue"}
       - {label: "Description du produit", name: "body", widget: "markdown"}
@@ -161,12 +155,12 @@ collections:
       - {label: "Nom d'affichage du créateur", name: "nomcreateur", widget: "string", default: "Local C"}
       - {label: "Délai de livraison", name: "delai", widget: "string", default: "3 à 4 semaines"}
       - {label: "Image principale", name: "image", widget: "image"}
-      # - label: "Toutes les images (incluant la principale)"
-      #   name: "images"
-      #   widget: "list"
-      #   fields: 
-      #     - {label: "Image", name: "filename", widget: "image" }
-      - {label: "Identifiant du créateur", name: "createurs", widget: "string", default: "localc", pattern: ["^[a-z0-9]+(?:-[a-z0-9]+)*$", "Svp utilisez le format 04-exemple-article"]}
+      - label: "Toutes les images (incluant la principale)"
+        name: "images"
+        widget: "list"
+        fields: 
+          - {label: "Image", name: "url", widget: "image" }
+      - {label: "Identifiant du créateur", name: "createurs", widget: "relation", collection: "createursen", searchFields: ["id"], valueField: "id"}
       - {label: "Catégories", name: "categories", widget: "list"}
       - label: "Quantité et prix (qui formera le tableau)"
         name: "prix"
@@ -185,7 +179,7 @@ collections:
           - {label: "Les différents choix pour cette variante", widget: "list", name: "choix" }
       - {label: "Personnalisations possibles", name: "personnalisation", widget: "list"}
       - {label: "Produits connexes (utiliser les identifiants)", name: "crosssell", widget: "list"}
-      - {label: "Identifiant UNIQUE", name: "id", widget: "string", default: "01-trousse-confort", pattern: ["^[a-z0-9]+(?:-[a-z0-9]+)*$", "Svp utilisez le format 04-exemple-produit"]}
+      - {label: "Identifiant UNIQUE", name: "id", default: "01-trousse-confort", pattern: ["^[a-z0-9]+(?:-[a-z0-9]+)*$", "Svp utilisez le format 04-exemple-produit"], widget: "relation", collection: "produitsfr", searchFields: ["id"], valueField: "id"}
       - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "en"}
       - {label: "Menu", name: "menuposition", widget: "hidden", default: "catalogue"}
       - {label: "Description du produit", name: "body", widget: "markdown"}
@@ -203,7 +197,7 @@ collections:
       - {label: "Type", name: "type", widget: "hidden", default: "createursindiv"}
       - {label: "Nom officiel", name: "title", widget: "string"}
       - {label: "Description SEO", name: "description", widget: "text", , required: false}
-      - {label: "Identifiant UNIQUE", name: "id", widget: "string", default: "localc", pattern: ["^[a-z0-9]+(?:-[a-z0-9]+)*$", "Svp utilisez le format 04-exemple-article"]}
+      - {label: "Identifiant UNIQUE", name: "id", default: "localc", pattern: ["^[a-z0-9]+(?:-[a-z0-9]+)*$", "Svp utilisez le format 04-exemple-article"], widget: "relation", collection: "createursfr", searchFields: ["id"], valueField: "id"}
       - {label: "Lien (identique à l'identifiant)", name: "slug", widget: "string", default: "localc", pattern: ["^[a-z0-9]+(?:-[a-z0-9/]+)*$", "Svp utilisez le format ceci-est-un-test/"]}
       - {label: "Site web du créateur (OBLIGATOIRE)", name: "site", widget: "string"}
       - {label: "Lien vers sa page Facebook", name: "facebook", widget: "string", required: false}
@@ -227,7 +221,7 @@ collections:
       - {label: "Type", name: "type", widget: "hidden", default: "createursindiv"}
       - {label: "Nom officiel", name: "title", widget: "string"}
       - {label: "Description SEO", name: "description", widget: "text", , required: false}
-      - {label: "Identifiant UNIQUE", name: "id", widget: "string", default: "localc", pattern: ["^[a-z0-9]+(?:-[a-z0-9]+)*$", "Svp utilisez le format 04-exemple-article"]}
+      - {label: "Identifiant UNIQUE", name: "id", default: "localc", pattern: ["^[a-z0-9]+(?:-[a-z0-9]+)*$", "Svp utilisez le format 04-exemple-article"], widget: "relation", collection: "createursfr", searchFields: ["id"], valueField: "id"}
       - {label: "Lien (identique à l'identifiant)", name: "slug", widget: "string", default: "localc", pattern: ["^[a-z0-9]+(?:-[a-z0-9/]+)*$", "Svp utilisez le format ceci-est-un-test/"]}
       - {label: "Site web du créateur (OBLIGATOIRE)", name: "site", widget: "string"}
       - {label: "Lien vers sa page Facebook", name: "facebook", widget: "string", required: false}
