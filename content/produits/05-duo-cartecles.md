@@ -7,7 +7,7 @@ nomcreateur: Tandem & Co
 delai: "3 à 4 semaines"
 image: /img/products/produit5.jpg
 images:
- - /img/products/produit5.jpg
+ - url: /img/products/produit5.jpg
 createurs: tandem-co
 categories:
  - Cuir

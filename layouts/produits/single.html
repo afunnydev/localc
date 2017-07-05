@@ -24,7 +24,7 @@
                         {{ range $i, $e := .Params.images }}
                         <div class="easyzoom easyzoom--overlay">
                           <a href="{{ $e }}">
-                            <img src="{{ $e }}" id="image" title="" alt="" class="{{ if eq $i 0}}item_thumb{{end}}" />
+                            <img src="{{ $e.url }}" id="image" title="" alt="" class="{{ if eq $i 0}}item_thumb{{end}}" />
                           </a>
                         </div>
                         {{ end }}
@@ -34,7 +34,7 @@
                       <div class="slider slider-nav">
                         {{ range .Params.images }}
                           <div class="thumb-box">
-                              <img src="{{ . }}" id="image" class="img-responsive" title="" alt="" />
+                              <img src="{{ .url }}" id="image" class="img-responsive" title="" alt="" />
                           </div>
                         {{ end }}                                               
                       </div>

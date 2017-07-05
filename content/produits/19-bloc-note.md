@@ -22,7 +22,7 @@ crosssell:
   - 18-envelopp-semences
 i18nlanguage: fr
 images:
-  - /img/products/produit19.jpg
+  - url: /img/products/produit19.jpg
 variante:
   - choix:
       - Essence de bois au choix

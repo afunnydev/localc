@@ -7,9 +7,9 @@ nomcreateur: Tandem & Co
 delai: "3 semaines"
 image: /img/products/produit4-1.jpg
 images:
- - /img/products/produit4-1.jpg
- - /img/products/produit4-2.jpg
- - /img/products/produit4-3.jpg
+ - url: /img/products/produit4-1.jpg
+ - url: /img/products/produit4-2.jpg
+ - url: /img/products/produit4-3.jpg
 createurs: tandem-co
 categories:
  - Accessoire

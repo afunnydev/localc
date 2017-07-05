@@ -27,7 +27,7 @@ crosssell:
   - 01-trousse-confort
 i18nlanguage: fr
 images:
-  - /img/products/produit20.jpg
+  - url: /img/products/produit20.jpg
 noteprix: Ils ne sont pas encore fixés
 variante:
   - choix:

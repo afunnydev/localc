@@ -8,7 +8,7 @@ createurs: dinette-nationale
 categories:
   - Alimentaire
 images:
-  - /img/products/produit15.jpg
+  - url: /img/products/produit15.jpg
 title: Caramels mous en papillote
 prix:
   - montant: 14

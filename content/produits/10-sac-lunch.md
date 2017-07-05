@@ -7,7 +7,7 @@ nomcreateur: Local C
 delai: "3 à 4 semaines"
 image: /img/products/produit10.jpg
 images:
- - /img/products/produit10.jpg
+ - url: /img/products/produit10.jpg
 createurs: localc
 categories:
  - Sac

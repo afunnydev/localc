@@ -7,7 +7,7 @@ nomcreateur: Local C
 delai: "3 à 4 semaines"
 image: /img/products/produit2.jpg
 images:
- - /img/products/produit2.jpg
+ - url: /img/products/produit2.jpg
 createurs: localc
 categories:
  - Confort

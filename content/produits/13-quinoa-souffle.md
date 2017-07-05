@@ -8,7 +8,7 @@ createurs: dinette-nationale
 categories:
   - Alimentaire
 images:
-  - /img/products/produit13.jpg
+ - url: /img/products/produit13.jpg
 title: Quinoa soufflé au caramel
 prix:
   - montant: 10.5

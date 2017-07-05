@@ -8,8 +8,8 @@ createurs: laurie-anne-fleur
 categories:
   - Cadeau
 images:
-  - /img/products/produit18-1.jpg
-  - /img/products/produit18-2.jpg
+  - url: /img/products/produit18-1.jpg
+  - url: /img/products/produit18-2.jpg
 title: Petite enveloppe de semences
 prix:
   - montant: '3'

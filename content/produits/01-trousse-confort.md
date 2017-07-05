@@ -7,7 +7,7 @@ nomcreateur: BKind
 delai: "3 à 4 semaines"
 image: /img/products/produit1.jpg
 images:
- - /img/products/produit1.jpg
+ - url: /img/products/produit1.jpg
 createurs: bkind
 categories:
  - Confort

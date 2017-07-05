@@ -8,7 +8,7 @@ createurs: blancsoja
 categories:
   - Cadeau
 images:
-  - /img/products/produit17.jpg
+  - url: /img/products/produit17.jpg
 title: Bougie à base de soja
 prix:
   - montant: '12.5'

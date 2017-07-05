@@ -8,7 +8,7 @@ createurs: dinette-nationale
 categories:
   - Alimentaire
 images:
-  - /img/products/produit14.jpg
+  - url: /img/products/produit14.jpg
 title: Guimauves au chocolat
 prix:
   - montant: 5.25

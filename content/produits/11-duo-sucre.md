@@ -7,7 +7,7 @@ nomcreateur: Bals provisions
 delai: "3 à 4 semaines"
 image: /img/products/produit11.jpg
 images:
- - /img/products/produit11.jpg
+ - url: /img/products/produit11.jpg
 createurs: bals-provisions
 categories:
  - Alimentaire

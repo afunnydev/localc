@@ -8,7 +8,7 @@ createurs: dinette-nationale
 categories:
   - Alimentaire
 images:
-  - /img/products/produit16.jpg
+  - url: /img/products/produit16.jpg
 title: Sucette - caramel beurre salé
 prix:
   - montant: '2.5'
