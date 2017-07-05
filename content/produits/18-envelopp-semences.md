@@ -1,9 +1,8 @@
 ---
-menuposition: catalogue
-description: ''
+description: 'Petite enveloppe personnalisable de semences '
 slug: enveloppe-semences
 nomcreateur: Laurie-Anne - Atelier Fleur
-delai: 3 à 4 semaines
+delai: 2 à 3 semaines
 image: /img/products/produit18-1.jpg
 createurs: laurie-anne-fleur
 categories:
@@ -11,7 +10,7 @@ categories:
 images:
   - /img/products/produit18-1.jpg
   - /img/products/produit18-2.jpg
-title: Mini enveloppe de semences
+title: Petite enveloppe de semences
 prix:
   - montant: '3'
     quantite: 50
@@ -26,8 +25,11 @@ variante:
   - choix:
       - Jaune
       - Rouge
-      - Bleu
-    nom: Couleur
+      - Brune
+    nom: Couleur de l'enveloppe
+  - choix:
+      - Plusieurs semences disponibles
+    nom: Semences
 personnalisation:
   - Logo estampé
   - collant sur l'enveloppe
@@ -36,8 +38,11 @@ crosssell:
   - 06-porte-carte
 id: 18-envelopp-semences
 i18nlanguage: fr
+menuposition: catalogue
 ---
 Un peu cadeau vert? Cette enveloppe se glisse partout! De quoi semer le bonheur.
 
 _Matériaux_: Semences
+
+
 
