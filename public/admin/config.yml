@@ -134,6 +134,7 @@ collections:
       - label: "Variantes (options pour le client)"
         name: "variante"
         widget: "list"
+        required: false
         fields: 
           - {label: "Nom de la variante", widget: "string", name: "nom" }
           - {label: "Les différents choix pour cette variante", widget: "list", name: "choix" }
@@ -178,6 +179,7 @@ collections:
       - label: "Variantes (options pour le client)"
         name: "variante"
         widget: "list"
+        required: false
         fields: 
           - {label: "Nom de la variante", widget: "string", name: "nom" }
           - {label: "Les différents choix pour cette variante", widget: "list", name: "choix" }

@@ -24,7 +24,7 @@
                         {{ range $i, $e := .Params.images }}
                         <div class="easyzoom easyzoom--overlay">
                           <a href="{{ $e }}">
-                            <img src="{{ $e.url }}" id="image" title="" alt="" class="{{ if eq $i 0}}item_thumb{{end}}" />
+                            <img src="{{ $e.url }}" id="image" alt="{{$.Title}}" class="{{ if eq $i 0}}item_thumb{{end}}" />
                           </a>
                         </div>
                         {{ end }}
@@ -34,7 +34,7 @@
                       <div class="slider slider-nav">
                         {{ range .Params.images }}
                           <div class="thumb-box">
-                              <img src="{{ .url }}" id="image" class="img-responsive" title="" alt="" />
+                              <img src="{{ .url }}" id="image" class="img-responsive" alt="{{$.Title}}" />
                           </div>
                         {{ end }}                                               
                       </div>
@@ -103,6 +103,7 @@
                 <small class="table-notice">{{ .Params.noteprix }}</small>
 
                 <div id="product-actions">
+                {{ if .Params.variante }}
                   {{with .Params.variante}}
                     {{range $ind,$val := .}}
                       <div class="row form-box">
@@ -123,6 +124,21 @@
                       <!-- // row  -->
                     {{end}}
                   {{end}}
+                {{ else }}
+                  <div class="row form-box">
+                    <div class="col-md-4 col-xl-4 col-lg-5 col-sm-5">
+                      <label for="">Variante :</label>
+                    </div>
+                    <!-- // label  -->
+
+                    <div class="col-md-4 col-xl-4 col-lg-5 col-sm-7">
+                      <select name="" id="" class="selectpicker">
+                        <option value="">Aucune</option>
+                      </select>                      
+                    </div>
+                    <!-- // select  -->
+                  </div>
+                {{ end }}
             
                   <div class="row form-box">
                     <div class="col-md-4 col-xl-4 col-lg-5 col-sm-5">
