@@ -31,6 +31,10 @@
 					height: 400px;
 					object-fit: cover;
 				}
+				@include breakpoint(laptop) {
+					height: 350px;
+					object-fit: cover;
+				}
 				@media screen and (min-width:1601px) and (max-width:1921px) {
 					height: 500px;
 					object-fit: cover;

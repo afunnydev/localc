@@ -48,7 +48,7 @@
               <div class="cart-form file-input">
                 <textarea name="comments" rows="3" placeholder="Un commentaire?" id="comment"></textarea>
                 <p>Fichiers: <input type="file"></p>
-                <span>*Insérez votre logo ici, en format jpeg ou png</span>
+                <span>*Insérez vos logos ici, en format jpeg ou png (max. 3)</span>
               </div>
             </div>
           </div>
@@ -118,8 +118,9 @@
             $.ajax({
             url: 'http://phpstack-57985-291203.cloudwaysapps.com/localc.php',
             type: 'POST',
+            // contentType: 'application/json',
             data: { email: email, business: business, phone: phone, comment: comment, cart: cart },
-            success: function (data) {
+            success: function (data, status, xhr) {
                         setTimeout(function (){
                         alert(data);
                         }, 1000)

@@ -12,6 +12,11 @@
 	<link rel="shortcut icon" href="http://zoo-keeper-handles-62138.netlify.com/img/ico/favicon.png" />
 	<link rel="stylesheet" href="http://zoo-keeper-handles-62138.netlify.com/css/main.min.css" />
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+	<script
+    src="https://code.jquery.com/jquery-1.12.4.min.js"
+    integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+    crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="http:\/\/zoo-keeper-handles-62138.netlify.com\/js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
 </head>
 
 <body>
@@ -33,10 +38,6 @@
           <li><a href="/a-propos/">À PROPOS</a></li>
           <li><a href="/contactez-nous/">NOUS CONTACTER</a></li>
           <li><a href="/blogue/">BLOGUE</a></li>
-          
-            
-             <li><a href="http://zoo-keeper-handles-62138.netlify.com/en/cart/">en</a></li>
-            
           
         </ul>      
     </div>
@@ -105,13 +106,7 @@
           
           <div class="col-xl-1 col-lg-1 col-md-1 col-sm-1">
             <div id="search-box">
-              <ul>
-                
-                  
-                   <li><a href="http://zoo-keeper-handles-62138.netlify.com/en/cart/">en</a></li>
-                  
-                
-              </ul>
+              
               
             </div>
           </div>
@@ -182,16 +177,16 @@
           <div class="row">
             <div class="col-lg-5 col-lg-offset-1 col-sm-6">
               <div class="cart-form">
-                <input type="text" placeholder="Votre courriel*">
-                <input type="text" placeholder="Votre entreprise*">
-                <input type="text" placeholder="Votre téléphone*">
+                <input type="text" placeholder="Votre courriel*" id="email">
+                <input type="text" placeholder="Votre entreprise*" id="business">
+                <input type="text" placeholder="Votre téléphone*" id="phone">
               </div>
             </div>
             <div class="col-lg-5 col-sm-6">
               <div class="cart-form file-input">
-                <textarea name="comments" id="" rows="3" placeholder="Un commentaire?"></textarea>
+                <textarea name="comments" rows="3" placeholder="Un commentaire?" id="comment"></textarea>
                 <p>Fichiers: <input type="file"></p>
-                <span>*Insérez votre logo ici, en format jpeg ou png</span>
+                <span>*Insérez vos logos ici, en format jpeg ou png (max. 3)</span>
               </div>
             </div>
           </div>
@@ -233,6 +228,46 @@
       
     </div>
     
+    <script>
+      $('a.checkout-button').click(function(){
+        var email = $('.cart-form #email').val();
+        var business = $('.cart-form #business').val();
+        var phone = $('.cart-form #phone').val();
+        var comment = $('.cart-form textarea#comment').val();
+        var cart = [];
+        console.log(!business);
+        simpleCart.each(function(item){
+            var item = {thumb: item.get('thumb'), name: item.get('name'), price: item.get('price')};
+            cart.push(item);
+        });
+        console.log(cart);
+        function isEmail(email) {
+          var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+          return regex.test(email);
+        }
+        if (!email | !business | !phone | !comment ) {
+          alert("Assurez-vous d'avoir rempli tous les champs");
+        } else {
+          if( !isEmail(email)) { 
+            alert("Ce n'est pas un courriel");
+          } else if (cart.length == 0) {
+            alert("Votre panier est vide...");
+          } else {
+            $.ajax({
+            url: 'http://phpstack-57985-291203.cloudwaysapps.com/localc.php',
+            type: 'POST',
+            
+            data: { email: email, business: business, phone: phone, comment: comment, cart: cart },
+            success: function (data, status, xhr) {
+                        setTimeout(function (){
+                        alert(data);
+                        }, 1000)
+                    }
+            });
+          }
+        }
+      })
+    </script>
 <a href="#start" class="scroll-to-top"></a>
 
     <footer id="page-footer">
@@ -302,11 +337,7 @@
       
     </footer>
     
-    <script
-    src="https://code.jquery.com/jquery-1.12.4.min.js"
-    integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
-    crossorigin="anonymous"></script>
-    <script>window.jQuery || document.write('<script src="http:\/\/zoo-keeper-handles-62138.netlify.com\/js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+    
     <script src="http://zoo-keeper-handles-62138.netlify.com/js/custom-dist.js"></script>
     
     

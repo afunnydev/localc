@@ -15,7 +15,7 @@
           <li><a href="/a-propos/">À PROPOS</a></li>
           <li><a href="/contactez-nous/">NOUS CONTACTER</a></li>
           <li><a href="/blogue/">BLOGUE</a></li>
-          {{ if .Params.translatedslug }}
+          <!-- {{ if .Params.translatedslug }}
             {{ if eq .Lang "fr" }}
               <li><a href="{{ .Site.BaseURL }}{{ .Params.translatedslug }}">EN</a></li>
             {{ else if eq .Lang "en" }}
@@ -25,7 +25,7 @@
             {{ range .Translations }}
              <li><a href="{{ .Permalink }}">{{.Lang}}</a></li>
             {{ end }}
-          {{ end }}
+          {{ end }} -->
         </ul>      
     </div>
     <!-- // mobile menu  -->
@@ -120,7 +120,7 @@
           </div> -->
           <div class="col-xl-1 col-lg-1 col-md-1 col-sm-1">
             <div id="search-box">
-              <ul>
+              <!-- <ul>
                 {{ if .Params.translatedslug }}
                   {{ if eq .Lang "fr" }}
                     <li><a href="{{ .Site.BaseURL }}{{ .Params.translatedslug }}">EN</a></li>
@@ -132,7 +132,7 @@
                    <li><a href="{{ .Permalink }}">{{.Lang}}</a></li>
                   {{ end }}
                 {{ end }}
-              </ul>
+              </ul> -->
               <!-- <input type="text" placeholder="Recherche">
               <input type="submit" value=""> -->
             </div>
