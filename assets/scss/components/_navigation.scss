@@ -8,7 +8,7 @@
 	padding-bottom: 50px;
 	@include breakpoint(tablet) {
 		padding-top: 15px;
-		padding-bottom: 30px;
+		padding-bottom: 15px;
 	}
 	@include breakpoint(desktop) {
 		padding-top: 20px;
@@ -16,7 +16,7 @@
 	}
 	@include breakpoint(laptop) {
 		padding-top: 20px;
-		padding-bottom: 30px;
+		padding-bottom: 15px;
 	}
 	@media screen and (min-width:1601px) and (max-width:1921px) {
 		padding-top: 20px;
@@ -52,16 +52,16 @@
 				padding-bottom: 10px;
 				color:palette(blue);	
 				@include breakpoint(desktop) {
-					font-size: 23px;
+					font-size: 19px;
 				}
 				@include breakpoint(laptop) {
-					font-size: 22px;
+					font-size: 19px;
 				}
 				@include breakpoint(tablet) {
-					font-size: 18px;
+					font-size: 17px;
 				}
 				@media screen and (min-width:1601px) and (max-width:1921px) {
-					font-size: 23px;
+					font-size: 20px;
 				}								
 				&:hover {
 					color:palette(yellow);

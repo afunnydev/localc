@@ -3,15 +3,15 @@
 ==============================*/
 
 #page-footer {
-	background:url(../img/bg/footer-bg.png) no-repeat bottom left;
+	background:url(../img/bg/footer-bg.png) no-repeat top left;
 	background-color:palette(blue);
-	padding-top: 50px;
+	padding-top: 30px;
 	padding-bottom: 30px;
 	@include breakpoint(laptop) {
-		padding-top: 60px;
+		padding-top: 30px;
 	}
 	@include breakpoint(tablet) {
-		padding-top: 60px;
+		padding-top: 30px;
 	}
 	@include breakpoint(phone) {
 		padding-top: 30px;
@@ -304,18 +304,18 @@
 
 #copy-bar {
 	text-align: center;
-	padding-top: 60px;
+	padding-top: 10px;
 	@include breakpoint(phone) {
-		padding-top: 40px;
+		padding-top: 10px;
 	}
 	@include breakpoint(tablet) {
-		padding-top: 70px;
+		padding-top: 10px;
 	}
 	@include breakpoint(laptop) {
-		padding-top: 70px;
+		padding-top: 10px;
 	}
 	small {
-		font-size: 21px;
+		font-size: 18px;
 		font-family: $font-heading;
 		color:palette(blue,light);
 		strong {
@@ -369,10 +369,10 @@
 			}
 		}
 		@include breakpoint(desktop) {
-			font-size: 18px;
+			font-size: 16px;
 		}
 		@include breakpoint(laptop) {
-			font-size: 18px;
+			font-size: 16px;
 		}
 		@include breakpoint(tablet) {
 			font-size: 16px;

@@ -127,14 +127,14 @@
 				padding-bottom: 25px;
 			}
 			h1 {
-				font-size: 60px;
-				line-height: 72px;
+				font-size: 50px;
+				line-height: 62px;
 				color:palette(blue);
 				font-family: $font-heading;
-				max-width: 70%;
+				max-width: 80%;
 				@include breakpoint(desktop) {
-					font-size: 50px;
-					line-height: 62px;
+					font-size: 45px;
+					line-height: 55px;
 				}
 				@include breakpoint(laptop) {
 					font-size: 40px;
@@ -293,10 +293,10 @@
 	}
 	/* action */
 	#product-actions {
-		margin-top: 60px;
+		margin-top: 40px;
 		padding-bottom: 70px;
 		@include breakpoint(laptop) {
-			margin-top: 40px;
+			margin-top: 30px;
 			padding-bottom: 40px;
 		}
 		@include breakpoint(phone) {
@@ -959,7 +959,7 @@
 }
 
 #cart-details-bottom {
-	margin-top: 100px;
+	margin-top: 30px;
 	@include breakpoint(phone) {
 		margin-top: 0px;
 		border-top:5px solid #d9dbdc;
