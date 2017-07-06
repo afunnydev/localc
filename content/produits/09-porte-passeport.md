@@ -1,42 +1,42 @@
 ---
-menuposition: catalogue
-type: produits
 title: Porte-passeport
+description: Porte-passeport en cuir personnalisable
 slug: porte-passeport
 nomcreateur: Coria
-delai: "3 à 4 semaines"
+delai: 2 à 3 semaines
 image: /img/products/produit9-1.jpg
-images:
- - url: /img/products/produit9-1.jpg
- - url: /img/products/produit9-2.jpg
 createurs: coria
 categories:
- - Accessoire
+  - Accessoire
+images:
+  - /img/products/produit9-1.jpg
+  - /img/products/produit9-2.jpg
 prix:
- - quantite: 50
-   montant: 20
- - quantite: 100
-   montant: 17.50
- - quantite: 250
-   montant: 16.88
- - quantite: 500 +
-   montant: 15
-noteprix: "*Prix incluant une seule couleur"
-pricerange: "15$ à 20$"
+  - montant: 20
+    quantite: 50
+  - montant: 17.5
+    quantite: 100
+  - montant: 16.88
+    quantite: 250
+  - montant: 15
+    quantite: 500 +
+noteprix: '*Prix incluant une seule couleur'
+pricerange: 15$ à 20$
 variante:
- - nom: Couleur du cuir
-   choix:
-    - Tan
-    - Autres couleurs
+  - choix:
+      - Tan
+      - Autres couleurs
+    nom: Couleur du cuir
 personnalisation:
- - "Logo estampé"
+  - Logo estampé
 crosssell:
- - 01-trousse-confort
- - 05-duo-cartecles
- - 06-porte-carte
+  - 01-trousse-confort
+  - 05-duo-cartecles
+  - 06-porte-carte
 id: 09-porte-passeport
 i18nlanguage: fr
-
+menuposition: catalogue
+type: produits
 ---
 Porte-passeport parfait pour les voyages d’affaires. Il contient une fente pour le passeport et deux fentes du côté opposé pour y insérer tous vos autres cartes. Résistant grâce à ses coutures faites à la main, il sera votre compagnon de voyage pour de nombreuses années. 
 
