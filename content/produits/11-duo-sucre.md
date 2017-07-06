@@ -9,7 +9,7 @@ createurs: bals-provisions
 categories:
   - Alimentaire
 images:
-  - /img/products/produit11.jpg
+ - url: /img/products/produit11.jpg
 prix:
   - montant: 8.75
     quantite: 50

@@ -9,8 +9,8 @@ createurs: coria
 categories:
   - Accessoire
 images:
-  - /img/products/produit9-1.jpg
-  - /img/products/produit9-2.jpg
+ - url: /img/products/produit9-1.jpg
+ - url: /img/products/produit9-2.jpg
 prix:
   - montant: 20
     quantite: 50

@@ -9,7 +9,7 @@ createurs: not-made-in-china
 categories:
   - Accessoire
 images:
-  - /img/products/produit22.jpg
+ - url: /img/products/produit22.jpg
 prix:
   - montant: '0'
     quantite: '50'

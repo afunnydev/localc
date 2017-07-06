@@ -11,7 +11,7 @@ createurs: bals-provisions
 categories:
   - Alimentaire
 images:
-  - /img/products/produit12.jpg
+ - url: /img/products/produit12.jpg
 prix:
   - montant: 12
     quantite: 50

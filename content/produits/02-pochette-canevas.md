@@ -11,7 +11,7 @@ categories:
   - Sac
   - Accessoire
 images:
-  - /img/products/produit2.jpg
+ - url: /img/products/produit2.jpg
 prix:
   - montant: 12.96
     quantite: 50

@@ -9,9 +9,9 @@ createurs: tandem-co
 categories:
   - Accessoire
 images:
-  - /img/products/produit4-1.jpg
-  - /img/products/produit4-2.jpg
-  - /img/products/produit4-3.jpg
+ - url: /img/products/produit4-1.jpg
+ - url: /img/products/produit4-2.jpg
+ - url: /img/products/produit4-3.jpg
 prix:
   - montant: 9.2
     quantite: 50

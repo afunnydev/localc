@@ -7,6 +7,11 @@
   </url>
   
   <url>
+    <loc>http://zoo-keeper-handles-62138.netlify.com/categories/accesoire/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://zoo-keeper-handles-62138.netlify.com/categories/accessoire/</loc>
     <priority>0</priority>
   </url>
@@ -55,6 +60,10 @@
   </url>
   
   <url>
+    <loc>http://zoo-keeper-handles-62138.netlify.com/blancsoya/</loc>
+  </url>
+  
+  <url>
     <loc>http://zoo-keeper-handles-62138.netlify.com/createurs/blancsoja/</loc>
     <priority>0</priority>
   </url>
@@ -96,6 +105,10 @@
   
   <url>
     <loc>http://zoo-keeper-handles-62138.netlify.com/produits/caramels-mous-papillote/</loc>
+  </url>
+  
+  <url>
+    <loc>http://zoo-keeper-handles-62138.netlify.com/produits/carte/</loc>
   </url>
   
   <url>
@@ -177,6 +190,15 @@
   <url>
     <loc>http://zoo-keeper-handles-62138.netlify.com/categories/cuir/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://zoo-keeper-handles-62138.netlify.com/createurs/darveelicious/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://zoo-keeper-handles-62138.netlify.com/darveelicious/</loc>
   </url>
   
   <url>
@@ -265,6 +287,10 @@
   </url>
   
   <url>
+    <loc>http://zoo-keeper-handles-62138.netlify.com/not-made-in-china/</loc>
+  </url>
+  
+  <url>
     <loc>http://zoo-keeper-handles-62138.netlify.com/createurs/not-made-in-china/</loc>
     <priority>0</priority>
   </url>
@@ -290,6 +316,11 @@
   
   <url>
     <loc>http://zoo-keeper-handles-62138.netlify.com/categories/papeterie/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://zoo-keeper-handles-62138.netlify.com/categories/papetrie/</loc>
     <priority>0</priority>
   </url>
   
@@ -392,11 +423,11 @@
   </url>
   
   <url>
-    <loc>http://zoo-keeper-handles-62138.netlify.com/produits/22-tasse-moyen/</loc>
+    <loc>http://zoo-keeper-handles-62138.netlify.com/produits/tasse-8oz/</loc>
   </url>
   
   <url>
-    <loc>http://zoo-keeper-handles-62138.netlify.com/produits/21-tasse-petit/</loc>
+    <loc>http://zoo-keeper-handles-62138.netlify.com/produits/tasse-6oz/</loc>
   </url>
   
   <url>
@@ -419,6 +450,10 @@
                 hreflang="fr"
                 href="http://zoo-keeper-handles-62138.netlify.com/produits/trousse-confort/"
                 />
+  </url>
+  
+  <url>
+    <loc>http://zoo-keeper-handles-62138.netlify.com/union-bow-ties/</loc>
   </url>
   
   <url>

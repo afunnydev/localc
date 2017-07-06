@@ -11,7 +11,7 @@ categories:
   - Cadeau
   - Accessoire
 images:
-  - /img/products/produit1.jpg
+ - url: /img/products/produit1.jpg
 prix:
   - montant: 17.5
     quantite: 50

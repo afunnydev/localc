@@ -110,11 +110,11 @@ collections:
       - {label: "Nom d'affichage du créateur", name: "nomcreateur", widget: "string", default: "Local C"}
       - {label: "Délai de livraison", name: "delai", widget: "string", default: "3 à 4 semaines"}
       - {label: "Image principale", name: "image", widget: "image"}
-      # - label: "Toutes les images (incluant la principale)"
-      #   name: "images"
-      #   widget: "list"
-      #   fields: 
-      #     - {label: "Image", name: "url", widget: "image" }
+      - label: "Toutes les images (incluant la principale)"
+        name: "images"
+        widget: "list"
+        fields: 
+          - {label: "Image", name: "url", widget: "image" }
       - {label: "Identifiant du créateur", name: "createurs", widget: "relation", collection: "createursfr", searchFields: ["id"], valueField: "id"}
       - {label: "Catégories", name: "categories", widget: "list"}
       - label: "Quantité et prix (qui formera le tableau)"
@@ -156,11 +156,11 @@ collections:
       - {label: "Nom d'affichage du créateur", name: "nomcreateur", widget: "string", default: "Local C"}
       - {label: "Délai de livraison", name: "delai", widget: "string", default: "3 à 4 semaines"}
       - {label: "Image principale", name: "image", widget: "image"}
-      # - label: "Toutes les images (incluant la principale)"
-      #   name: "images"
-      #   widget: "list"
-      #   fields: 
-      #     - {label: "Image", name: "url", widget: "image" }
+      - label: "Toutes les images (incluant la principale)"
+        name: "images"
+        widget: "list"
+        fields: 
+          - {label: "Image", name: "url", widget: "image" }
       - {label: "Identifiant du créateur", name: "createurs", widget: "relation", collection: "createursen", searchFields: ["id"], valueField: "id"}
       - {label: "Catégories", name: "categories", widget: "list"}
       - label: "Quantité et prix (qui formera le tableau)"
