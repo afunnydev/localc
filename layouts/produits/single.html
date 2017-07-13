@@ -23,7 +23,7 @@
                       <div class="slider slider-for">
                         {{ range $i, $e := .Params.images }}
                         <div class="easyzoom easyzoom--overlay">
-                          <a href="{{ $e }}">
+                          <a href="{{ $e.url }}">
                             <img src="{{ $e.url }}" id="image" alt="{{$.Title}}" class="{{ if eq $i 0}}item_thumb{{end}}" />
                           </a>
                         </div>

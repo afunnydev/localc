@@ -4,12 +4,12 @@
 		<section id="blog-wrapper">
       <div class="container">
         <div class="row">
-          
+          {{ range where $.Site.Pages "Type" "articles" }}
           <div class="col-md-4 col-sm-6">
             <div class="blog-box">
               <div class="img-holder">
-                <a href="#">
-                  <img src="/img/misc/blog1.jpg" alt="" class="img-responsive">
+                <a href="{{.Permalink}}">
+                  <img src="{{.Params.image}}" alt="{{.Title}}" class="img-responsive">
                   <div class="image-caption">
                     <span class="plus-link"></span>
                   </div>
@@ -17,12 +17,13 @@
                 </a>
               </div>
               <!-- // img holder  -->
-              <time>3 MARS 2017</time>
-              <h5><a href="#">Le savoir-faire des artisans du cuir</a></h5>
-              <p>L’entreprise Coria offre des accessoires fabriqués localement, à la main, avec des matériaux nobles qui résisteront <a href="#">|...|</a></p>
+              <time>{{.Date.Format "02/01/2006"}}</time>
+              <h5><a href="{{.Permalink}}">{{.Title}}</a></h5>
+              <p>{{ .Summary }} <a href="{{.Permalink}}">|...|</a></p>
             </div>
           </div>
           <!-- // blog box  -->
+          {{ end }}
 
           <div class="col-md-4 col-sm-6">
             <div class="blog-box">

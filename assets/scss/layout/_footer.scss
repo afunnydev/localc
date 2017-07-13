@@ -9,9 +9,13 @@
 	padding-bottom: 30px;
 	@include breakpoint(laptop) {
 		padding-top: 30px;
+		background:url(../img/bg/footer-bg.png) no-repeat bottom left;
+		background-color:palette(blue);
 	}
 	@include breakpoint(tablet) {
 		padding-top: 30px;
+		background:url(../img/bg/footer-bg.png) no-repeat bottom left;
+		background-color:palette(blue);
 	}
 	@include breakpoint(phone) {
 		padding-top: 30px;
