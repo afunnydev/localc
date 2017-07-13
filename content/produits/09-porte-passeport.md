@@ -5,23 +5,23 @@ slug: porte-passeport
 nomcreateur: Coria
 delai: 2 à 3 semaines
 image: /img/products/produit9-1.jpg
+images:
+  - url: /img/products/produit9-1.jpg
+  - url: /img/products/produit9-2.jpg
 createurs: coria
 categories:
   - Accessoire
-images:
- - url: /img/products/produit9-1.jpg
- - url: /img/products/produit9-2.jpg
 prix:
-  - montant: 20
+  - montant: '30.95'
     quantite: 50
-  - montant: 17.5
+  - montant: '25.95'
     quantite: 100
-  - montant: 16.88
+  - montant: '24.95'
     quantite: 250
-  - montant: 15
+  - montant: '20.95'
     quantite: 500 +
 noteprix: '*Prix incluant une seule couleur'
-pricerange: 15$ à 20$
+pricerange: 20.95$ à 30.95$
 variante:
   - choix:
       - Tan
@@ -45,3 +45,4 @@ Porte-passeport parfait pour les voyages d’affaires. Il contient une fente pou
 *Matériaux*: Cuir d'importation italienne et fil de lin de France
 
 *Surface d’impression*: 0.25 x 0.5 pouces
+
