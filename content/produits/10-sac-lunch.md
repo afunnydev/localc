@@ -21,7 +21,7 @@ prix:
   - montant: '18.95'
     quantite: 500 +
 noteprix: '*Prix incluant une seule couleur'
-pricerange: 18.95$ à 23.95$ / unité
+pricerange: 18.95$ à 23.95$
 variante:
   - choix:
       - Grande variété
@@ -45,4 +45,5 @@ _Dimension_: 5.5 x 7 x 12 pouces
 _Matériaux_: Canevas et cuir italien
 
 _Surface d’impression_: 0.25 x 0.5 pouces
+
 
