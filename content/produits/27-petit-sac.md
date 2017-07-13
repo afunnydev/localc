@@ -40,4 +40,5 @@ Passe-partout, ce petit sac est parfait pour y trimballer par exemple un petit g
 
 _Matériaux_: canevas 12 oz. 100% coton
 
+_Dimension:_ 7.5 x 12.5 x 4 pouces
 
