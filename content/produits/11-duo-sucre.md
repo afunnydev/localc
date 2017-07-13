@@ -5,22 +5,22 @@ slug: duo-sucre
 nomcreateur: Bals provisions
 delai: 2 à 3 semaines
 image: /img/products/produit11.jpg
+images:
+  - url: /img/products/produit11.jpg
 createurs: bals-provisions
 categories:
   - Alimentaire
-images:
- - url: /img/products/produit11.jpg
 prix:
-  - montant: 8.75
+  - montant: '0'
     quantite: 50
-  - montant: 8.45
+  - montant: '0'
     quantite: 100
-  - montant: 8.15
+  - montant: '0'
     quantite: 250
-  - montant: 7.8
+  - montant: '0'
     quantite: 500 +
 noteprix: ''
-pricerange: '7,80$ à 8,75$'
+pricerange: À venir
 variante:
   - choix:
       - Avec étiquette personnalisable
@@ -47,4 +47,5 @@ Duo composé d’une confiture au poires gingembre et d’une deuxième à la rh
 
 - Poires/ gingembre: Poires, gingembre bio, sucre bio, jus de citron, zeste de citron, pectine, phosphate monocalcique (activateur pectine)
 - Rhubarbe/citron: Rhubarbe, sucre bio, citrons, pectine, phosphate monocalcique (activateur pectine)
+
 
