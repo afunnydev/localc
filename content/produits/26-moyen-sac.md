@@ -40,4 +40,5 @@ La grandeur juste parfaite? La voilà! Ce sac robuste à souhait peut contenir u
 
 _Matériaux_: canevas 12 oz. 100% coton et écusson en cuir de vache
 
+_Dimension:_ 13 x 13 x 5 pouces
 
