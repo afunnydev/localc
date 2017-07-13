@@ -5,23 +5,23 @@ slug: bloc-porte-cartes-daffaires
 nomcreateur: Tandem & Co
 delai: 2 à 3 semaines
 image: /img/products/produit3-1.jpg
+images:
+  - url: /img/products/produit3-1.jpg
+  - url: /img/products/produit3-2.jpg
 createurs: tandem-co
 categories:
   - Accessoire
-images:
- - url: /img/products/produit3-1.jpg
- - url: /img/products/produit3-2.jpg
 prix:
-  - montant: 7
+  - montant: '8.95'
     quantite: 50
-  - montant: 5.5
+  - montant: '6.95'
     quantite: 100
-  - montant: 4.95
+  - montant: '5.95'
     quantite: 250
-  - montant: 4.75
+  - montant: '4.75'
     quantite: 500 +
 noteprix: ''
-pricerange: '4,75$ à 7$'
+pricerange: '4,75$ à 8.95$'
 variante:
   - choix:
       - Autres essences de bois disponibles
@@ -45,6 +45,7 @@ Porte cartes d’affaires personnalisé au logo de votre entreprise.
 *Matériaux*: Pin canadien
 
 *Surface d’impression*: 0,75 x 2 pouces
+
 
 
 
