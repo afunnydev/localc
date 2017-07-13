@@ -1,45 +1,50 @@
 ---
-menuposition: catalogue
-type: produits
-title: Tablier caneva et cuir
+title: Tablier canevas et cuir
+description: Tablier canevas et écusson cuir personnalisable
 slug: tablier-caneva
 nomcreateur: Local C
-delai: "3 à 4 semaines"
+delai: 2 à 3 semaines
 image: /img/products/produit7-1.jpg
 images:
- - url: /img/products/produit7-1.jpg
- - url: /img/products/produit7-2.jpg
+  - url: /img/products/produit7-1.jpg
+  - url: /img/products/produit7-2.jpg
 createurs: localc
 categories:
- - Accessoire
+  - Accessoire
 prix:
- - quantite: 50
-   montant: 0
- - quantite: 100
-   montant: 0
- - quantite: 250
-   montant: 0
- - quantite: 500 +
-   montant: 0
-noteprix: "*Prix incluant une seule couleur"
-pricerange: "À venir"
+  - montant: '30.95'
+    quantite: 50
+  - montant: '28.95'
+    quantite: 100
+  - montant: '27.95'
+    quantite: 250
+  - montant: '25.95'
+    quantite: 500 +
+noteprix: ''
+pricerange: 25.95$ à 30.95$
 variante:
- - nom: Couleur
-   choix:
-    - Greige
-    - Marine
+  - choix:
+      - Greige
+      - Marine
+    nom: Couleur
 personnalisation:
- - "Écusson de cuir estampé de votre logo"
- - Couleur du cuir
+  - Écusson de cuir estampé de votre logo
+  - Couleur du cuir
 crosssell:
- - 01-trousse-confort
+  - 28-sac-vin
+  - 24-noeud-papillon
+  - 16-sucette-caramel
+  - 12-trio-sale
 id: 07-tablier-caneva
 i18nlanguage: fr
+menuposition: catalogue
+type: produits
 ---
-Tablier résistant parfait pour vos événements, votre atelier ou vos employés. Personnalisez-le avec un écusson de cuir. Ils est ajustable au niveau du cou avec une belle ganse de cuir et deux bandes de caneva pour la taille. Poches au devant pour avoir toujours vos outils à porté de main. 
+Tablier résistant parfait pour vos événements, votre atelier ou vos employés. Personnalisez-le avec un écusson de cuir. Ils est ajustable au niveau du cou avec une belle ganse de cuir et deux bandes de canevas pour la taille. Poches au devant pour avoir toujours vos outils à portée de main.
 
-*Dimension*: 25 x 31 pouces 
+_Dimension_: 25 x 31 pouces
 
-*Matériaux*: 100% coton, cuir véritable pour l’écusson et la ganse de cou
+_Matériaux_: 100% coton, cuir véritable pour l’écusson et la ganse de cou
 
-*Surface d’impression*: 1 x 2 pouces 
+_Surface d’impression_: 1 x 2 pouces
+
