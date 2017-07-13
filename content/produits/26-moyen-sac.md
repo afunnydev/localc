@@ -5,24 +5,23 @@ slug: moyen-sac
 nomcreateur: Local C
 delai: 2 à 3 semaines
 image: /img/uploads/IMG_8042_PSD.jpg
+images:
+  - url: /img/uploads/IMG_8042_PSD.jpg
 createurs: localc
 categories:
   - Sac
 prix:
-  - montant: '0'
+  - montant: '18.95'
     quantite: '50'
-  - montant: '0'
+  - montant: '16.95'
     quantite: '100'
-  - montant: '0'
+  - montant: '16.50'
     quantite: '250'
-  - montant: '0'
+  - montant: '15.95'
     quantite: 500 +
-noteprix: À venir
-pricerange: À venir
-variante:
-  - choix:
-      - Grande variété
-    nom: Couleur du cuir
+noteprix: '*Prix incluant étiquette en cuir'
+pricerange: 15.95$ à 18.95$
+variante: []
 personnalisation:
   - Écusson de cuir estampé
   - Sérigraphie
@@ -30,7 +29,8 @@ personnalisation:
 crosssell:
   - 02-pochette-canevas
   - 25-grand-sac
-  - 01-trousse-confort
+  - 28-sac-vin
+  - 27-petit-sac
 id: 26-moyen-sac
 i18nlanguage: fr
 menuposition: catalogue
@@ -39,4 +39,5 @@ type: produits
 La grandeur juste parfaite? La voilà! Ce sac robuste à souhait peut contenir une quantité surprenante de chose! Parfait pour y mettre un kit de conférence ou comme sac de sport!
 
 _Matériaux_: canevas 12 oz. 100% coton et écusson en cuir de vache
+
 
