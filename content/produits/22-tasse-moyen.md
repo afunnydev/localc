@@ -5,27 +5,23 @@ slug: tasse-8oz
 nomcreateur: Not made in China
 delai: 2 à 3 semaines
 image: /img/products/produit22.jpg
+images:
+  - url: /img/products/produit22.jpg
 createurs: not-made-in-china
 categories:
   - Accessoire
-images:
- - url: /img/products/produit22.jpg
 prix:
-  - montant: '0'
+  - montant: '14.95'
     quantite: '50'
-  - montant: '0'
+  - montant: '14.50'
     quantite: '100'
-  - montant: '0'
+  - montant: '13.95'
     quantite: '250'
-  - montant: '0'
+  - montant: '12.95'
     quantite: 500 +
-noteprix: À venir
-pricerange: À venir
-variante:
-  - choix:
-      - Conserver
-      - Sans estampe
-    nom: 'Estampe "Moyen café: 8oz"'
+noteprix: ''
+pricerange: 12.95$ à 14.95$
+variante: []
 personnalisation:
   - Estampe de votre logo
   - Décalque de votre logo
@@ -42,6 +38,7 @@ type: produits
 Un moyen café? Moyen comment? Assez pour contenir un café filtre! Cette tasse en porcelaine est faite à la main. De plus, elle est résistante au micro-onde et au lave-vaisselle.
 
 _Matériaux_: Porcelaine
+
 
 
 
