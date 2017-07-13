@@ -5,24 +5,24 @@ slug: trousse-confort
 nomcreateur: BKind
 delai: 2 à 3 semaines
 image: /img/products/produit1.jpg
+images:
+  - url: /img/products/produit1.jpg
 createurs: bkind
 categories:
   - Confort
   - Cadeau
   - Accessoire
-images:
- - url: /img/products/produit1.jpg
 prix:
-  - montant: 17.5
+  - montant: '39.95'
     quantite: 50
-  - montant: 16.25
+  - montant: '37.95'
     quantite: 100
-  - montant: 15
+  - montant: '36.95'
     quantite: 250
-  - montant: 12.5
+  - montant: '30.95'
     quantite: 500 +
 noteprix: '*Prix incluant la pochette'
-pricerange: '12,50$ à 17,50$'
+pricerange: 30.95$ à 39.95$
 variante:
   - choix:
       - Forêt
@@ -38,6 +38,7 @@ personnalisation:
 crosssell:
   - 01-trousse-confort
   - 10-sac-lunch
+  - 17-bougie-soja
 id: 01-trousse-confort
 i18nlanguage: fr
 menuposition: catalogue
@@ -72,5 +73,6 @@ Baume à lèvres forêt: Ingrédients : cire de candelilla, beurre de cacao, beu
 Ou baume à lèvres orange et lavande : Ingrédients : cire de candelilla, beurre de cacao, beurre de karité, huile d’abricot, huile de jojoba, huile de ricin, huile essentielle d’orange et extrait de lavande.
  
 Pochette: canvas 12 oz. 100% coton et écusson en cuir de vache
+
 
 

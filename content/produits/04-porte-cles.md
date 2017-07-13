@@ -5,24 +5,24 @@ slug: porte-cles
 nomcreateur: Tandem & Co
 delai: 2 à 3 semaines
 image: /img/products/produit4-1.jpg
+images:
+  - url: /img/products/produit4-1.jpg
+  - url: /img/products/produit4-2.jpg
+  - url: /img/products/produit4-3.jpg
 createurs: tandem-co
 categories:
   - Accessoire
-images:
- - url: /img/products/produit4-1.jpg
- - url: /img/products/produit4-2.jpg
- - url: /img/products/produit4-3.jpg
 prix:
-  - montant: 9.2
+  - montant: '11.95'
     quantite: 50
-  - montant: 8.65
+  - montant: '9.95'
     quantite: 100
-  - montant: 7.15
+  - montant: '8.95'
     quantite: 250
-  - montant: 6.55
+  - montant: '7.50'
     quantite: 500 +
 noteprix: ''
-pricerange: '12,50$ à 17,50$'
+pricerange: 7.50$ à 11.95$
 variante:
   - choix:
       - Tan
@@ -30,7 +30,7 @@ variante:
       - Noir
     nom: Couleur
 personnalisation:
-  - Maximum deux lignes de 20 caractères
+  - Logo estampé
 crosssell:
   - 01-trousse-confort
   - 09-porte-passeport
@@ -46,5 +46,5 @@ _Dimension_: 1”largeur x 4 “longueur
 
 _Matériaux_: Cuir
 
-_Surface d’impression_: 0.5 x 2 pouces
+_Surface d’impression_: 0.5 x 2 pouces \*Maximum deux lignes de 20 caractères
 

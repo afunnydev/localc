@@ -5,6 +5,8 @@ slug: bouquet-fleurs
 nomcreateur: Laurie-Anne Atelier fleur
 delai: 1 à 2 semaines
 image: /img/uploads/bouquet60.jpg
+images:
+  - url: /img/uploads/bouquet60.jpg
 createurs: laurie-anne-fleur
 categories:
   - Cadeau
@@ -18,7 +20,7 @@ prix:
   - montant: '0'
     quantite: 500 +
 noteprix: '*Abonnement hebdomadaire disponible'
-pricerange: À venir
+pricerange: 30$ à 65$
 variante:
   - choix:
       - Grande variété disponible
@@ -35,5 +37,5 @@ type: produits
 ---
 Quelle belle façon de mettre de la couleurs dans un environnement avec un magnifique bouquet de fleurs en plus d'embaumer l'air. Parfait pour le comptoir de réception ou simplement remercier, féliciter un employé qui le mérite!
 
-_Composition_: Belle variété de fleurs de saison
+Contactez-nous et nous vous ferons part des fleurs disponibles en saison et des variétés de bouquet.
 

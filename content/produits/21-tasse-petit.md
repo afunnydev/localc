@@ -5,27 +5,23 @@ slug: tasse-6oz
 nomcreateur: Not made in China
 delai: 2 à 3 semaines
 image: /img/products/produit21.jpg
+images:
+  - url: /img/products/produit21.jpg
 createurs: not-made-in-china
 categories:
   - Accesoire
-images:
- - url: /img/products/produit21.jpg
 prix:
-  - montant: '0'
+  - montant: '13.95'
     quantite: '50'
-  - montant: '0'
+  - montant: '13.50'
     quantite: '100'
-  - montant: '0'
+  - montant: '12.95'
     quantite: '250'
-  - montant: '0'
+  - montant: '11.95'
     quantite: 500 +
-noteprix: À venir
-pricerange: À venir
-variante:
-  - choix:
-      - Conserver
-      - Sans estampe
-    nom: 'Estampe "Petit café: 6oz"'
+noteprix: ''
+pricerange: 11.95$ à 13.95$
+variante: []
 personnalisation:
   - Estampe de votre logo
   - Décalque de votre logo

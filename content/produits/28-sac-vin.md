@@ -5,24 +5,23 @@ slug: sac-vin
 nomcreateur: Local C
 delai: 2 à 3 semaines
 image: /img/uploads/IMG_8050_PSD.jpg
+images:
+  - url: /img/uploads/IMG_8050_PSD.jpg
 createurs: localc
 categories:
   - Sac
 prix:
-  - montant: '0'
+  - montant: '13.95'
     quantite: '50'
-  - montant: '0'
+  - montant: '12.95'
     quantite: '100'
-  - montant: '0'
+  - montant: '12.50'
     quantite: '250'
-  - montant: '0'
+  - montant: '10.95'
     quantite: 500 +
-noteprix: À venir
-pricerange: À venir
-variante:
-  - choix:
-      - Grande variété
-    nom: Couleur du cuir
+noteprix: ' Prix inclus étiquette de cuir'
+pricerange: 10.95$ à 13.95$
+variante: []
 personnalisation:
   - Écusson de cuir estampé
   - Sérigraphie
@@ -30,8 +29,8 @@ personnalisation:
 crosssell:
   - 02-pochette-canevas
   - 25-grand-sac
-  - 01-trousse-confort
   - 26-moyen-sac
+  - 27-petit-sac
 id: 28-sac-vin
 i18nlanguage: fr
 menuposition: catalogue
@@ -41,5 +40,5 @@ Une bouteille de vin, une bière, un cidre à offrir? Ce sac lui donne juste le 
 
 _Matériaux_: canevas 12 oz. 100% coton
 
-
+_Dimension:_12 x 3 x 3 pouces
 
