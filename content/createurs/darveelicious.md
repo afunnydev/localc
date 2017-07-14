@@ -14,9 +14,7 @@ image: /img/uploads/iusa_400x400.43601729_qwdw.jpg
 i18nlanguage: fr
 menuposition: createurs
 ---
-Illustratrice, designer graphique, créatrice, Darvee est carrément multi-fonction.
+La Darvee d’Amérique est une bête créative qui se nourrit de jokes plates et de vidéos de chats.
 
-Elle aime les choses simples, les couleurs et les Gifs....et très fan des blagues _cheesy._
-
-On l'adore!
+Graphiste, illustratrice de formation et touche à tout, on l'adore!
 
