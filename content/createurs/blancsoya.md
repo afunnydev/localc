@@ -9,7 +9,7 @@ facebook: 'https://www.facebook.com/blancsoja/ '
 instagram: null
 pinterest: null
 linkedin: null
-image: /img/uploads/blanc%20soya.jpg
+image: /img/uploads/blanc_soya.jpg
 i18nlanguage: fr
 menuposition: createurs
 ---
