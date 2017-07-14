@@ -11,6 +11,16 @@
 	{{ if .Params.noindex }}
 	<meta name="robots" content="noindex,nofollow">
 	{{ end }}
+	<!-- Required Open Graph Info -->
+	<meta property="og:title" content="{{ .Title }}" />
+	<meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else if .Summary }}{{ .Summary }}{{ else }}Articles promotionnels locaux et de qualité{{ end }}" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="{{ .Permalink }}" />
+	{{ if .Params.image }}
+		<meta property="og:image" content="{{ .Params.image }}" />
+	{{ else }}
+		<meta property="og:image" content="/img/logos/site-logo.png" />
+	{{ end }}
 	<link rel="shortcut icon" href="{{.Site.BaseURL}}img/ico/favicon.png" />
 	<link rel="stylesheet" href="{{.Site.BaseURL}}css/main.min.css" />
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
