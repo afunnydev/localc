@@ -6,6 +6,7 @@ image: /img/products/produit17.jpg
 type: articles
 slug: 5-idees-cadeaux-fait-a-montreal
 id: idees-cadeaux
+description: "Des idées cadeaux locaux et stylés, on aime ça! Bougie de soja, semences, douceurs sucrées et trousse."
 ---
 
 Vous voulez vous démarquer auprès de vos clients, remercier des membres importants de votre organisation, voici quelques idées qui sauront vous plaires! 

@@ -10,6 +10,7 @@ type: createursindiv
 i18nlanguage: fr
 menuposition: createurs
 slug: bkind
+description: "BKIND est une entreprise montréalaise fondée en 2014 qui propose une gamme de produits de soin pour la peau naturels, végétaliens et non testés sur les animaux."
 ---
 
 *BKIND* est une entreprise montréalaise fondée en 2014 qui propose une gamme de produits de soin pour la peau naturels, végétaliens et non testés sur les animaux. 

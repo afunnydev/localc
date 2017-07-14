@@ -3,90 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/en/about/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="/a-propos/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/about/"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/bkind/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="/bkind/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/bkind/"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/bals-provisions/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="/bals-provisions/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/bals-provisions/"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/blog/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="/blogue/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/blog/"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/cart/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="/panier/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/cart/"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/catalog/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="/catalogue/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/catalog/"
-                />
-  </url>
-  
-  <url>
     <loc>/en/categories/</loc>
     <priority>0</priority>
     <xhtml:link
@@ -102,36 +18,8 @@
   </url>
   
   <url>
-    <loc>/en/contact-us/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="/contactez-nous/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/contact-us/"
-                />
-  </url>
-  
-  <url>
     <loc>/en/creators/</loc>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/en/createurs/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="/createurs/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/createurs/"
-                />
   </url>
   
   <url>
@@ -146,78 +34,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="/en/"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/our-creators/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="/nos-createurs/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/our-creators/"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/produits/</loc>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="/produits/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/produits/"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/singles/</loc>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="/singles/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/singles/"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/tandem-co/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="/tandem-co/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/tandem-co/"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/produits/trousse-confort/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="/produits/trousse-confort/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/produits/trousse-confort/"
                 />
   </url>
   

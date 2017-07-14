@@ -4,4 +4,5 @@ title: About
 type: a-propos
 layout: index
 menuposition: apropos
+draft: true
 ---

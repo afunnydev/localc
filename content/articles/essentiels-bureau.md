@@ -6,6 +6,7 @@ image: /img/products/produit19.jpg
 type: articles
 slug: top-4-articles-de-bureau
 id: essentiels-bureau
+description: "Des produits sélectionnés pour vous dans le but de garnir votre bureau: bloc note, porte-cartes et j'en passe"
 ---
 
 Nous vous avons déniché une gamme de produits très intéressants pour vous faire remarquer lors de rencontres d’affaires ou pour uniformiser les articles du bureau. 

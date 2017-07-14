@@ -1,7 +1,7 @@
 ---
 type: createursindiv
 title: Coria
-description: null
+description: "La mission de Coria est de faire redécouvrir le savoir-faire de l’artisan en offrant des accessoires fabriqués localement, à la main, avec des matériaux nobles qui résisteront à l’usure du temps."
 id: coria
 site: 'https://www.coria.ca/'
 facebook: 'https://www.facebook.com/coriamtl/'

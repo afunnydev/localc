@@ -4,4 +4,5 @@ title: Catalog
 type: catalogue
 layout: index
 menuposition: catalogue
+draft: true
 ---

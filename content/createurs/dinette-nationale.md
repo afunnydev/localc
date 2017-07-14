@@ -1,7 +1,7 @@
 ---
 type: createursindiv
 title: Dinette Nationale
-description: null
+description: "Vos douceurs sucrées locales faites à la main, et avec beaucoup d'amour!"
 id: dinette-nationale
 site: 'http://www.dinettenationale.com/ '
 facebook: 'https://www.facebook.com/dinettenationale'

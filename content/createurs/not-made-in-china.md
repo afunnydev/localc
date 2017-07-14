@@ -1,7 +1,7 @@
 ---
 type: createursindiv
 title: Not made in China
-description: 'Not made in China, céramiste'
+description: "Not made in China, céramiste mariant l’ancien avec l’actuel en produisant une céramique engagée et moderne"
 id: not-made-in-china
 slug: not-made-in-china
 site: 'http://www.hugodidier.com/ '

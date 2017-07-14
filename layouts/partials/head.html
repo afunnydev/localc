@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<title>{{.Title}}</title>
-	<meta name="description" content="{{.Description}}">
+	<meta name="description" content="{{if .Description }}{{.Description}}{{ else if .Summary }}{{ .Summary }}{{else}}Articles promotionnels locaux et de qualité{{end}}">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	{{ if .Params.noindex }}
 	<meta name="robots" content="noindex,nofollow">

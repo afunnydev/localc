@@ -1,7 +1,7 @@
 ---
 type: createursindiv
 title: Bals Provisions
-description: null
+description: "Bals Provisions est une entreprise montréalaise spécialisée dans la conserve. Elle collabore avec des agriculteurs locaux pour vous produire des conserves riches en saveur."
 id: bals-provisions
 site: 'https://balsprovisions.com/'
 facebook: 'https://www.facebook.com/Bals-Provisions-327377757274807'

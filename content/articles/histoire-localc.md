@@ -6,6 +6,7 @@ image: /img/uploads/article1_photo.jpg
 type: articles
 slug: localc-notre-histoire
 id: histoire-localc
+description: "Découvrez l'histoire de Local C, ainsi que les gens qui sont derrière le projet"
 ---
 
 Né d’une passion commune pour les produits d’ici, Marie-Ève et moi avons décidé de nous lancer dans cette folle aventure de la promotion de produits corporatifs fabriqués localement. 

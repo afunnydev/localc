@@ -9,6 +9,7 @@ type: createursindiv
 i18nlanguage: fr
 menuposition: createurs
 slug: tandem-co
+description: "Chaque article Tandem & Co est confectionné avec soins afin d’assurer sa longévité et est fait à la main avec des matériaux entièrement naturels"
 ---
 
 Nées sur le bord du lac McGregor à Val-des-Monts au Québec, les sœurs Maxime et Clôde Saint-Denis ont, depuis leur plus jeune âge, fait preuve d’imagination en créant quotidiennement divers objets, vêtements et accessoires à leur image.

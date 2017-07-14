@@ -1,7 +1,7 @@
 ---
 type: createursindiv
 title: Laurie Anne - Atelier Fleur
-description: null
+description: "L'atelier fleur s'occupe de fleurir votre mariage ou autres événements ainsi que votre quotidien avec des fleurs fraîches soyeusement sélectionnées pour leur beauté et durabilité, le plus souvent locales."
 id: laurie-anne-fleur
 site: 'http://laurieanne-atelierfleur.com/ '
 facebook: 'https://www.facebook.com/laurieanneatelierfleur/'

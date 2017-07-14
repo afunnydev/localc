@@ -9,6 +9,7 @@ type: createursindiv
 i18nlanguage: en
 menuposition: createurs
 slug: tandem-co
+draft: true
 ---
 
 Nées sur le bord du lac McGregor à Val-des-Monts au Québec, les sœurs Maxime et Clôde Saint-Denis ont, depuis leur plus jeune âge, fait preuve d’imagination en créant quotidiennement divers objets, vêtements et accessoires à leur image.

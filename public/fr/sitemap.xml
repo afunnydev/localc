@@ -23,11 +23,6 @@
   </url>
   
   <url>
-    <loc>/articles/</loc>
-    <lastmod>2017-07-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/produits/sac-vin/</loc>
   </url>
   
@@ -48,30 +43,10 @@
   
   <url>
     <loc>/bkind/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/bkind/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="/bkind/"
-                />
   </url>
   
   <url>
     <loc>/bals-provisions/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/bals-provisions/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="/bals-provisions/"
-                />
   </url>
   
   <url>
@@ -103,16 +78,6 @@
   
   <url>
     <loc>/blogue/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/blog/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="/blogue/"
-                />
   </url>
   
   <url>
@@ -138,16 +103,6 @@
   
   <url>
     <loc>/catalogue/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/catalog/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="/catalogue/"
-                />
   </url>
   
   <url>
@@ -172,16 +127,6 @@
   
   <url>
     <loc>/contactez-nous/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/contact-us/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="/contactez-nous/"
-                />
   </url>
   
   <url>
@@ -196,16 +141,6 @@
   <url>
     <loc>/createurs/</loc>
     <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/createurs/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="/createurs/"
-                />
   </url>
   
   <url>
@@ -267,7 +202,6 @@
   <url>
     <loc>/</loc>
     <lastmod>2017-07-14T00:00:00+00:00</lastmod>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -278,6 +212,11 @@
                 hreflang="fr"
                 href="/"
                 />
+  </url>
+  
+  <url>
+    <loc>/articles/</loc>
+    <lastmod>2017-07-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -300,16 +239,6 @@
   
   <url>
     <loc>/nos-createurs/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/our-creators/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="/nos-createurs/"
-                />
   </url>
   
   <url>
@@ -328,16 +257,6 @@
   
   <url>
     <loc>/panier/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/cart/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="/panier/"
-                />
   </url>
   
   <url>
@@ -381,16 +300,6 @@
   <url>
     <loc>/produits/</loc>
     <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/produits/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="/produits/"
-                />
   </url>
   
   <url>
@@ -409,16 +318,6 @@
   <url>
     <loc>/singles/</loc>
     <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/singles/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="/singles/"
-                />
   </url>
   
   <url>
@@ -431,16 +330,6 @@
   
   <url>
     <loc>/tandem-co/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/tandem-co/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="/tandem-co/"
-                />
   </url>
   
   <url>
@@ -466,16 +355,6 @@
   
   <url>
     <loc>/produits/trousse-confort/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/produits/trousse-confort/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="/produits/trousse-confort/"
-                />
   </url>
   
   <url>
@@ -489,16 +368,6 @@
   
   <url>
     <loc>/a-propos/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="/a-propos/"
-                />
   </url>
   
 </urlset>
