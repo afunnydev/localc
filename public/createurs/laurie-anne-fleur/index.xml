@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Laurie-anne-fleur on Local C - Articles promotionnels avec de la valeur</title>
-    <link>https://www.localc.ca/createurs/laurie-anne-fleur/</link>
+    <link>/createurs/laurie-anne-fleur/</link>
     <description>Recent content in Laurie-anne-fleur on Local C - Articles promotionnels avec de la valeur</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://www.localc.ca/createurs/laurie-anne-fleur/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/createurs/laurie-anne-fleur/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Bouquet de fleurs</title>
-      <link>https://www.localc.ca/produits/bouquet-fleurs/</link>
+      <link>/produits/bouquet-fleurs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.localc.ca/produits/bouquet-fleurs/</guid>
+      <guid>/produits/bouquet-fleurs/</guid>
       <description>Quelle belle façon de mettre de la couleurs dans un environnement avec un magnifique bouquet de fleurs en plus d&amp;rsquo;embaumer l&amp;rsquo;air. Parfait pour le comptoir de réception ou simplement remercier, féliciter un employé qui le mérite!
 Contactez-nous et nous vous ferons part des fleurs disponibles en saison et des variétés de bouquet.</description>
     </item>
     
     <item>
       <title>Petite enveloppe de semences</title>
-      <link>https://www.localc.ca/produits/enveloppe-semences/</link>
+      <link>/produits/enveloppe-semences/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.localc.ca/produits/enveloppe-semences/</guid>
+      <guid>/produits/enveloppe-semences/</guid>
       <description>Un peu cadeau vert? Cette enveloppe se glisse partout! De quoi semer le bonheur.
 Matériaux: Semences</description>
     </item>

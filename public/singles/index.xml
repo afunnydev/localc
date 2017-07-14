@@ -2,65 +2,65 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Singles on Local C - Articles promotionnels avec de la valeur</title>
-    <link>https://www.localc.ca/singles/</link>
+    <link>/singles/</link>
     <description>Recent content in Singles on Local C - Articles promotionnels avec de la valeur</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://www.localc.ca/singles/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/singles/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Blogue</title>
-      <link>https://www.localc.ca/blogue/</link>
+      <link>/blogue/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.localc.ca/blogue/</guid>
+      <guid>/blogue/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Catalogue</title>
-      <link>https://www.localc.ca/catalogue/</link>
+      <link>/catalogue/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.localc.ca/catalogue/</guid>
+      <guid>/catalogue/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Contactez-nous</title>
-      <link>https://www.localc.ca/contactez-nous/</link>
+      <link>/contactez-nous/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.localc.ca/contactez-nous/</guid>
+      <guid>/contactez-nous/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Nos créateurs</title>
-      <link>https://www.localc.ca/nos-createurs/</link>
+      <link>/nos-createurs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.localc.ca/nos-createurs/</guid>
+      <guid>/nos-createurs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Panier</title>
-      <link>https://www.localc.ca/panier/</link>
+      <link>/panier/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.localc.ca/panier/</guid>
+      <guid>/panier/</guid>
       <description></description>
     </item>
     
     <item>
       <title>À propos</title>
-      <link>https://www.localc.ca/a-propos/</link>
+      <link>/a-propos/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.localc.ca/a-propos/</guid>
+      <guid>/a-propos/</guid>
       <description></description>
     </item>
     

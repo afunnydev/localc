@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Local C - Articles promotionnels avec de la valeur</title>
-    <link>https://www.localc.ca/</link>
+    <link>/</link>
     <description>Recent content on Local C - Articles promotionnels avec de la valeur</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 14 Jul 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://www.localc.ca/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>5 idées cadeaux fait à Montréal</title>
-      <link>https://www.localc.ca/articles/5-idees-cadeaux-fait-a-montreal/</link>
+      <link>/articles/5-idees-cadeaux-fait-a-montreal/</link>
       <pubDate>Fri, 14 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://www.localc.ca/articles/5-idees-cadeaux-fait-a-montreal/</guid>
+      <guid>/articles/5-idees-cadeaux-fait-a-montreal/</guid>
       <description>Vous voulez vous démarquer auprès de vos clients, remercier des membres importants de votre organisation, voici quelques idées qui sauront vous plaires!
 1- Bougie de soja Les bougies de soja sont 100% naturelle. Des huiles essentielles sont utilisées pour donner de douces fragrances de figue et romarin et eucalyptus et miel. Une façon simple de rendre une pièce invitante.
 2- Semences Offrez des semences en cadeau! De belles surprises vous attendent à la floraison.</description>
@@ -24,30 +24,30 @@
     
     <item>
       <title>Les essentiels du bureau</title>
-      <link>https://www.localc.ca/articles/top-4-articles-de-bureau/</link>
+      <link>/articles/top-4-articles-de-bureau/</link>
       <pubDate>Sat, 08 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://www.localc.ca/articles/top-4-articles-de-bureau/</guid>
+      <guid>/articles/top-4-articles-de-bureau/</guid>
       <description>Nous vous avons déniché une gamme de produits très intéressants pour vous faire remarquer lors de rencontres d’affaires ou pour uniformiser les articles du bureau.
 1- Bloc note en bois Pour les puristes comme nous, qui avons encore besoin de prendre des notes à la main, un bloc notes est toujours utile! Celui-ci est en bois, ce qui lui donne une bonne structure et en plus, ses feuilles sont rechargeables.</description>
     </item>
     
     <item>
       <title>La petite histoire de Local C</title>
-      <link>https://www.localc.ca/articles/localc-notre-histoire/</link>
+      <link>/articles/localc-notre-histoire/</link>
       <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://www.localc.ca/articles/localc-notre-histoire/</guid>
+      <guid>/articles/localc-notre-histoire/</guid>
       <description>Né d’une passion commune pour les produits d’ici, Marie-Ève et moi avons décidé de nous lancer dans cette folle aventure de la promotion de produits corporatifs fabriqués localement.
 Notre vision pour ce projet?  Encourager l’économie locale Proposer une gamme de produits promotionnels qui correspondent aux valeurs des entreprises Avoir un impact positif sur l’environnement  Il faut dire que cet amour du local ne date pas d’hier. Marie-Ève cumule plus de 15 années d’expérience en direction de commerce de détail.</description>
     </item>
     
     <item>
       <title> Sac à vin en coton réutilisable </title>
-      <link>https://www.localc.ca/produits/sac-vin/</link>
+      <link>/produits/sac-vin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.localc.ca/produits/sac-vin/</guid>
+      <guid>/produits/sac-vin/</guid>
       <description>Une bouteille de vin, une bière, un cidre à offrir? Ce sac lui donne juste le petit plus qui fera belle impression! En plus, il est réutilisable! ( Modèle pouvant contenir 2 bouteilles également disponible!)
 Matériaux: canevas 12 oz. 100% coton
 Dimension:12 x 3 x 3 pouces</description>
@@ -55,10 +55,10 @@ Dimension:12 x 3 x 3 pouces</description>
     
     <item>
       <title>BKind</title>
-      <link>https://www.localc.ca/bkind/</link>
+      <link>/bkind/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.localc.ca/bkind/</guid>
+      <guid>/bkind/</guid>
       <description>BKIND est une entreprise montréalaise fondée en 2014 qui propose une gamme de produits de soin pour la peau naturels, végétaliens et non testés sur les animaux.
 Chez BKIND nous avons le respect du corps, de l’environnement et des animaux à cœur, c’est pourquoi nos produits ne contiennent pas d&amp;rsquo;ingrédient chimique ni toxique pour la peau, sont écologiques et surtout non testés sur les animaux.
 BKIND est le fruit d’une fondatrice passionnée et consciente de l’importance de la qualité de ses produits.</description>
@@ -66,29 +66,29 @@ BKIND est le fruit d’une fondatrice passionnée et consciente de l’importanc
     
     <item>
       <title>Bals Provisions</title>
-      <link>https://www.localc.ca/bals-provisions/</link>
+      <link>/bals-provisions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.localc.ca/bals-provisions/</guid>
+      <guid>/bals-provisions/</guid>
       <description>Bals Provisions est une entreprise montréalaise spécialisée dans la conserve. Inspirée par ses recettes familiales, Crystal crée des produits originaux qu’elle confectionne en petits lots. Ses objectifs sont simples : collaborer avec les agriculteurs du Québec afin de faire connaître toutes les merveilles de notre terroir, et produire des confitures, sauces et marinades qui sont aussi faibles en sucre que riches en saveur!
 Crystal a plus de dix ans d’expérience dans la boulangerie et la pâtisserie.</description>
     </item>
     
     <item>
       <title>Blanc Soya</title>
-      <link>https://www.localc.ca/blancsoya/</link>
+      <link>/blancsoya/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.localc.ca/blancsoya/</guid>
+      <guid>/blancsoya/</guid>
       <description>Nos bougies au soja sont faites à partir de cire de soja et d&amp;rsquo;huile essentielle ou d&amp;rsquo;huile parfumée de première qualité. Des odeurs selon les saisons!</description>
     </item>
     
     <item>
       <title>Bloc porte cartes d’affaires</title>
-      <link>https://www.localc.ca/produits/bloc-porte-cartes-daffaires/</link>
+      <link>/produits/bloc-porte-cartes-daffaires/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.localc.ca/produits/bloc-porte-cartes-daffaires/</guid>
+      <guid>/produits/bloc-porte-cartes-daffaires/</guid>
       <description>Porte cartes d’affaires personnalisé au logo de votre entreprise.
 Dimension: 3.5 x 3.5 x 0.75 pouces
 Matériaux: Pin canadien
@@ -97,29 +97,29 @@ Surface d’impression: 0,75 x 2 pouces</description>
     
     <item>
       <title>Bloc-notes</title>
-      <link>https://www.localc.ca/produits/bloc-note/</link>
+      <link>/produits/bloc-note/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.localc.ca/produits/bloc-note/</guid>
+      <guid>/produits/bloc-note/</guid>
       <description>Joli, pratique et rechargeable ce bloc-note convient autant à la maison qu’au bureau!
 Matériaux: Pin et papiers</description>
     </item>
     
     <item>
       <title>Blogue</title>
-      <link>https://www.localc.ca/blogue/</link>
+      <link>/blogue/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.localc.ca/blogue/</guid>
+      <guid>/blogue/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Bougie à base de soja</title>
-      <link>https://www.localc.ca/produits/bougie-soja/</link>
+      <link>/produits/bougie-soja/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.localc.ca/produits/bougie-soja/</guid>
+      <guid>/produits/bougie-soja/</guid>
       <description>Que ce soit pour créer une ambiance et/ou diffuser une odeur rafraîchissante. Cette bougie à base de cire de soja est une 100% végétale. Aucun dérivé du pétrole ici! En plus d’être naturelle, vous pouvez compter sur une durée de vie de 30 à 50% plus longue qu&amp;rsquo;une bougie en paraffine.
 Lieu de fabrication: Québec
 Dimension: 2oz
@@ -128,20 +128,20 @@ Matériaux: Cire de soja, huiles parfumées de première qualité sans phosphate
     
     <item>
       <title>Bouquet de fleurs</title>
-      <link>https://www.localc.ca/produits/bouquet-fleurs/</link>
+      <link>/produits/bouquet-fleurs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.localc.ca/produits/bouquet-fleurs/</guid>
+      <guid>/produits/bouquet-fleurs/</guid>
       <description>Quelle belle façon de mettre de la couleurs dans un environnement avec un magnifique bouquet de fleurs en plus d&amp;rsquo;embaumer l&amp;rsquo;air. Parfait pour le comptoir de réception ou simplement remercier, féliciter un employé qui le mérite!
 Contactez-nous et nous vous ferons part des fleurs disponibles en saison et des variétés de bouquet.</description>
     </item>
     
     <item>
       <title>Caramels mous en papillote</title>
-      <link>https://www.localc.ca/produits/caramels-mous-papillote/</link>
+      <link>/produits/caramels-mous-papillote/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.localc.ca/produits/caramels-mous-papillote/</guid>
+      <guid>/produits/caramels-mous-papillote/</guid>
       <description>Caramels tendres, coupés au couteau, emballés un par un en papillote. Un bonheur à partager (ou non) !
 Dimension: 100g
 Matériaux: Sucre, crème, beurre, gousses de vanille, fleur de sel</description>
@@ -149,10 +149,10 @@ Matériaux: Sucre, crème, beurre, gousses de vanille, fleur de sel</description
     
     <item>
       <title>Cartes personnalisables</title>
-      <link>https://www.localc.ca/produits/carte/</link>
+      <link>/produits/carte/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.localc.ca/produits/carte/</guid>
+      <guid>/produits/carte/</guid>
       <description>Toujours à la recherche de cartes originales pour vous démarquer auprès de vos clients? Les cartes de Darveelicious sont parfaites! Représentant les installations icôniques de Montréal, vos clients seront heureux de la conserver longtemps.
 Il est même possible de faire le design de votre propre immeuble! Devenez un icône!
 _Dimension:_4.25 x 5.5 pouces</description>
@@ -160,28 +160,28 @@ _Dimension:_4.25 x 5.5 pouces</description>
     
     <item>
       <title>Catalogue</title>
-      <link>https://www.localc.ca/catalogue/</link>
+      <link>/catalogue/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.localc.ca/catalogue/</guid>
+      <guid>/catalogue/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Contactez-nous</title>
-      <link>https://www.localc.ca/contactez-nous/</link>
+      <link>/contactez-nous/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.localc.ca/contactez-nous/</guid>
+      <guid>/contactez-nous/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Coria</title>
-      <link>https://www.localc.ca/coria/</link>
+      <link>/coria/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.localc.ca/coria/</guid>
+      <guid>/coria/</guid>
       <description>La mission de l’entreprise est de faire redécouvrir le savoir-faire de l’artisan en offrant des accessoires fabriqués localement, à la main, avec des matériaux nobles qui résisteront à l’usure du temps.
 La créatrice
 Passionnée par l’univers artistique depuis toute petite, Andréanne est une jeune créatrice québécoise ayant toujours rêvée de bâtir sa propre entreprise et avoir son atelier. Tout au long de son adolescence, elle s’intéresse à l’univers du vêtement et à la couture.</description>
@@ -189,40 +189,40 @@ Passionnée par l’univers artistique depuis toute petite, Andréanne est une j
     
     <item>
       <title>Dinette Nationale</title>
-      <link>https://www.localc.ca/dinette-nationale/</link>
+      <link>/dinette-nationale/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.localc.ca/dinette-nationale/</guid>
+      <guid>/dinette-nationale/</guid>
       <description>Erica et Catherine fabriquent des choses sucrées.
 Nées toutes deux en 1977 de parents qui n&amp;rsquo;écoutaient pas les Sex Pistols, Erica et Catherine aiment la rhubarbe, les vins du Jura, faire les choses à leur manière, lire des livres de cuisine avant de s&amp;rsquo;endormir, allumer un feu, et leur coiffeur. Elles n&amp;rsquo;aiment pas le tilapia, les goujats, les australiens qui tachent, les Beatles, ni la saveur melon d&amp;rsquo;eau. En 2008, socialement impliquées et soucieuses d&amp;rsquo;améliorer le sort de leurs concitoyens, elles décident d&amp;rsquo;unir leurs forces pour offrir à la population de Montréal un élément vital à son bonheur: du caramel.</description>
     </item>
     
     <item>
       <title>Duo pichet à eau Ciel! La nuit et tasse</title>
-      <link>https://www.localc.ca/produits/duo-pichet-tasse/</link>
+      <link>/produits/duo-pichet-tasse/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.localc.ca/produits/duo-pichet-tasse/</guid>
+      <guid>/produits/duo-pichet-tasse/</guid>
       <description>Ce duo est parfait pour la salle de conférence ou la cuisine. Vous impressionerez vos invités à coup sûre!
 Matériaux: Porcelaine</description>
     </item>
     
     <item>
       <title>Duo porte-cartes porte-clés</title>
-      <link>https://www.localc.ca/produits/duo-porte-cartes-cles/</link>
+      <link>/produits/duo-porte-cartes-cles/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.localc.ca/produits/duo-porte-cartes-cles/</guid>
+      <guid>/produits/duo-porte-cartes-cles/</guid>
       <description>Offrez ce bel ensemble de porte-cartes et porte-clés au logo de votre entreprise. Le porte-cartes est simple, mince et efficace, ne laissant pas de place aux cartes inutiles. On peut y mettre jusqu’à 12 cartes. Le fil ciré et la couture à la main promettent une belle maturité et un produit durable.
 Le porte-clés est muni de bouton pression de couleur antique afin de l’attacher à des endroits sécuritaire et facile d’accès.</description>
     </item>
     
     <item>
       <title>Duo sucré</title>
-      <link>https://www.localc.ca/produits/duo-sucre/</link>
+      <link>/produits/duo-sucre/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.localc.ca/produits/duo-sucre/</guid>
+      <guid>/produits/duo-sucre/</guid>
       <description>Duo composé d’une confiture au poires gingembre et d’une deuxième à la rhubarbe et citron. Entièrement fait à partir de produits locaux et naturels, il s’agit une belle façon de remercier ou chouchouter vos employés ou vos clients.
 Dimension: Chaque pot est de 106 ml
 Matériaux:
@@ -231,10 +231,10 @@ Matériaux:
     
     <item>
       <title>Grand sac en coton réutilisable avec étiquette de cuir</title>
-      <link>https://www.localc.ca/produits/grand-sac/</link>
+      <link>/produits/grand-sac/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.localc.ca/produits/grand-sac/</guid>
+      <guid>/produits/grand-sac/</guid>
       <description>Toujours trop de sacs avec vous? Ce sac est la solution! Incroyablement logeable, et solide, il deviendra rapidement un incontournable dans vos déplacements!
 Matériaux: canevas 12 oz. 100% coton
 Dimension: 15.5 x15 x 6 pouces</description>
@@ -242,10 +242,10 @@ Dimension: 15.5 x15 x 6 pouces</description>
     
     <item>
       <title>Guimauves au chocolat</title>
-      <link>https://www.localc.ca/produits/guimauves-chocolat/</link>
+      <link>/produits/guimauves-chocolat/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.localc.ca/produits/guimauves-chocolat/</guid>
+      <guid>/produits/guimauves-chocolat/</guid>
       <description>Guimauves rebondissantes, pas trop sucrées, juste parfaites. Même si elles sont parfaites telles quelles, on peut aussi les faire griller dans un feu de bois.
 Dimension: 100g
 Matériaux: Sucre, miel, chocolat noir, glucose, gélatine, cacao en poudre.</description>
@@ -253,20 +253,20 @@ Matériaux: Sucre, miel, chocolat noir, glucose, gélatine, cacao en poudre.</de
     
     <item>
       <title>Laurie Anne - Atelier Fleur</title>
-      <link>https://www.localc.ca/laurie-anne-fleur/</link>
+      <link>/laurie-anne-fleur/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.localc.ca/laurie-anne-fleur/</guid>
+      <guid>/laurie-anne-fleur/</guid>
       <description>L&amp;rsquo;atelier fleur s&amp;rsquo;occupe de fleurir votre mariage ou autres événements ainsi que votre quotidien avec des fleurs fraîches soyeusement sélectionnées pour leur beauté et durabilité, le plus souvent locales. Les bouquets dégagent une atmosphère douce et naturelle.
 En saison estivale (mai à octobre) nos fleurs proviennent directement de notre ferme florale et d&amp;rsquo;autres producteurs du Québec et en hiver (novembre à avril) je privilégie les cultures à proximité; Île-du-Prince-Édouard et de l&amp;rsquo;Ontario et les variétés qui conservent leur esthétique une fois séchée.</description>
     </item>
     
     <item>
       <title>Local C</title>
-      <link>https://www.localc.ca/localc/</link>
+      <link>/localc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.localc.ca/localc/</guid>
+      <guid>/localc/</guid>
       <description>Local C, c’est l’implication et l’amour d’Andréanne pour la mode et les créateurs locaux jumelés à la vaste expérience de Marie-Ève dans l’achat de produits promotionnels faits au Québec. Additionnez le tout et vous obtenez un duo au sens des affaires aiguisé — et aux fous rires contagieux — spécialisé dans le développement d’objets personnalisés uniques.
 Mission
 Propulser les entreprises du Québec tout en mettant en valeur le talent des créateurs locaux.</description>
@@ -274,10 +274,10 @@ Propulser les entreprises du Québec tout en mettant en valeur le talent des cr�
     
     <item>
       <title>Moyen sac réutilisable</title>
-      <link>https://www.localc.ca/produits/moyen-sac/</link>
+      <link>/produits/moyen-sac/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.localc.ca/produits/moyen-sac/</guid>
+      <guid>/produits/moyen-sac/</guid>
       <description>La grandeur juste parfaite? La voilà! Ce sac robuste à souhait peut contenir une quantité surprenante de chose! Parfait pour y mettre un kit de conférence ou comme sac de sport!
 Matériaux: canevas 12 oz. 100% coton et écusson en cuir de vache
 Dimension: 13 x 13 x 5 pouces</description>
@@ -285,48 +285,48 @@ Dimension: 13 x 13 x 5 pouces</description>
     
     <item>
       <title>Noeud papillon 100% personnalisable</title>
-      <link>https://www.localc.ca/produits/noeud-papillon/</link>
+      <link>/produits/noeud-papillon/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.localc.ca/produits/noeud-papillon/</guid>
+      <guid>/produits/noeud-papillon/</guid>
       <description>La classe n’a jamais eu aussi fière allure! Ce noeud papillon est complètement personnalisable aux couleurs et logo de votre entreprise. Comment le nouer? Nul besoin de savoir comment car il est déjà noué pour vous!
 Matériaux: Polyester</description>
     </item>
     
     <item>
       <title>Nos créateurs</title>
-      <link>https://www.localc.ca/nos-createurs/</link>
+      <link>/nos-createurs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.localc.ca/nos-createurs/</guid>
+      <guid>/nos-createurs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Not made in China</title>
-      <link>https://www.localc.ca/not-made-in-china/</link>
+      <link>/not-made-in-china/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.localc.ca/not-made-in-china/</guid>
+      <guid>/not-made-in-china/</guid>
       <description>Hugo Didier: Étant issu d’une lignée de potiers, j’ai choisi de marier l’ancien avec l’actuel en produisant une céramique engagée et moderne.
 Avec les collections » Not made in china » et » Cé Faitte Icitte » je propose au consommateur une réflexion sur les objets qui habitent notre quotidien. Je l’invite à considérer la ou les personnes qui l’ont confectionné et de penser à la provenance et au cadre dans lequel ces objets ont été fabriqué.</description>
     </item>
     
     <item>
       <title>Panier</title>
-      <link>https://www.localc.ca/panier/</link>
+      <link>/panier/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.localc.ca/panier/</guid>
+      <guid>/panier/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Petit sac réutilisable </title>
-      <link>https://www.localc.ca/produits/petit-sac/</link>
+      <link>/produits/petit-sac/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.localc.ca/produits/petit-sac/</guid>
+      <guid>/produits/petit-sac/</guid>
       <description>Passe-partout, ce petit sac est parfait pour y trimballer par exemple un petit goûter ou ses chaussures!
 Matériaux: canevas 12 oz. 100% coton
 Dimension: 7.5 x 12.5 x 4 pouces</description>
@@ -334,20 +334,20 @@ Dimension: 7.5 x 12.5 x 4 pouces</description>
     
     <item>
       <title>Petite enveloppe de semences</title>
-      <link>https://www.localc.ca/produits/enveloppe-semences/</link>
+      <link>/produits/enveloppe-semences/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.localc.ca/produits/enveloppe-semences/</guid>
+      <guid>/produits/enveloppe-semences/</guid>
       <description>Un peu cadeau vert? Cette enveloppe se glisse partout! De quoi semer le bonheur.
 Matériaux: Semences</description>
     </item>
     
     <item>
       <title>Pochette canevas</title>
-      <link>https://www.localc.ca/produits/pochette-canevas/</link>
+      <link>/produits/pochette-canevas/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.localc.ca/produits/pochette-canevas/</guid>
+      <guid>/produits/pochette-canevas/</guid>
       <description>Pochette multi-usages, résistante, pouvant contenir crayons, petit cahier de notes, outils ou le nécessaire de voyage.
 Dimension: 9” x 5,5”
 Matériaux: canvas 12 oz. 100% coton et écusson en cuir de vache</description>
@@ -355,10 +355,10 @@ Matériaux: canvas 12 oz. 100% coton et écusson en cuir de vache</description>
     
     <item>
       <title>Porte-cartes horizontal</title>
-      <link>https://www.localc.ca/produits/porte-carte-1/</link>
+      <link>/produits/porte-carte-1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.localc.ca/produits/porte-carte-1/</guid>
+      <guid>/produits/porte-carte-1/</guid>
       <description>Ce porte-cartes est simple, mince et efficace, ne laissant pas de place aux cartes inutiles. Il est le parfait accessoire pour toute personne qui recherche la simplicité. On peut y mettre jusqu’à 12 cartes.
 La petite fente en triangle au bas facilite l’accès aux cartes. Le fil ciré et la couture à la main promettent une belle maturité et un produit durable.
 Dimension: 10.5 cm X 7 cm
@@ -367,10 +367,10 @@ Matériaux: Cuir de vache</description>
     
     <item>
       <title>Porte-cartes vertical</title>
-      <link>https://www.localc.ca/produits/porte-carte-2/</link>
+      <link>/produits/porte-carte-2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.localc.ca/produits/porte-carte-2/</guid>
+      <guid>/produits/porte-carte-2/</guid>
       <description>Ce porte-cartes est simple, mince et efficace. On peut y mettre jusqu’à 12 cartes. Tout ce qu&amp;rsquo;il vous faut!
 Le fil ciré et la couture à la main promettent une belle maturité et un produit durable.
 Dimension: 10.5 cm X 7 cm
@@ -380,10 +380,10 @@ Surface d’impression: 0.5 x 2 pouces</description>
     
     <item>
       <title>Porte-clés</title>
-      <link>https://www.localc.ca/produits/porte-cles/</link>
+      <link>/produits/porte-cles/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.localc.ca/produits/porte-cles/</guid>
+      <guid>/produits/porte-cles/</guid>
       <description>Fait à la main, avec des retailles de production de TANDEM CO., votre logo peut-être gravé d’un côté et ajouter une autre information de l’autre. Muni d’un bouton pression de couleur antique, il peut s’accrocher n’importe où.
 Dimension: 1”largeur x 4 “longueur
 Matériaux: Cuir
@@ -392,10 +392,10 @@ Surface d’impression: 0.5 x 2 pouces *Maximum deux lignes de 20 caractères</d
     
     <item>
       <title>Porte-passeport</title>
-      <link>https://www.localc.ca/produits/porte-passeport/</link>
+      <link>/produits/porte-passeport/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.localc.ca/produits/porte-passeport/</guid>
+      <guid>/produits/porte-passeport/</guid>
       <description>Porte-passeport parfait pour les voyages d’affaires. Il contient une fente pour le passeport et deux fentes du côté opposé pour y insérer tous vos autres cartes. Résistant grâce à ses coutures faites à la main, il sera votre compagnon de voyage pour de nombreuses années.
 Dimension: 10,5 cm x 14,5 cm (fermé)
 Matériaux: Cuir d&amp;rsquo;importation italienne et fil de lin de France
@@ -404,10 +404,10 @@ Surface d’impression: 0.25 x 0.5 pouces</description>
     
     <item>
       <title>Quinoa soufflé au caramel</title>
-      <link>https://www.localc.ca/produits/quinoa-souffle-caramel/</link>
+      <link>/produits/quinoa-souffle-caramel/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.localc.ca/produits/quinoa-souffle-caramel/</guid>
+      <guid>/produits/quinoa-souffle-caramel/</guid>
       <description>Collation croquante, un brin salée, un brin sucrée, bref, le bonheur à l’état pur!
 Dimension: 150g
 Ingrédients: Quinoa soufflé bio, graines de citrouille bio, sucre, beurre, tamari sans gluten, gousses de vanille</description>
@@ -415,10 +415,10 @@ Ingrédients: Quinoa soufflé bio, graines de citrouille bio, sucre, beurre, tam
     
     <item>
       <title>Sac à lunch</title>
-      <link>https://www.localc.ca/produits/sac-a-lunch/</link>
+      <link>/produits/sac-a-lunch/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.localc.ca/produits/sac-a-lunch/</guid>
+      <guid>/produits/sac-a-lunch/</guid>
       <description>Ce superbe sac à lunch réutilisable est fait de caneva de coton. Ses ganses de cuir lui donne un aspect distingué.te l’accès aux cartes. Le fil ciré et la couture à la main promettent une belle maturité et un produit durable.
 Dimension: 5.5 x 7 x 12 pouces
 Matériaux: Canevas et cuir italien
@@ -427,20 +427,20 @@ Surface d’impression: 0.25 x 0.5 pouces</description>
     
     <item>
       <title>Sucette - caramel beurre salé</title>
-      <link>https://www.localc.ca/produits/sucette-caramel-beurre-sale/</link>
+      <link>/produits/sucette-caramel-beurre-sale/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.localc.ca/produits/sucette-caramel-beurre-sale/</guid>
+      <guid>/produits/sucette-caramel-beurre-sale/</guid>
       <description>Sucette en forme de bouton, à laisser fondre ou à lécher énergiquement ! Votre coeur d’enfant (ou de vos enfants) sera comblé!
 Matériaux: Sucre, beurre, fleur de sel, vinaigre blanc, gousses de vanille</description>
     </item>
     
     <item>
       <title>Tablier canevas et cuir</title>
-      <link>https://www.localc.ca/produits/tablier-caneva/</link>
+      <link>/produits/tablier-caneva/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.localc.ca/produits/tablier-caneva/</guid>
+      <guid>/produits/tablier-caneva/</guid>
       <description>Tablier résistant parfait pour vos événements, votre atelier ou vos employés. Personnalisez-le avec un écusson de cuir. Ils est ajustable au niveau du cou avec une belle ganse de cuir et deux bandes de canevas pour la taille. Poches au devant pour avoir toujours vos outils à portée de main.
 Dimension: 25 x 31 pouces
 Matériaux: 100% coton, cuir véritable pour l’écusson et la ganse de cou
@@ -449,50 +449,50 @@ Surface d’impression: 1 x 2 pouces</description>
     
     <item>
       <title>Tandem &amp; Co.</title>
-      <link>https://www.localc.ca/tandem-co/</link>
+      <link>/tandem-co/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.localc.ca/tandem-co/</guid>
+      <guid>/tandem-co/</guid>
       <description>Nées sur le bord du lac McGregor à Val-des-Monts au Québec, les sœurs Maxime et Clôde Saint-Denis ont, depuis leur plus jeune âge, fait preuve d’imagination en créant quotidiennement divers objets, vêtements et accessoires à leur image.
 Tandem &amp;amp; Co, l’entreprise que ces deux sœurs et colocataires ont mises sur pied, est une preuve qu’il n’y a aucune limite à leur créativité. En unissant leurs talents d’entrepreneure et de designer, elles proposent une gamme de produits uniques.</description>
     </item>
     
     <item>
       <title>Tasse Moyen café 8oz</title>
-      <link>https://www.localc.ca/produits/tasse-8oz/</link>
+      <link>/produits/tasse-8oz/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.localc.ca/produits/tasse-8oz/</guid>
+      <guid>/produits/tasse-8oz/</guid>
       <description>Un moyen café? Moyen comment? Assez pour contenir un café filtre! Cette tasse en porcelaine est faite à la main. De plus, elle est résistante au micro-onde et au lave-vaisselle.
 Matériaux: Porcelaine</description>
     </item>
     
     <item>
       <title>Tasse Petit café 6oz</title>
-      <link>https://www.localc.ca/produits/tasse-6oz/</link>
+      <link>/produits/tasse-6oz/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.localc.ca/produits/tasse-6oz/</guid>
+      <guid>/produits/tasse-6oz/</guid>
       <description>Un petit café? Petit comment? Assez petit pour contenir un petit café au lait! Cette tasse en porcelaine est faite à la main. Elle est résistante au micro-onde et au lave-vaisselle.
 _Matériaux:_Porcelaine</description>
     </item>
     
     <item>
       <title>Tasse Ti-café </title>
-      <link>https://www.localc.ca/produits/tasse-ti-cafe/</link>
+      <link>/produits/tasse-ti-cafe/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.localc.ca/produits/tasse-ti-cafe/</guid>
+      <guid>/produits/tasse-ti-cafe/</guid>
       <description>Ti comment? Assez ti pour contenir un espresso court! Cette tasse en porcelaine est faite à la main. De plus, elle est résistante au micro-onde et au lave vaisselle.
 Matériaux: Porcelaine</description>
     </item>
     
     <item>
       <title>Trio Salé</title>
-      <link>https://www.localc.ca/produits/trio-sale/</link>
+      <link>/produits/trio-sale/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.localc.ca/produits/trio-sale/</guid>
+      <guid>/produits/trio-sale/</guid>
       <description>Cet ensemble salé est parfait pour accompagner les fromages, pour des burger ou simplement pour un pique-nique. Entièrement fait à partir de produits locaux et naturels, il s’agit une belle façon de remercier ou chouchouter vos employés ou vos clients.
 Dimension: Chaque pot est de 106 ml
 Matériaux:
@@ -501,10 +501,10 @@ Matériaux:
     
     <item>
       <title>Trousse Confort</title>
-      <link>https://www.localc.ca/produits/trousse-confort/</link>
+      <link>/produits/trousse-confort/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.localc.ca/produits/trousse-confort/</guid>
+      <guid>/produits/trousse-confort/</guid>
       <description>Cette trousse confort contient :
  Une brosse à dent biodégradable Crème à main (50g) Baume à lèvres Pochette de canevas avec écusson de cuir  Brosse à dent : manche en bambou, poil en polymères, exempts de BPA et d’autres toxines
 Crème à main forêt: Ingrédients: beurre de karité, huile de coco, huile de jojoba, huiles essentielles d&amp;rsquo;aiguille de sapin, pin et bois de cèdre. Ou Crème à main Thé blanc à la rose: Ingrédients: beurre de karité, huile de coco, huile de jojoba, thé blanc organique à la rose, extrait de rose.</description>
@@ -512,20 +512,20 @@ Crème à main forêt: Ingrédients: beurre de karité, huile de coco, huile de 
     
     <item>
       <title>Union Bow ties</title>
-      <link>https://www.localc.ca/union-bow-ties/</link>
+      <link>/union-bow-ties/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.localc.ca/union-bow-ties/</guid>
+      <guid>/union-bow-ties/</guid>
       <description>Que ce soit au bureau ou lors de votre prochain 5 à 7, nos noeuds papillon vous permettront d’avoir un style frais et distingué. Union Bow Ties crée des noeuds papillon à nouer soi-même, aux imprimés audacieux. Fabriqués à partir de tissus de première qualité, nos noeuds papillon sont confectionnés avec le plus grand soin à Montréal, de façon artisanale.
 Union Bow Ties est la rencontre de deux talents créatifs: la designer de mode Marie-Eve Filteau et le directeur artistique Sylvain Toulouse.</description>
     </item>
     
     <item>
       <title>À propos</title>
-      <link>https://www.localc.ca/a-propos/</link>
+      <link>/a-propos/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.localc.ca/a-propos/</guid>
+      <guid>/a-propos/</guid>
       <description></description>
     </item>
     

@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Papetrie on Local C - Articles promotionnels avec de la valeur</title>
-    <link>https://www.localc.ca/categories/papetrie/</link>
+    <link>/categories/papetrie/</link>
     <description>Recent content in Papetrie on Local C - Articles promotionnels avec de la valeur</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://www.localc.ca/categories/papetrie/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/papetrie/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Cartes personnalisables</title>
-      <link>https://www.localc.ca/produits/carte/</link>
+      <link>/produits/carte/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.localc.ca/produits/carte/</guid>
+      <guid>/produits/carte/</guid>
       <description>Toujours à la recherche de cartes originales pour vous démarquer auprès de vos clients? Les cartes de Darveelicious sont parfaites! Représentant les installations icôniques de Montréal, vos clients seront heureux de la conserver longtemps.
 Il est même possible de faire le design de votre propre immeuble! Devenez un icône!
 _Dimension:_4.25 x 5.5 pouces</description>

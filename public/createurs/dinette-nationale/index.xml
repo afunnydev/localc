@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dinette-nationale on Local C - Articles promotionnels avec de la valeur</title>
-    <link>https://www.localc.ca/createurs/dinette-nationale/</link>
+    <link>/createurs/dinette-nationale/</link>
     <description>Recent content in Dinette-nationale on Local C - Articles promotionnels avec de la valeur</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://www.localc.ca/createurs/dinette-nationale/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/createurs/dinette-nationale/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Caramels mous en papillote</title>
-      <link>https://www.localc.ca/produits/caramels-mous-papillote/</link>
+      <link>/produits/caramels-mous-papillote/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.localc.ca/produits/caramels-mous-papillote/</guid>
+      <guid>/produits/caramels-mous-papillote/</guid>
       <description>Caramels tendres, coupés au couteau, emballés un par un en papillote. Un bonheur à partager (ou non) !
 Dimension: 100g
 Matériaux: Sucre, crème, beurre, gousses de vanille, fleur de sel</description>
@@ -23,10 +23,10 @@ Matériaux: Sucre, crème, beurre, gousses de vanille, fleur de sel</description
     
     <item>
       <title>Guimauves au chocolat</title>
-      <link>https://www.localc.ca/produits/guimauves-chocolat/</link>
+      <link>/produits/guimauves-chocolat/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.localc.ca/produits/guimauves-chocolat/</guid>
+      <guid>/produits/guimauves-chocolat/</guid>
       <description>Guimauves rebondissantes, pas trop sucrées, juste parfaites. Même si elles sont parfaites telles quelles, on peut aussi les faire griller dans un feu de bois.
 Dimension: 100g
 Matériaux: Sucre, miel, chocolat noir, glucose, gélatine, cacao en poudre.</description>
@@ -34,10 +34,10 @@ Matériaux: Sucre, miel, chocolat noir, glucose, gélatine, cacao en poudre.</de
     
     <item>
       <title>Quinoa soufflé au caramel</title>
-      <link>https://www.localc.ca/produits/quinoa-souffle-caramel/</link>
+      <link>/produits/quinoa-souffle-caramel/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.localc.ca/produits/quinoa-souffle-caramel/</guid>
+      <guid>/produits/quinoa-souffle-caramel/</guid>
       <description>Collation croquante, un brin salée, un brin sucrée, bref, le bonheur à l’état pur!
 Dimension: 150g
 Ingrédients: Quinoa soufflé bio, graines de citrouille bio, sucre, beurre, tamari sans gluten, gousses de vanille</description>
@@ -45,10 +45,10 @@ Ingrédients: Quinoa soufflé bio, graines de citrouille bio, sucre, beurre, tam
     
     <item>
       <title>Sucette - caramel beurre salé</title>
-      <link>https://www.localc.ca/produits/sucette-caramel-beurre-sale/</link>
+      <link>/produits/sucette-caramel-beurre-sale/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.localc.ca/produits/sucette-caramel-beurre-sale/</guid>
+      <guid>/produits/sucette-caramel-beurre-sale/</guid>
       <description>Sucette en forme de bouton, à laisser fondre ou à lécher énergiquement ! Votre coeur d’enfant (ou de vos enfants) sera comblé!
 Matériaux: Sucre, beurre, fleur de sel, vinaigre blanc, gousses de vanille</description>
     </item>

@@ -2,110 +2,110 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Local C - Articles promotionnels avec de la valeur</title>
-    <link>https://www.localc.ca/categories/</link>
+    <link>/categories/</link>
     <description>Recent content in Categories on Local C - Articles promotionnels avec de la valeur</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://www.localc.ca/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>https://www.localc.ca/categories/</link>
+      <link>/categories/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.localc.ca/categories/</guid>
+      <guid>/categories/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Accesoire</title>
-      <link>https://www.localc.ca/categories/accesoire/</link>
+      <link>/categories/accesoire/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.localc.ca/categories/accesoire/</guid>
+      <guid>/categories/accesoire/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Accessoire</title>
-      <link>https://www.localc.ca/categories/accessoire/</link>
+      <link>/categories/accessoire/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.localc.ca/categories/accessoire/</guid>
+      <guid>/categories/accessoire/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Alimentaire</title>
-      <link>https://www.localc.ca/categories/alimentaire/</link>
+      <link>/categories/alimentaire/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.localc.ca/categories/alimentaire/</guid>
+      <guid>/categories/alimentaire/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cadeau</title>
-      <link>https://www.localc.ca/categories/cadeau/</link>
+      <link>/categories/cadeau/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.localc.ca/categories/cadeau/</guid>
+      <guid>/categories/cadeau/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Confort</title>
-      <link>https://www.localc.ca/categories/confort/</link>
+      <link>/categories/confort/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.localc.ca/categories/confort/</guid>
+      <guid>/categories/confort/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cuir</title>
-      <link>https://www.localc.ca/categories/cuir/</link>
+      <link>/categories/cuir/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.localc.ca/categories/cuir/</guid>
+      <guid>/categories/cuir/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Nouveautés</title>
-      <link>https://www.localc.ca/categories/nouveautes/</link>
+      <link>/categories/nouveautes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.localc.ca/categories/nouveautes/</guid>
+      <guid>/categories/nouveautes/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Papeterie</title>
-      <link>https://www.localc.ca/categories/papeterie/</link>
+      <link>/categories/papeterie/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.localc.ca/categories/papeterie/</guid>
+      <guid>/categories/papeterie/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Papetrie</title>
-      <link>https://www.localc.ca/categories/papetrie/</link>
+      <link>/categories/papetrie/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.localc.ca/categories/papetrie/</guid>
+      <guid>/categories/papetrie/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sac</title>
-      <link>https://www.localc.ca/categories/sac/</link>
+      <link>/categories/sac/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.localc.ca/categories/sac/</guid>
+      <guid>/categories/sac/</guid>
       <description></description>
     </item>
     

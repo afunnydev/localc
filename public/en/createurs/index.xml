@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Créateurs on Local C - Articles promotionnels avec de la valeur</title>
-    <link>https://www.localc.ca/en/createurs/</link>
+    <link>/en/createurs/</link>
     <description>Recent content in Créateurs on Local C - Articles promotionnels avec de la valeur</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://www.localc.ca/en/createurs/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/en/createurs/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>BKind</title>
-      <link>https://www.localc.ca/en/bkind/</link>
+      <link>/en/bkind/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.localc.ca/en/bkind/</guid>
+      <guid>/en/bkind/</guid>
       <description>BKIND est une entreprise montréalaise fondée en 2014 qui propose une gamme de produits de soin pour la peau naturels, végétaliens et non testés sur les animaux.
 Chez BKIND nous avons le respect du corps, de l’environnement et des animaux à cœur, c’est pourquoi nos produits ne contiennent pas d&amp;rsquo;ingrédient chimique ni toxique pour la peau, sont écologiques et surtout non testés sur les animaux.
 BKIND est le fruit d’une fondatrice passionnée et consciente de l’importance de la qualité de ses produits.</description>
@@ -23,20 +23,20 @@ BKIND est le fruit d’une fondatrice passionnée et consciente de l’importanc
     
     <item>
       <title>Bals Provisions</title>
-      <link>https://www.localc.ca/en/bals-provisions/</link>
+      <link>/en/bals-provisions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.localc.ca/en/bals-provisions/</guid>
+      <guid>/en/bals-provisions/</guid>
       <description>Bals Provisions is a preserving company based out of Montreal, Quebec. Working in small batches, Crystal is dedicated to producing family recipes and developing original and delicious products. Her goals are simple: to work with Quebec farmers to promote the wondrous bounty of Quebec-grown produce, and to provide low- sugar, high-flavor jams, sauces and pickles.
 Crystal has worked as a baker and pastry chef for over a decade. Upon discovering a citrus pectin that allowed the creation of low-sugar jam recipes that are packed with real and natural fruit flavor and texture, Bals Provisions was launched.</description>
     </item>
     
     <item>
       <title>Tandem &amp; Co.</title>
-      <link>https://www.localc.ca/en/tandem-co/</link>
+      <link>/en/tandem-co/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.localc.ca/en/tandem-co/</guid>
+      <guid>/en/tandem-co/</guid>
       <description>Nées sur le bord du lac McGregor à Val-des-Monts au Québec, les sœurs Maxime et Clôde Saint-Denis ont, depuis leur plus jeune âge, fait preuve d’imagination en créant quotidiennement divers objets, vêtements et accessoires à leur image.
 Tandem &amp;amp; Co, l’entreprise que ces deux sœurs et colocataires ont mises sur pied, est une preuve qu’il n’y a aucune limite à leur créativité. En unissant leurs talents d’entrepreneure et de designer, elles proposent une gamme de produits uniques.</description>
     </item>

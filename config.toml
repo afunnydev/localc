@@ -1,4 +1,4 @@
-baseURL = "https://www.localc.ca/"
+baseURL = "/"
 DefaultContentLanguage = "fr"
 languageCode = "en-us"
 title = "Local C - Articles promotionnels avec de la valeur"

@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Union-bow-ties on Local C - Articles promotionnels avec de la valeur</title>
-    <link>https://www.localc.ca/createurs/union-bow-ties/</link>
+    <link>/createurs/union-bow-ties/</link>
     <description>Recent content in Union-bow-ties on Local C - Articles promotionnels avec de la valeur</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://www.localc.ca/createurs/union-bow-ties/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/createurs/union-bow-ties/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Noeud papillon 100% personnalisable</title>
-      <link>https://www.localc.ca/produits/noeud-papillon/</link>
+      <link>/produits/noeud-papillon/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.localc.ca/produits/noeud-papillon/</guid>
+      <guid>/produits/noeud-papillon/</guid>
       <description>La classe n’a jamais eu aussi fière allure! Ce noeud papillon est complètement personnalisable aux couleurs et logo de votre entreprise. Comment le nouer? Nul besoin de savoir comment car il est déjà noué pour vous!
 Matériaux: Polyester</description>
     </item>
