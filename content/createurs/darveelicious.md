@@ -13,6 +13,7 @@ linkedin: null
 image: /img/uploads/iusa_400x400.43601729_qwdw.jpg
 i18nlanguage: fr
 menuposition: createurs
+draft: true
 ---
 La Darvee d’Amérique est une bête créative qui se nourrit de jokes plates et de vidéos de chats.
 

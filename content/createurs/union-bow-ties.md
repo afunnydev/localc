@@ -9,7 +9,7 @@ facebook: 'https://www.facebook.com/Union-Bow-Ties-295596137230936/ '
 instagram: 'https://www.instagram.com/unionbowties/ '
 pinterest: null
 linkedin: null
-image: /img/uploads/union_deer_small_0433bdc4-ae44-448e-84e1-ba9102b9fa8f.png
+image: /img/uploads/union_bow_tie.png
 i18nlanguage: fr
 menuposition: createurs
 ---

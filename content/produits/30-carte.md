@@ -12,6 +12,7 @@ images:
 createurs: darveelicious
 categories:
   - Papetrie
+  - Nouveautés
 prix:
   - montant: '3.90'
     quantite: '50'

@@ -4,9 +4,9 @@ description: Petit sac réutilisable avec écusson en cuir
 slug: petit-sac
 nomcreateur: Local C
 delai: 2 à 3 semaines
-image: /img/uploads/IMG_8044_PSD.jpg
+image: /img/uploads/petit_sac.jpg
 images:
-  - url: /img/uploads/IMG_8044_PSD.jpg
+  - url: /img/uploads/petit_sac.jpg
 createurs: localc
 categories:
   - Sac

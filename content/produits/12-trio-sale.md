@@ -12,6 +12,7 @@ images:
 createurs: bals-provisions
 categories:
   - Alimentaire
+  - Nouveautés
 prix:
   - montant: '0'
     quantite: 50

@@ -12,6 +12,7 @@ categories:
   - Confort
   - Cadeau
   - Accessoire
+  - Nouveautés
 prix:
   - montant: '39.95'
     quantite: 50

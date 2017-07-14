@@ -4,9 +4,9 @@ description: Sac à vin en coton canevas réutilisable et personnalisable
 slug: sac-vin
 nomcreateur: Local C
 delai: 2 à 3 semaines
-image: /img/uploads/IMG_8050_PSD.jpg
+image: /img/uploads/sac_a_vin.jpg
 images:
-  - url: /img/uploads/IMG_8050_PSD.jpg
+  - url: /img/uploads/sac_a_vin.jpg
 createurs: localc
 categories:
   - Sac
@@ -40,5 +40,5 @@ Une bouteille de vin, une bière, un cidre à offrir? Ce sac lui donne juste le 
 
 _Matériaux_: canevas 12 oz. 100% coton
 
-_Dimension:_12 x 3 x 3 pouces
+_Dimension_:12 x 3 x 3 pouces
 

@@ -7,6 +7,7 @@ image: /img/products/produit13.jpg
 createurs: dinette-nationale
 categories:
   - Alimentaire
+  - Nouveautés
 images:
  - url: /img/products/produit13.jpg
 title: Quinoa soufflé au caramel

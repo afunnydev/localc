@@ -7,6 +7,7 @@ image: /img/products/produit17.jpg
 createurs: blancsoja
 categories:
   - Cadeau
+  - Nouveautés
 images:
   - url: /img/products/produit17.jpg
 title: Bougie à base de soja

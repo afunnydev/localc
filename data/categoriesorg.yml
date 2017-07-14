@@ -1,33 +1,33 @@
 categories:
   - nom: "Tous nos produits"
     url: "/produits"
-    nombre: 12
+    nombre: 30
   - nom: "Nouveautés"
-    nombre: 0
+    nombre: 13
   - nom: "Alimentaire"
     photo: "/img/categories/categorie-alimentaire.jpg"
-    nombre: 2
+    nombre: 6
   - nom: "Cadeau"
     photo: "/img/categories/categorie-cadeau.jpg"
-    nombre: 1
+    nombre: 4
   - nom: "Papeterie"
     photo: "/img/categories/categorie-papetrie.jpg"
-    nombre: 0
-    souscategories:
-      - "Cahier de notes"
-      - "Imprimé"
+    nombre: 1
+    # souscategories:
+    #   - "Cahier de notes"
+    #   - "Imprimé"
   - nom: "Sac"
     photo: "/img/categories/categorie-sacs.jpg"
-    nombre: 2
+    nombre: 6
   - nom: "Accessoire"
     photo: "/img/categories/categorie-accessoires.jpg"
-    nombre: 10
-    souscategories:
-      - "Porte-carte"
-      - "Porte-passeport"
-      - "Tablier"
-      - "Noeud papillon"
-      - "Tasse"
+    nombre: 14
+    # souscategories:
+    #   - "Porte-carte"
+    #   - "Porte-passeport"
+    #   - "Tablier"
+    #   - "Noeud papillon"
+    #   - "Tasse"
   - nom: "Confort"
     photo: "/img/categories/categorie-confort.jpg"
     nombre: 2

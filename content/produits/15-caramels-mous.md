@@ -7,6 +7,7 @@ image: /img/products/produit15.jpg
 createurs: dinette-nationale
 categories:
   - Alimentaire
+  - Nouveautés
 images:
   - url: /img/products/produit15.jpg
 title: Caramels mous en papillote

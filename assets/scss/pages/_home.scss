@@ -423,3 +423,15 @@
 }
 
 /*=====  End of Scroll  ======*/
+
+.row:not(.simpleCart_items) {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+  flex-wrap: wrap;
+}
+.row:not(.simpleCart_items) > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+}

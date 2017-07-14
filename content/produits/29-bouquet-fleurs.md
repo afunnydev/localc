@@ -10,6 +10,7 @@ images:
 createurs: laurie-anne-fleur
 categories:
   - Cadeau
+  - Nouveautés
 prix:
   - montant: '0'
     quantite: '50'

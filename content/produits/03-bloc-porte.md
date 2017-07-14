@@ -11,6 +11,7 @@ images:
 createurs: tandem-co
 categories:
   - Accessoire
+  - Nouveautés
 prix:
   - montant: '8.95'
     quantite: 50

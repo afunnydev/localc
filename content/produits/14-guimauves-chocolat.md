@@ -7,6 +7,7 @@ image: /img/products/produit14.jpg
 createurs: dinette-nationale
 categories:
   - Alimentaire
+  - Nouveautés
 images:
   - url: /img/products/produit14.jpg
 title: Guimauves au chocolat

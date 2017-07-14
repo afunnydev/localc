@@ -94,6 +94,7 @@
 			max-height: 400px;
 			object-fit: cover;
 		}
+		max-width: 100%;
 	}
 	h1 {
 		font-family: $font-heading;
@@ -144,6 +145,37 @@
 			margin-bottom: 35px;
 		}
 	}	
+	h3 {
+		font-family: $font-heading;
+		color:palette(blue);
+		font-size: 30px;
+		line-height: 40px;
+		margin-bottom: 25px;
+		@include breakpoint(tablet) {
+			font-size: 25px;
+			line-height: 35px;
+		}
+		@include breakpoint(desktop) {
+			font-size: 27px;
+			line-height: 37px;
+			margin-bottom: 20px;
+		}
+		@include breakpoint(phone-xs) {
+			font-size: 18px;
+			line-height: 130%;
+		}
+		@include breakpoint(phone-lg) {
+			font-size: 22px;
+			line-height: 130%;
+		}
+		a {
+			cursor: pointer;
+			color: palette(blue);
+			&:hover {
+				color:palette(yellow);
+			}
+		}
+	}
 	p {
 		font-size: 23px;
 		line-height: 28px;

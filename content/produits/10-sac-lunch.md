@@ -11,6 +11,7 @@ createurs: localc
 categories:
   - Sac
   - Accessoire
+  - Nouveautés
 prix:
   - montant: '23.95'
     quantite: 50

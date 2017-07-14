@@ -4,12 +4,13 @@ description: Moyen sac réutilisable en canevas personnalisable
 slug: moyen-sac
 nomcreateur: Local C
 delai: 2 à 3 semaines
-image: /img/uploads/IMG_8042_PSD.jpg
+image: /img/uploads/moyen_sac.jpg
 images:
-  - url: /img/uploads/IMG_8042_PSD.jpg
+  - url: /img/uploads/moyen_sac.jpg
 createurs: localc
 categories:
   - Sac
+  - Nouveautés
 prix:
   - montant: '18.95'
     quantite: '50'
