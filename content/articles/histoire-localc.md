@@ -10,7 +10,7 @@ id: histoire-localc
 
 Né d’une passion commune pour les produits d’ici, Marie-Ève et moi avons décidé de nous lancer dans cette folle aventure de la promotion de produits corporatifs fabriqués localement. 
 
-Notre vision pour ce projet? 
+### Notre vision pour ce projet? 
 
 - Encourager l’économie locale
 - Proposer une gamme de produits promotionnels qui correspondent aux valeurs des entreprises 

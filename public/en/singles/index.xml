@@ -2,65 +2,65 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Singles on Local C - Articles promotionnels avec de la valeur</title>
-    <link>http://zoo-keeper-handles-62138.netlify.com/en/singles/</link>
+    <link>https://www.localc.ca/en/singles/</link>
     <description>Recent content in Singles on Local C - Articles promotionnels avec de la valeur</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://zoo-keeper-handles-62138.netlify.com/en/singles/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.localc.ca/en/singles/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>About</title>
-      <link>http://zoo-keeper-handles-62138.netlify.com/en/about/</link>
+      <link>https://www.localc.ca/en/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://zoo-keeper-handles-62138.netlify.com/en/about/</guid>
+      <guid>https://www.localc.ca/en/about/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Blog</title>
-      <link>http://zoo-keeper-handles-62138.netlify.com/en/blog/</link>
+      <link>https://www.localc.ca/en/blog/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://zoo-keeper-handles-62138.netlify.com/en/blog/</guid>
+      <guid>https://www.localc.ca/en/blog/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cart</title>
-      <link>http://zoo-keeper-handles-62138.netlify.com/en/cart/</link>
+      <link>https://www.localc.ca/en/cart/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://zoo-keeper-handles-62138.netlify.com/en/cart/</guid>
+      <guid>https://www.localc.ca/en/cart/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Catalog</title>
-      <link>http://zoo-keeper-handles-62138.netlify.com/en/catalog/</link>
+      <link>https://www.localc.ca/en/catalog/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://zoo-keeper-handles-62138.netlify.com/en/catalog/</guid>
+      <guid>https://www.localc.ca/en/catalog/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Contact Us</title>
-      <link>http://zoo-keeper-handles-62138.netlify.com/en/contact-us/</link>
+      <link>https://www.localc.ca/en/contact-us/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://zoo-keeper-handles-62138.netlify.com/en/contact-us/</guid>
+      <guid>https://www.localc.ca/en/contact-us/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Our creators</title>
-      <link>http://zoo-keeper-handles-62138.netlify.com/en/our-creators/</link>
+      <link>https://www.localc.ca/en/our-creators/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://zoo-keeper-handles-62138.netlify.com/en/our-creators/</guid>
+      <guid>https://www.localc.ca/en/our-creators/</guid>
       <description></description>
     </item>
     
