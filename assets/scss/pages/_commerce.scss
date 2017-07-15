@@ -1048,6 +1048,12 @@
 				}
 			}
 		}
+		.uploadcare-widget-button-open {
+			background: palette(blue);
+		}
+		.uploadcare-widget-button {
+			line-height: 0.8;
+		}
 	}
 	/* cart details */
 	.cart-details-sum {
@@ -1066,6 +1072,23 @@
 			}
 			@include breakpoint(tablet) {
 				font-size: 20px;
+				text-align: center;
+			}
+			@include breakpoint(laptop) {
+				text-align: center;
+			}
+		}
+		p#ordersent {
+			font-size: 20px;
+			font-family: $font-heading;
+			color:palette(blue);
+			margin-bottom: 25px;
+			@include breakpoint(phone) {
+				font-size: 16px;
+				text-align: center;
+			}
+			@include breakpoint(tablet) {
+				font-size: 18px;
 				text-align: center;
 			}
 			@include breakpoint(laptop) {
@@ -1095,6 +1118,9 @@
 		}
 		footer {
 			padding-top: 25px;
+			img#loadinggif {
+				display: none;
+			}
 			a.checkout-button {
 				display: block;
 				background:palette(yellow);

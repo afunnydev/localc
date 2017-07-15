@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="{{ .Site.Params.locale }}">
+<html class="no-js" lang="{{ .Lang }}">
 
 <head>
 	<meta name="generator" content="Hugo 0.16" />
@@ -29,6 +29,11 @@
     integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
     crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="{{.Site.BaseURL}}js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+  <script>
+  	UPLOADCARE_PUBLIC_KEY = "4cb39f76cf0905255dbd";
+  	UPLOADCARE_LOCALE = 'fr'
+  </script>
+	<script src="https://ucarecdn.com/libs/widget/2.10.2/uploadcare.full.min.js" charset="utf-8"></script>
 </head>
 
 <body>

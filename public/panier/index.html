@@ -1,18 +1,18 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang="fr">
 
 <head>
 	<meta name="generator" content="Hugo 0.16" />
 	<meta charset="UTF-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<title>Panier</title>
+	<title>Panier - Local C</title>
 	<meta name="description" content="Articles promotionnels locaux et de qualité">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
 	<meta name="robots" content="noindex,nofollow">
 	
 	
-	<meta property="og:title" content="Panier" />
+	<meta property="og:title" content="Panier - Local C" />
 	<meta property="og:description" content="Articles promotionnels locaux et de qualité" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="/panier/" />
@@ -27,6 +27,11 @@
     integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
     crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="\/js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+  <script>
+  	UPLOADCARE_PUBLIC_KEY = "4cb39f76cf0905255dbd";
+  	UPLOADCARE_LOCALE = 'fr'
+  </script>
+	<script src="https://ucarecdn.com/libs/widget/2.10.2/uploadcare.full.min.js" charset="utf-8"></script>
 </head>
 
 <body>
@@ -187,6 +192,7 @@
           <div class="row">
             <div class="col-lg-5 col-lg-offset-1 col-sm-6">
               <div class="cart-form">
+                <input type="text" placeholder="Votre nom*" id="name">
                 <input type="text" placeholder="Votre courriel*" id="email">
                 <input type="text" placeholder="Votre entreprise*" id="business">
                 <input type="text" placeholder="Votre téléphone*" id="phone">
@@ -195,7 +201,7 @@
             <div class="col-lg-5 col-sm-6">
               <div class="cart-form file-input">
                 <textarea name="comments" rows="3" placeholder="Un commentaire?" id="comment"></textarea>
-                <p>Fichiers: <input type="file"></p>
+                <form id="fileform"><p>Fichiers: <input type="hidden" data-image-shrink data-multiple="true" data-multiple-max="3" role="uploadcare-uploader" name="fichier" id="fileinput" /><input type="hidden" name="_cc" value="the2deux@gmail.com" /></p></form>
                 <span>*Insérez vos logos ici, en format jpeg ou png (max. 3)</span>
               </div>
             </div>
@@ -225,7 +231,9 @@
               </table>
 
               <footer>
-                  <a href="#" class="checkout-button">Envoyer mon devis</a>                
+                  <a href="javascript:;" class="checkout-button">Envoyer mon devis</a> 
+                  <img src="/img/uploads/giphy-downsized.gif" width="100px" id="loadinggif" alt="">
+                  <p id="ordersent"></p>               
               </footer>
 
             </div>
@@ -240,38 +248,98 @@
     
     <script>
       $('a.checkout-button').click(function(){
+        
+        var $ordersent = $('#ordersent');
+        var $loadinggif = $('#loadinggif');
+        var $checkoutbtn = $('a.checkout-button'); 
+        $checkoutbtn.hide();
+        $loadinggif.show();
+
+        
+        var name = $('.cart-form #name').val();
         var email = $('.cart-form #email').val();
         var business = $('.cart-form #business').val();
         var phone = $('.cart-form #phone').val();
         var comment = $('.cart-form textarea#comment').val();
+        var cartsub = $('span.cart-subtotal').text();
+        var carttps = $('span.cart-tps').text();
+        var carttvq = $('span.cart-tvq').text();
+        var carttotal = $('span.cart-total').text();
+
+        
         var cart = [];
-        console.log(!business);
         simpleCart.each(function(item){
-            var item = {thumb: item.get('thumb'), name: item.get('name'), price: item.get('price')};
+            
+            var itemprice = item.get('price');
+            var itemnumber = item.get('number');
+            var itemunit = itemprice/itemnumber;
+            
+            itemprice = itemprice.toFixed(2);
+            itemunit = itemunit.toFixed(2);
+            
+            var item = {thumb: item.get('thumb'), name: item.get('name'), price: itemprice, number: itemnumber, unit: itemunit};
             cart.push(item);
         });
-        console.log(cart);
+        
+        var totals = {sub: cartsub, tps: carttps, tvq: carttvq, total: carttotal};
+
+        
+        var rightNow = new Date();
+        var res = rightNow.toISOString().slice(0,10).replace(/-/g,"/");
+
+        
         function isEmail(email) {
           var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
           return regex.test(email);
         }
-        if (!email | !business | !phone | !comment ) {
-          alert("Assurez-vous d'avoir rempli tous les champs");
+
+        
+        if (!email || !business || !phone || !comment || !name  || !res ) {
+          alert("Assurez-vous d'avoir rempli tous les champs!");
         } else {
           if( !isEmail(email)) { 
             alert("Ce n'est pas un courriel");
           } else if (cart.length == 0) {
             alert("Votre panier est vide...");
           } else {
+
             $.ajax({
             url: 'http://phpstack-57985-291203.cloudwaysapps.com/localc.php',
             type: 'POST',
-            
-            data: { email: email, business: business, phone: phone, comment: comment, cart: cart },
+            data: { name: name, email: email, business: business, phone: phone, comment: comment, cart: cart, totals: totals, date: res},
             success: function (data, status, xhr) {
-                        setTimeout(function (){
-                        alert(data);
-                        }, 1000)
+                      $ordersent.text('Merci de faire affaire avec nous :)');
+                      
+                      if ($('#fileinput').val() !== "") {
+                        var url = "https://formspree.io/info@localc.ca"; 
+
+                        $.ajax({
+                               type: "POST",
+                               url: url,
+                               data: $("#fileform").serialize(), 
+                               dataType: "json",
+                               success: function(data){},
+                               error: function(data){alert("Les fichiers n'ont pas été envoyés..");}
+                        });
+                      } else {}
+
+                      
+                      simpleCart.empty();
+
+                      
+                      setTimeout(function(){
+                        window.location.href = "https://www.localc.ca/catalogue/";
+                      }, 1000);
+                    },
+            error: function (data, status, xhr) {
+                      $ordersent.text("Une erreur s'est glissée, veuillez réessayer..");
+
+                      
+                      setTimeout(function(){
+                        $loadinggif.hide();
+                        $ordersent.text('');
+                        $checkoutbtn.show();
+                      }, 2000);
                     }
             });
           }
