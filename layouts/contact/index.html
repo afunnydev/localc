@@ -8,9 +8,9 @@
           <div class="col-md-6 col-lg-5 col-lg-offset-1 col-sm-6">
             <div id="contact-left">
               <h1>Communiquez avec nous!</h1>
-              <h2>Il nous fera plaisir de  vous répondre rapidement.</h2>
+              <h2>N'hésitez pas à nous faire part de vos besoins. Nous pouvons répondre à pratiquement à toutes les demandes!</h2>
               <p><strong>E.</strong>  <a href="mailto:hello@localc.ca">hello@localc.ca</a></p>
-              <p><strong>T.</strong> 514.433.4319</p>
+              <p><strong>T.</strong> 438.275.2630</p>
               <h6>Marie-Eve Dontigny</h6>
               <span class="job-title">fondatrice</span>
               <h6>Andréanne Courchesne</h6>
@@ -31,13 +31,13 @@
           <!-- // contact left  -->
 
           <div class="col-md-6 col-lg-5 col-sm-6 col-xs-12">
-            <form id="contact-right" action="https://formspree.io/hello@localc.ca" method="POST">
+            <form id="contact-right" action="/" netlify method="post" netlify-honeypot="bot-field" name="contact-fr">
               <input type="text" placeholder="Votre nom" name="nom">
               <input type="text" placeholder="Votre courriel" name="email">
-              <textarea name="" id="commentaire" placeholder="Questions / Commentaires"></textarea>
-              <input type="hidden" name="_next" value="/" />
-              <input type="text" name="_gotcha" style="display:none" />
-              <input type="hidden" name="_language" value="fr" />
+              <textarea name="commentaire" id="commentaire" placeholder="Questions / Commentaires"></textarea>
+              <p class="hidden">
+                <label>Don’t fill this out: <input name="bot-field"></label>
+              </p>
               <input type="submit" value="Soumettre">
             </form>
           </div>

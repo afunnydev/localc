@@ -4,7 +4,7 @@ description: bouquet de fleurs
 slug: bouquet-fleurs
 nomcreateur: Laurie-Anne Atelier fleur
 delai: 1 à 2 semaines
-image: /img/uploads/bouquet60.jpg
+image: /img/uploads/bouquet60-main.jpg
 images:
   - url: /img/uploads/bouquet60.jpg
 createurs: laurie-anne-fleur

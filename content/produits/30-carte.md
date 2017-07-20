@@ -4,8 +4,9 @@ description: 'Cartes pour noël, remerciement, personnalisable '
 slug: carte
 nomcreateur: Darveelicious
 delai: 2 à 3 semaines
-image: /img/uploads/M01-C_2.jpg
+image: /img/uploads/M01-C_2-main.jpg
 images:
+  - url: /img/uploads/M01-C_2.jpg
   - url: /img/uploads/M10-C_2.jpg
   - url: /img/uploads/M07-C_2.jpg
   - url: /img/uploads/M18-C_2.jpg
