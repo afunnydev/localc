@@ -7,6 +7,8 @@ delai: 2 à 3 semaines
 image: /img/products/produit5.jpg
 images:
   - url: /img/products/produit5.jpg
+  - url: /img/products/produit6-2.jpg
+  - url: /img/products/produit6-3.jpg
 createurs: tandem-co
 categories:
   - Cuir
@@ -50,4 +52,6 @@ Le porte-clés est muni de bouton pression de couleur antique afin de l’attach
 *Matériaux*: Cuir de vache
 
 *Surface d’impression*: 0.5 x 2 pouces
+
+*Provenance*: Fait au Québec
 

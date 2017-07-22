@@ -185,11 +185,13 @@
         
         <hr>                        
         <div class="row">
-          <p>*Veuillez noter que cette première soumission n'est pas finale. Les prix présentés sont sujets à changement selon les variantes de personnalisation. </p>
-          <p>Nous prendrons contact avec vous très rapidement afin d'avoir plus d'information sur votre projet et ainsi vous transmettre une soumission complète.</p>
+          <div class="col-xs-12">
+            <p>*Veuillez noter que cette première soumission n'est pas finale. Les prix présentés sont sujets à changement selon les variantes de personnalisation. </p>
+            <p>Nous prendrons contact avec vous très rapidement afin d'avoir plus d'information sur votre projet et ainsi vous transmettre une soumission complète.</p>
+          </div>
         </div>
         <div class="row" id="cart-details-bottom">
-          <div class="row">
+          <div class="row" style="margin: 0">
             <div class="col-lg-5 col-lg-offset-1 col-sm-6">
               <div class="cart-form">
                 <input type="text" placeholder="Votre nom*" id="name">
@@ -252,6 +254,7 @@
         var $ordersent = $('#ordersent');
         var $loadinggif = $('#loadinggif');
         var $checkoutbtn = $('a.checkout-button'); 
+        $ordersent.text("");
         $checkoutbtn.hide();
         $loadinggif.show();
 
@@ -260,11 +263,15 @@
         var email = $('.cart-form #email').val();
         var business = $('.cart-form #business').val();
         var phone = $('.cart-form #phone').val();
-        var comment = $('.cart-form textarea#comment').val();
         var cartsub = $('span.cart-subtotal').text();
         var carttps = $('span.cart-tps').text();
         var carttvq = $('span.cart-tvq').text();
         var carttotal = $('span.cart-total').text();
+        if ($('.cart-form textarea#comment').val() !== ""){
+          var comment = $('.cart-form textarea#comment').val();
+        } else {
+          var comment = "Aucun commentaire";
+        }
 
         
         var cart = [];
@@ -295,12 +302,18 @@
 
         
         if (!email || !business || !phone || !comment || !name  || !res ) {
-          alert("Assurez-vous d'avoir rempli tous les champs!");
+          $ordersent.text("Assurez-vous d'avoir rempli tous les champs!");
+          $loadinggif.hide();
+          $checkoutbtn.show();
         } else {
           if( !isEmail(email)) { 
-            alert("Ce n'est pas un courriel");
+            $ordersent.text("Le courriel utilisé n'est pas valide..");
+            $loadinggif.hide();
+            $checkoutbtn.show();
           } else if (cart.length == 0) {
-            alert("Votre panier est vide...");
+            $ordersent.text("Votre panier est vide..");
+            $loadinggif.hide();
+            $checkoutbtn.show();
           } else {
 
             $.ajax({
@@ -418,16 +431,7 @@
     
     <script src="/js/custom-dist.js"></script>
     
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-73128990-19', 'auto');
-      ga('send', 'pageview');
-
-    </script>
+    
 </body>
 
 </html>

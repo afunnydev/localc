@@ -4,9 +4,9 @@ title: Union Bow ties
 description: "Union bow ties, noeuds papillons fabriqués à partir de tissus de première qualité et confectionnés avec le plus grand soin à Montréal, et ce de façon artisanale"
 id: union-bow-ties
 slug: union-bow-ties
-site: 'https://unionbowties.com/ '
-facebook: 'https://www.facebook.com/Union-Bow-Ties-295596137230936/ '
-instagram: 'https://www.instagram.com/unionbowties/ '
+site: 'https://unionbowties.com/'
+facebook: 'https://www.facebook.com/Union-Bow-Ties-295596137230936/'
+instagram: 'https://www.instagram.com/unionbowties/'
 pinterest: null
 linkedin: null
 image: /img/uploads/union_bow_tie.png

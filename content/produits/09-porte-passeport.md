@@ -46,3 +46,5 @@ Porte-passeport parfait pour les voyages d’affaires. Il contient une fente pou
 
 *Surface d’impression*: 0.25 x 0.5 pouces
 
+*Provenance*: Fait au Québec
+

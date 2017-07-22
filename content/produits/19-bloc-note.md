@@ -7,7 +7,7 @@ delai: 2 à 3 semaines
 image: /img/products/produit19.jpg
 images:
   - url: /img/products/produit19.jpg
-createurs: ma-compagnie
+createurs: tandem-co
 categories:
   - Papeterie
 prix:
@@ -37,5 +37,7 @@ menuposition: catalogue
 Joli, pratique et rechargeable ce bloc-note convient autant à la maison qu’au bureau!
 
 _Matériaux_: Pin et papiers
+
+*Provenance*: Fait au Québec
 
 

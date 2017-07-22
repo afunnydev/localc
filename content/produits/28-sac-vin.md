@@ -19,7 +19,7 @@ prix:
     quantite: '250'
   - montant: '10.95'
     quantite: 500 +
-noteprix: ' Prix inclus étiquette de cuir'
+noteprix: '*Prix inclus étiquette de cuir'
 pricerange: 10.95$ à 13.95$
 variante: []
 personnalisation:
@@ -40,5 +40,7 @@ Une bouteille de vin, une bière, un cidre à offrir? Ce sac lui donne juste le 
 
 _Matériaux_: canevas 12 oz. 100% coton
 
-_Dimension_:12 x 3 x 3 pouces
+_Dimension_: 12 x 3 x 3 pouces
+
+*Provenance*: Fait au Québec
 

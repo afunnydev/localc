@@ -45,4 +45,6 @@ _Dimension_: 2oz
 
 _Matériaux_: Cire de soja, huiles parfumées de première qualité sans phosphate ainsi que des huiles essentielles
 
+*Provenance*: Fait au Québec
+
 

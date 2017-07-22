@@ -37,5 +37,7 @@ type: produits
 ---
 Un petit café? Petit comment? Assez petit pour contenir un petit café au lait! Cette tasse en porcelaine est faite à la main. Elle est résistante au micro-onde et au lave-vaisselle.
 
-_Matériaux:_Porcelaine
+_Matériaux:_ Porcelaine
+
+*Provenance*: Fait au Québec
 

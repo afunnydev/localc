@@ -42,4 +42,6 @@ Ti comment? Assez ti pour contenir un espresso court! Cette tasse en porcelaine 
 
 _Matériaux_: Porcelaine
 
+*Provenance*: Fait au Québec
+
 

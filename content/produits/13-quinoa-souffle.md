@@ -37,8 +37,6 @@ Collation croquante, un brin salée, un brin sucrée, bref, le bonheur à l’é
 
 _Dimension_: 150g
 
+*Provenance*: Fait au Québec
+
 _Ingrédients_: Quinoa soufflé bio, graines de citrouille bio, sucre, beurre, tamari sans gluten, gousses de vanille
-
-
-
-

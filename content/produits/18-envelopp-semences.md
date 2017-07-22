@@ -44,5 +44,7 @@ Un peu cadeau vert? Cette enveloppe se glisse partout! De quoi semer le bonheur.
 
 _Matériaux_: Semences
 
+*Provenance*: Fait au Québec
+
 
 

@@ -63,7 +63,9 @@ Ou baume à lèvres orange et lavande : Ingrédients : cire de candelilla, beurr
 
 *Dimension:* 9” x 5,5”
 
-*Matériaux:*
+*Provenance:* Fait au Québec 
+
+*Ingrédients:*
  
 Brosse à dent : manche en bambou, poil en polymères, exempts de BPA et d’autres toxines 
  

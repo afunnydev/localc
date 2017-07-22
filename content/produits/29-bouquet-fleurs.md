@@ -38,5 +38,7 @@ type: produits
 ---
 Quelle belle façon de mettre de la couleurs dans un environnement avec un magnifique bouquet de fleurs en plus d'embaumer l'air. Parfait pour le comptoir de réception ou simplement remercier, féliciter un employé qui le mérite!
 
+*Provenance*: Fait au Québec
+
 Contactez-nous et nous vous ferons part des fleurs disponibles en saison et des variétés de bouquet.
 

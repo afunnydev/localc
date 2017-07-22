@@ -54,7 +54,7 @@
           {{ with $.Site.Data.categoriesorg.categories }}
             {{range $ind,$val := .}}
             {{ if $val.photo }}
-            <div class="col-md-4 col-sm-4">
+            <div class="col-md-4 col-sm-4 safari-adj">
               <div class="category-box">
                 <a href="/categories/{{ $val.nom | urlize }}/">
                   <img src="{{ $val.photo }}" alt="" class="img-responsive">

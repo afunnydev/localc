@@ -46,5 +46,7 @@ Toujours à la recherche de cartes originales pour vous démarquer auprès de vo
 
 Il est même possible de faire le design de votre propre immeuble! Devenez un icône!
 
-_Dimension:_4.25 x 5.5 pouces
+_Dimension:_ 4.25 x 5.5 pouces
+
+*Provenance*: Fait au Québec
 

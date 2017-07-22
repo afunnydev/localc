@@ -37,28 +37,28 @@
 			}
 		}
 		h2 {
-			font-size: 48px;
-			line-height: 57px;
+			font-size: 35px;
+			line-height: 45px;
 			color:palette(blue);
-			font-family: $font-heading;
+			font-family: $font-main;
 			margin-bottom: 70px;
 			@include breakpoint(desktop) {
-				font-size: 36px;
-				line-height: 46px;	
+				font-size: 25px;
+				line-height: 35px;	
 				margin-bottom: 50px;			
 			}
 			@include breakpoint(laptop) {
-				font-size: 36px;
+				font-size: 25px;
 				line-height: 130%;
 				margin-bottom: 50px;
 			}			
 			@include breakpoint(phone) {
-				font-size: 24px;
+				font-size: 20px;
 				line-height: 130%;
 				margin-bottom: 30px;
 			}
 			@include breakpoint(tablet) {
-				font-size: 26px;
+				font-size: 20px;
 				line-height: 130%;
 				margin-bottom: 50px;
 			}			
@@ -179,6 +179,7 @@
 		}
 		textarea {
 			padding-left: 25px;
+			padding-right: 25px;
 			display: block;
 			width: 100%;
 			height: 300px;

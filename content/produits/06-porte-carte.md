@@ -52,3 +52,5 @@ _Matériaux_: Cuir de vache
 
 _Surface d’impression_: 0.5 x 2 pouces
 
+*Provenance*: Fait au Québec
+

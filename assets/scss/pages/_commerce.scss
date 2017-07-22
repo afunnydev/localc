@@ -956,6 +956,16 @@
 			}
 		}
 	}
+	.product-color,
+	.product-qty {
+		font-size: 24px;
+		@include breakpoint(laptop) {
+			font-size: 20px;
+		}
+		@include breakpoint(phone) {
+			font-size: 18px;
+		}
+	}
 }
 
 #cart-details-bottom {
@@ -1083,6 +1093,7 @@
 			font-family: $font-heading;
 			color:palette(blue);
 			margin-bottom: 25px;
+			padding-top: 100px;
 			@include breakpoint(phone) {
 				font-size: 16px;
 				text-align: center;

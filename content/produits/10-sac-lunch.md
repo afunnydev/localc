@@ -39,7 +39,7 @@ i18nlanguage: fr
 menuposition: catalogue
 type: produits
 ---
-Ce superbe sac à lunch réutilisable est fait de caneva de coton. Ses ganses de cuir lui donne un aspect distingué.te l’accès aux cartes. Le fil ciré et la couture à la main promettent une belle maturité et un produit durable.
+Ce superbe sac à lunch réutilisable est fait de canevas de coton. Ses ganses de cuir lui donne un aspect distingué.te l’accès aux cartes. Le fil ciré et la couture à la main promettent une belle maturité et un produit durable.
 
 _Dimension_: 5.5 x 7 x 12 pouces
 
@@ -47,4 +47,5 @@ _Matériaux_: Canevas et cuir italien
 
 _Surface d’impression_: 0.25 x 0.5 pouces
 
+*Provenance*: Fait au Québec
 

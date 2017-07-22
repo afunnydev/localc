@@ -37,3 +37,5 @@ Ce duo est parfait pour la salle de conférence ou la cuisine. Vous impressioner
 
 _Matériaux_: Porcelaine
 
+*Provenance*: Fait au Québec
+

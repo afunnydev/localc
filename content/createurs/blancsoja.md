@@ -1,11 +1,11 @@
 ---
 type: createursindiv
-title: Blanc Soya
-description: 'Blanc soya, entreprise de chandelle de soya'
-id: blancsoya
-slug: blancsoya
-site: 'https://www.etsy.com/shop/BlancSoja '
-facebook: 'https://www.facebook.com/blancsoja/ '
+title: Blanc Soja
+description: 'Blanc soja, entreprise de chandelle de soja'
+id: blancsoja
+slug: blancsoja
+site: 'https://www.etsy.com/shop/BlancSoja'
+facebook: 'https://www.facebook.com/blancsoja/'
 instagram: null
 pinterest: null
 linkedin: null

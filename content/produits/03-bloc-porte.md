@@ -47,6 +47,8 @@ Porte cartes d’affaires personnalisé au logo de votre entreprise.
 
 *Surface d’impression*: 0,75 x 2 pouces
 
+*Provenance*: Fait au Québec
+
 
 
 

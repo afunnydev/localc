@@ -39,6 +39,8 @@ Un moyen café? Moyen comment? Assez pour contenir un café filtre! Cette tasse 
 
 _Matériaux_: Porcelaine
 
+*Provenance*: Fait au Québec
+
 
 
 

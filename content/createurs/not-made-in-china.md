@@ -4,8 +4,8 @@ title: Not made in China
 description: "Not made in China, céramiste mariant l’ancien avec l’actuel en produisant une céramique engagée et moderne"
 id: not-made-in-china
 slug: not-made-in-china
-site: 'http://www.hugodidier.com/ '
-facebook: 'https://www.facebook.com/cefaitteicitte/ '
+site: 'http://www.hugodidier.com/'
+facebook: 'https://www.facebook.com/cefaitteicitte/'
 instagram: null
 pinterest: null
 linkedin: null

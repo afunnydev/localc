@@ -37,6 +37,8 @@ Guimauves rebondissantes, pas trop sucrées, juste parfaites. Même si elles son
 
 _Dimension_: 100g
 
-_Matériaux_: Sucre, miel, chocolat noir, glucose, gélatine, cacao en poudre.
+*Provenance*: Fait au Québec
+
+_Ingrédients_: Sucre, miel, chocolat noir, glucose, gélatine, cacao en poudre.
 
 

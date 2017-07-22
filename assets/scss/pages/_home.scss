@@ -173,8 +173,8 @@
 				line-height: 35px;
 			}
 			@include breakpoint(phone) {
-				font-size: 14px;
-				line-height: 18px;
+				font-size: 18px;
+				line-height: 24px;
 			}
 			@include breakpoint(phone-lg) {
 				font-size: 18px;
@@ -425,20 +425,74 @@
 /*=====  End of Scroll  ======*/
 
 #our-creator-block,
-#related-products-block,
 #catalogue-content,
+#related-products-block,
 #blog-wrapper,
 #categories-block,
 #categorie-content {
 	.row {
-	  display: -webkit-box;
-	  display: -webkit-flex;
-	  display: -ms-flexbox;
-	  display:         flex;
-	  flex-wrap: wrap;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		flex-wrap: wrap;
 	}
 	.row > [class*='col-'] {
-	  display: flex;
-	  flex-direction: column;
+		display: flex;
+		flex-direction: column;
 	}
 }
+#our-creator-block,
+#catalogue-content,
+#categories-block,
+#categorie-content {
+	.row > [class*='col-'] {
+		&.safari-adj {
+			flex-basis: 33%;
+			@include breakpoint(tablet) {
+				flex-basis: 49%;
+			}
+			@include breakpoint(phone) {
+				flex-basis: 49%;
+			}
+			@include breakpoint(phone-xs) {
+				flex-basis: 99%;
+			}
+		}
+	}
+}
+
+#blog-wrapper {
+	.row > [class*='col-'] {
+		&.safari-adj {
+			flex-basis: 33%;
+			@include breakpoint(tablet) {
+				flex-basis: 49%;
+			}
+			@include breakpoint(phone) {
+				flex-basis: 49%;
+			}
+			@media only screen and (max-width: 550px) and (min-width: 240px) {
+				flex-basis: 99%;
+			}
+		}
+	}
+}
+
+#related-products-block {
+	.row > [class*='col-'] {
+		&.safari-adj {
+			flex-basis: 24.5%;
+			@include breakpoint(tablet) {
+				flex-basis: 33%;
+			}
+			@include breakpoint(phone) {
+				flex-basis: 49%;
+			}
+			@include breakpoint(phone-xs) {
+				flex-basis: 99%;
+			}
+		}
+	}
+}
+

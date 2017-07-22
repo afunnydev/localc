@@ -18,7 +18,8 @@
       <guid>/produits/caramels-mous-papillote/</guid>
       <description>Caramels tendres, coupés au couteau, emballés un par un en papillote. Un bonheur à partager (ou non) !
 Dimension: 100g
-Matériaux: Sucre, crème, beurre, gousses de vanille, fleur de sel</description>
+Provenance: Fait au Québec
+Ingrédients: Sucre, crème, beurre, gousses de vanille, fleur de sel</description>
     </item>
     
     <item>
@@ -29,7 +30,8 @@ Matériaux: Sucre, crème, beurre, gousses de vanille, fleur de sel</description
       <guid>/produits/guimauves-chocolat/</guid>
       <description>Guimauves rebondissantes, pas trop sucrées, juste parfaites. Même si elles sont parfaites telles quelles, on peut aussi les faire griller dans un feu de bois.
 Dimension: 100g
-Matériaux: Sucre, miel, chocolat noir, glucose, gélatine, cacao en poudre.</description>
+Provenance: Fait au Québec
+Ingrédients: Sucre, miel, chocolat noir, glucose, gélatine, cacao en poudre.</description>
     </item>
     
     <item>
@@ -40,6 +42,7 @@ Matériaux: Sucre, miel, chocolat noir, glucose, gélatine, cacao en poudre.</de
       <guid>/produits/quinoa-souffle-caramel/</guid>
       <description>Collation croquante, un brin salée, un brin sucrée, bref, le bonheur à l’état pur!
 Dimension: 150g
+Provenance: Fait au Québec
 Ingrédients: Quinoa soufflé bio, graines de citrouille bio, sucre, beurre, tamari sans gluten, gousses de vanille</description>
     </item>
     
@@ -50,7 +53,8 @@ Ingrédients: Quinoa soufflé bio, graines de citrouille bio, sucre, beurre, tam
       
       <guid>/produits/sucette-caramel-beurre-sale/</guid>
       <description>Sucette en forme de bouton, à laisser fondre ou à lécher énergiquement ! Votre coeur d’enfant (ou de vos enfants) sera comblé!
-Matériaux: Sucre, beurre, fleur de sel, vinaigre blanc, gousses de vanille</description>
+Provenance: Fait au Québec
+Ingrédients: Sucre, beurre, fleur de sel, vinaigre blanc, gousses de vanille</description>
     </item>
     
   </channel>

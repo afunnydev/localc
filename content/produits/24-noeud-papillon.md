@@ -38,6 +38,8 @@ La classe n’a jamais eu aussi fière allure! Ce noeud papillon est complèteme
 
 _Matériaux_: Polyester
 
+*Provenance*: Fait au Québec
+
 
 
 

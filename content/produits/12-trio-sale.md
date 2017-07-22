@@ -46,7 +46,9 @@ Cet ensemble salé est parfait pour accompagner les fromages, pour des burger ou
 
 *Dimension*: Chaque pot est de 106 ml
 
-*Matériaux*:
+*Provenance*: Fait au Québec
+
+*Ingrédients*:
 
 -   Betteraves/gingembre: Betteraves, vinaigre blanc, sucre bio, gingembre bio, chilis Thaï oiseaux. 
 -   Moutarde à la bière: Bière « Route des épices » de Dieu du Ciel, graine de moutarde brune, graine de moutarde noire, vinaigre de malt, poudre de moutarde, sucre bio, curcuma, poudre d’oignon

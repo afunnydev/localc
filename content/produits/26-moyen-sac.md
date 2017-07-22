@@ -43,3 +43,5 @@ _Matériaux_: canevas 12 oz. 100% coton et écusson en cuir de vache
 
 _Dimension:_ 13 x 13 x 5 pouces
 
+*Provenance*: Fait au Québec
+

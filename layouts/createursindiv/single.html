@@ -51,7 +51,7 @@
 			{{ range $key, $taxonomy := .Site.Taxonomies.createurs }}
         {{ if eq $key $theterm }}
           {{ range $taxonomy.Pages }}
-  				<div class="col-md-3 col-sm-6">
+  				<div class="col-md-3 col-sm-6 safari-adj">
 	          <div class="categorie-box">
 	            <div class="image-holder">
 	              <a href="{{.Permalink}}">

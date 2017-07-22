@@ -3,9 +3,9 @@ type: createursindiv
 title: Dinette Nationale
 description: "Vos douceurs sucrées locales faites à la main, et avec beaucoup d'amour!"
 id: dinette-nationale
-site: 'http://www.dinettenationale.com/ '
+site: 'http://www.dinettenationale.com/'
 facebook: 'https://www.facebook.com/dinettenationale'
-instagram: 'https://www.instagram.com/dinettenationale/ '
+instagram: 'https://www.instagram.com/dinettenationale/'
 pinterest: null
 linkedin: null
 image: /img/uploads/dinetteNationale.jpg

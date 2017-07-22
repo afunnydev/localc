@@ -37,5 +37,7 @@ Caramels tendres, coupés au couteau, emballés un par un en papillote. Un bonhe
 
 _Dimension_: 100g
 
-_Matériaux_: Sucre, crème, beurre, gousses de vanille, fleur de sel
+*Provenance*: Fait au Québec
+
+_Ingrédients_: Sucre, crème, beurre, gousses de vanille, fleur de sel
 

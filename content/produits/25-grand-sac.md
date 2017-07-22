@@ -42,3 +42,5 @@ _Matériaux_: canevas 12 oz. 100% coton
 
 _Dimension:_ 15.5 x15 x 6 pouces
 
+*Provenance*: Fait au Québec
+

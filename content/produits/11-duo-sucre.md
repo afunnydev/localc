@@ -44,7 +44,9 @@ Duo composé d’une confiture au poires gingembre et d’une deuxième à la rh
 
 *Dimension*: Chaque pot est de 106 ml
 
-*Matériaux*:
+*Provenance*: Fait au Québec
+
+*Ingrédients*:
 
 - Poires/ gingembre: Poires, gingembre bio, sucre bio, jus de citron, zeste de citron, pectine, phosphate monocalcique (activateur pectine)
 - Rhubarbe/citron: Rhubarbe, sucre bio, citrons, pectine, phosphate monocalcique (activateur pectine)

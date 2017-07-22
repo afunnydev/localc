@@ -34,5 +34,7 @@ menuposition: catalogue
 ---
 Sucette en forme de bouton, à laisser fondre ou à lécher énergiquement ! Votre coeur d’enfant (ou de vos enfants) sera comblé!
 
-_Matériaux_: Sucre, beurre, fleur de sel, vinaigre blanc, gousses de vanille
+*Provenance*: Fait au Québec
+
+_Ingrédients_: Sucre, beurre, fleur de sel, vinaigre blanc, gousses de vanille
 

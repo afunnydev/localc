@@ -7,7 +7,7 @@
       <div class="row visible-xs mobile-header-products">
         <div class="col-md-12">
           <header>
-            <a href="#"><i class="fa fa-angle-left" aria-hidden="true"></i> Retour</a>
+            <a href="/catalogue/"><i class="fa fa-angle-left" aria-hidden="true"></i> Retour</a>
             <h1 class="item_name">{{.Title}}</h1>
           </header>
         </div>
@@ -99,7 +99,7 @@
                     {{end}}
                   </tr>
                 </table>
-
+                <small class="table-notice">*Escompte revendeur disponible</small>
                 <small class="table-notice">{{ .Params.noteprix }}</small>
 
                 <div id="product-actions">
@@ -206,7 +206,7 @@
       <div class="row">
       {{ range $product := .Params.crosssell }}
         {{ range where $.Site.Pages ".Params.id" $product }}
-          <div class="col-md-3 col-sm-6">
+          <div class="col-md-3 col-sm-6 safari-adj">
             <div class="categorie-box">
               <div class="image-holder">
                 <a href="{{ .Permalink }}">

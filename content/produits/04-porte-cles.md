@@ -48,3 +48,5 @@ _Matériaux_: Cuir
 
 _Surface d’impression_: 0.5 x 2 pouces \*Maximum deux lignes de 20 caractères
 
+*Provenance*: Fait au Québec
+

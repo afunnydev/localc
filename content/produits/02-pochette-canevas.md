@@ -44,4 +44,6 @@ Pochette multi-usages, résistante, pouvant contenir crayons, petit cahier de no
 
 *Matériaux*: canvas 12 oz. 100% coton et écusson en cuir de vache
 
+*Provenance*: Fait au Québec 
+
 
