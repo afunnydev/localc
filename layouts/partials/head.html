@@ -19,7 +19,7 @@
 	{{ if .Params.image }}
 		<meta property="og:image" content="{{ .Params.image }}" />
 	{{ else }}
-		<meta property="og:image" content="/img/logos/site-logo.png" />
+		<meta property="og:image" content="{{.Site.BaseURL}}img/logos/site-logo.png" />
 	{{ end }}
 	<link rel="shortcut icon" href="{{.Site.BaseURL}}img/ico/favicon.png" />
 	<link rel="stylesheet" href="{{.Site.BaseURL}}css/main.min.css" />
