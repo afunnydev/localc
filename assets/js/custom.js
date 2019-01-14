@@ -166,7 +166,7 @@ simpleCart({
               '<div class="control__indicator"></div></label></div></div>'
           }, label: false, attr: "thumb"
         } ,
-        { attr: "price" , label: "Couleur", view: function(item,column){
+        { attr: "price" , label: "Variation", view: function(item,column){
           return '<div class="col-md-2 col-sm-4 col-xs-6 col-md-push-4 product-price">'+
                   '<span class="price">'+item.get('price').toFixed(2)+'$</span>'+
                   '<a href="javascript:;" class="simpleCart_remove remove-product-x"><i class="fa fa-times" aria-hidden="true"></i></a>'

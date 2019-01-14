@@ -41,7 +41,7 @@ This will start the build then serve your site at `http://localhost:1313`
 
 Images are already in `static/img` and are optimized. If you don't find the images you're looking for in your page folder, look into others since images were repeated and I didn't want to take space for nothing. 
 
-All the static files are in `static/`. You can find js there, don't add vendor for nothing. If you want to use and external library for a feature, let's discuss it. Speed is important :) Don't touch `static/css/materialize.css` directly, see next section
+All the static files are in `static/`. You can find js there, don't add vendor for nothing. If you want to use and external library for a feature, let's discuss it. Speed is important :)
 
 ---
 ## CSS
@@ -54,10 +54,4 @@ I'm using Netlify to deploy. When there's a push to the master, website is autom
 
 ---
 ## What you need to know about this repo
-
--All authors are in the config.toml and can be used in templates by using the variable $author only if you set it in the template `{{$author := index .Site.Params.authors (.Params.author) }}`
--All locations are in `data/locations`, one file per location
--All articles are in `content`, directly in the root since we want them routed to the root
--I'm using jquery.storelocator for the page "Trouver une clinique". You can see the settings in the Github repo. The template files used to build the plugin are in `static/templates/`
--I'm minifying the css before putting it in `static/css` with the gulp-clean-css module
 

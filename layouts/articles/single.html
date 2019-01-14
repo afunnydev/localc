@@ -6,7 +6,7 @@
 
         <div id="blog-single-page">
 
-          <img src="{{.Params.image}}" alt=""{{.Title}} class="img-responsive aligncenter">
+          <img src="{{.Params.image}}" alt="{{.Title}}" class="img-responsive aligncenter">
 
           <h1>{{.Title}}</h1>
           <h2>{{.Date.Format "02/01/2006"}} / PUBLIÉ PAR {{.Params.auteur}} / COMMENTAIRE(S) : 0</h2>
@@ -19,6 +19,7 @@
       </div>
     </section>
     <!-- // blog wrapper  -->
+    {{ if getenv "IS_PROD" }}
 		<script>
 
 		/**
@@ -43,6 +44,7 @@
 		})();
 		</script>
 		<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+		{{ end }}
                             
 
 {{ partial "footer.html" . }}

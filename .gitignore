@@ -1,1 +1,4 @@
 prepros-6.config
+public
+/public
+.DS_Store
